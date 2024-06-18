@@ -32,7 +32,6 @@ export const ThemeContextProvider = ({ children }: PropsWithChildren) => {
 
   useEffect(() => {
     StatusBar.setBarStyle(currentTheme === 'dark' ? 'light-content' : 'dark-content');
-    console.log({ currentTheme });
   }, [currentTheme]);
 
   const setTheme = (theme: ThemeColor) => {
