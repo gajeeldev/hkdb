@@ -1,15 +1,11 @@
-import { Stack } from 'expo-router';
+import { KnightScreen } from '~/modules/core';
 
-import { Container } from '~/components/Container';
-import { ScreenContent } from '~/components/ScreenContent';
-
-export default function Home() {
+const KnightPage = () => {
   return (
     <>
-      <Stack.Screen options={{ title: 'Home' }} />
-      <Container>
-        <ScreenContent path="app/(drawer)/index.tsx" title="Home" />
-      </Container>
+      <KnightScreen />
     </>
   );
-}
+};
+
+export default KnightPage;
