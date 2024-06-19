@@ -29,6 +29,5 @@ export const globalStyles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 15,
-    alignItems: 'center',
   },
 });

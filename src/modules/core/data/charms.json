@@ -1,0 +1,534 @@
+[
+  {
+    "id": "185e7c77-3a1e-4a9a-962e-00b4aff4a773",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Shaman Stone",
+    "description_1": "Said to contain the knowledge of past generations of shaman.",
+    "notches": 3,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Shaman_Stone.webp"
+    ],
+    "how_to_acquire": "Bought from Salubra for 220 Geo in the Forgotten Crossroads.",
+    "effect": "Increases Vengeful Spirit/Shade Soul damage by 33%, Increases Desolate Dive damage by 51% and Descending Dark damage by 47%, Increases Howling Wraiths/Abyss Shriek damage by 50%, Increases the size of Vengeful Spirit/Shade Soul",
+    "usefulness": "Since it increases Spell damage by 33-51% depending on the Spell, it is incredibly powerful, as it can be used to one-shot many enemies from safe ranges, or to deal more Spell damage to bosses. Shaman Stone is incredibly useful for speedrunning, not only because of the damage boost it gives to Spells, but also because of how fast and easy it is to acquire compared to other damage sources like Fragile Strength, Quick Slash, or Pale Ore.",
+    "description_2": "Increases the power of spells, dealing more damage to foes."
+  },
+  {
+    "id": "4aa15d0d-0e3a-4b75-8974-3103f9c17d6f",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Soul Catcher",
+    "description_1": "Used by shamans to draw more SOUL from the world around them.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Soul_Catcher.webp"
+    ],
+    "how_to_acquire": "Found at the very end of the Ancestral Mound, after killing the Elder Baldur.",
+    "effect": "Gain +3 additional SOUL with each hit for main Soul Vessel (base: 11), Gain +2 for reserve Soul Vessels (base: 6)",
+    "usefulness": "One of the earliest Charms available in the game. Its effect is not drastic but it remains useful for quite a long time for healing purposes, especially in areas where enemies have attacks that are difficult to avoid or SOUL is scarce.",
+    "description_2": "Increases the amount of SOUL gained when striking an enemy with the nail."
+  },
+  {
+    "id": "21fe8529-be00-44fa-999f-4be8d25058cf",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Soul Eater",
+    "description_1": "Forgotten shaman artifact, used to draw SOUL from still-living creatures.",
+    "notches": 4,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Soul_Eater.webp"
+    ],
+    "how_to_acquire": "Found in the Resting Grounds. Requires Desolate Dive/Descending Dark. Use Desolate Dive/Descending Dark on the grave just under the Stag Station then head east in the passageway. The Charm is found next to the sarcophagus of a Snail Shaman.",
+    "effect": "Gain +8 additional SOUL with each hit for main Soul Vessel (base: 11), Gain +6 for reserve Soul Vessels (base: 6)",
+    "usefulness": "This Charm is very useful for accumulating a large amount of excess SOUL and should be considered for combat situations where it is dangerous or impossible to use the Dream Nail. It generates more SOUL per notch than Soul Catcher (the SOUL gain from Soul Eater is about triple that of Soul Catcher, at twice the notch cost), but is less flexible to slot without Overcharming. It is often useful on Radiant difficulty battles in the Hall of Gods as it is the only 4-notch Charm (for Overcharming purposes) that has any use on Radiant difficulty.",
+    "description_2": "Greatly increases the amount of SOUL gained when striking an enemy with the nail."
+  },
+  {
+    "id": "e0af66ec-0b0a-4d96-b50c-b4e536297423",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Stalwart Shell",
+    "description_1": "Builds resilience. When recovering from damage, the bearer will remain invulnerable for longer.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Stalwart_Shell.webp"
+    ],
+    "how_to_acquire": "Bought from Sly in Dirtmouth for 200 Geo.",
+    "effect": "Increases invincibility duration after being hit by ~35%, Reduces hit recoil (no input time) after being hit by 60%",
+    "usefulness": "This item primarily shines in some boss battles, especially ones where it is difficult to avoid getting hit. The longer invulnerability time can provide a window to attack a boss with impunity, potentially overwhelming them with sheer damage. It is also useful in the Trial of the Fool, which features many encounters with enemies whose attacks are hard to dodge.",
+    "description_2": "Makes it easier to escape from dangerous situations."
+  },
+  {
+    "id": "31893b20-b913-48a8-9fdb-9582df421e81",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Gathering Swarm",
+    "description_1": "A swarm will follow the bearer and gather up any loose Geo. ",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Gathering_Swarm.webp"
+    ],
+    "how_to_acquire": "Bought from Sly in Dirtmouth for 300 Geo.",
+    "effect": "Collects dropped Geo",
+    "usefulness": "This Charm is primarily used to grind Geo more easily. It is useful for collecting Geo that falls into spikes, thorns, and hard to reach places. If the area is exited before all Geo has been collected, it is lost (Geo carried by the swarm that has not yet reached the Knight is not lost). Gathering Swarm does not collect Geo that falls into acid, Geo that is dropped by Grubfather, or Geo rewarded for completing a Trial in the Colosseum of Fools.",
+    "description_2": "Useful for those who can't bear to leave anything behind, no matter how insignificant."
+  },
+  {
+    "id": "d92fd512-8f75-4238-a359-bc66793f5276",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Spell Twister",
+    "description_1": "Reflecting the desires of the Soul Sanctum for mastery over SOUL, it improves the bearer's ability to cast spells.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Spell_Twister.webp"
+    ],
+    "how_to_acquire": "A secret room on the top of the Soul Sanctum, just before fighting Soul Master. The room which leads up to it is filled with Mistakes and Follies which can make reaching the Charm nearly impossible without taking damage as these enemies may spawn right onto the Knight. The Charm itself is found attached to some sort of machine similar to the Lore Tablets found around the area.",
+    "effect": "Reduces SOUL cost of Spells to 24 from 33",
+    "usefulness": "This Charm stacks well with Charms that generate SOUL, like Soul Catcher or Grubsong, as it uses SOUL more efficiently instead of generating it. It is also much more efficient than Soul Catcher in terms of Nail hits per Spell; of course, this comes at the drawback of not being able to use this added efficiency on Focus. This Charm can also be used in some advanced skips as it lets the Knight use 4 Spells in a short time instead of only 3.",
+    "description_2": "Reduces the SOUL cost of casting spells."
+  },
+  {
+    "id": "afc11d16-9983-40ce-bc60-eee85644af17",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Sprintmaster",
+    "description_1": "Bears the likeness of a strange bug known only as 'The Sprintmaster'.",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Sprintmaster.webp"
+    ],
+    "how_to_acquire": "Bought from Sly in Dirtmouth after acquiring the Shopkeeper's Key for 400 Geo.",
+    "effect": "Increases run speed by ~20%",
+    "usefulness": "The additional speed is only applied while the Knight is grounded and not impeded by walk-zones or liquid such as acid or water. The Sprintmaster Charm can be useful when fighting quick, agile bosses, such as Hornet.",
+    "description_2": "Increases the running speed of the bearer, allowing them to avoid danger or overtake rivals."
+  },
+  {
+    "id": "fc960ab5-3690-4331-8b21-29e73b484303",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Dashmaster",
+    "description_1": "Bears the likeness of an eccentric bug known only as 'The Dashmaster'.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Dashmaster.webp"
+    ],
+    "how_to_acquire": "Found beneath a statue below the Mantis Village in the Fungal Wastes, near the entrance to the Royal Waterways.",
+    "effect": "Reduces the Mothwing Cloak cooldown by 33%, Allows dashing downwards by holding DOWN",
+    "usefulness": "The ability to dash downward can be helpful in certain platforming segments or in dodging attacks. The main use is early-game traversing, as dashing repeatedly is significantly faster than walking, and certain areas are too confined to properly use Crystal Heart. Late-game, however, there are many more Charms that are more effective overall. With the acquisition of the Shade Cloak, needing to dash sooner is not as necessary to avoid enemies. Dashmaster also does not decrease the charge time of the Super Dash or the Shade Cloak. At that point, it is most useful when combined with Sharp Shadow. Since Dashmaster enables dashing downward, the Charm also adds the risk of failing difficult platforming sections by accidentally dashing down. This is most notable in the Path of Pain.",
+    "description_2": "The bearer will be able to dash more often as well as dash downwards. Perfect for those who want to move around as quickly as possible."
+  },
+  {
+    "id": "897e9c98-5093-4e24-975e-7be94942ed5b",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Grubsong",
+    "description_1": "Contains the gratitude of freed grubs.",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Grubsong.webp"
+    ],
+    "how_to_acquire": "Gifted by Grubfather after 10 Grubs have been freed.",
+    "effect": "Gain 15 SOUL when taking damage",
+    "usefulness": "A useful Charm at the cost of only one Notch as it provides a good amount of SOUL meter to use as healing in compensation for taking damage. The SOUL provided per hit is not enough for a heal on its own but combined with the SOUL gathered by striking enemies, or with other Charms that help gather SOUL faster, this Charm becomes incredibly useful for a Spell-focused build. It also shines in difficult platforming areas where enemies are not readily available for gathering SOUL.",
+    "description_2": "Gain SOUL when taking damage."
+  },
+  {
+    "id": "46672da5-6091-46bd-8deb-1c3d8a9be725",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Steady Body",
+    "description_1": "Keeps its bearer from recoiling backwards when they strike an enemy with a nail.",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Steady_Body.webp"
+    ],
+    "how_to_acquire": "Bought from Salubra for 120 Geo in the Forgotten Crossroads.",
+    "effect": "Removes all knockback/recoil from hitting enemies",
+    "usefulness": "In addition to removing knockback from hitting enemies, spikes, and walls, it also prevents the Knight from being knocked left or right when jumping on purple mushrooms without using the Nail. It does not remove the knockback from hitting purple mushrooms horizontally or any vertical knockback, such as from Nail-bouncing.",
+    "description_2": "Allows one to stay steady and keep attacking."
+  },
+  {
+    "id": "80feaadb-e043-41f6-8786-fcdf474d5e47",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Quick Slash",
+    "description_1": "Born from imperfect, discarded nails that have fused together. The nails still long to be wielded.",
+    "notches": 3,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Quick_Slash.webp"
+    ],
+    "how_to_acquire": "Located in Kingdom's Edge, on a massive anvil in a hidden room in front of a massive corpse known as an \"Ancient Nailsmith\". Finding it requires travelling to the very east end of Kingdom's Edge past Oro's hut and locating a breakable floor next to his training dummy. After traversing down a few levels, and looping up the west end of the section, there is a small tunnel located within a wall leading to the Charm.",
+    "effect": "Decreases Nail attack duration (How long the hitbox is active) by 20%, Decreases Nail attack cooldown (Minimum time between attacks) by ~32%",
+    "usefulness": "Quick Slash can increase total damage output while slashing with the Nail. This Charm is more effective than Fragile Strength/ Unbreakable Strength in most situations, as it not only increases the rate at which the Nail deals damage but also how quickly it accumulates SOUL.",
+    "description_2": "Allows the bearer to slash much more rapidly with their nail."
+  },
+  {
+    "id": "8674102d-bd18-42f9-a9bb-f5324b535e8c",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Thorns of Agony",
+    "description_1": "Senses the pain of its bearer and lashes out at the world around them.",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Thorns_of_Agony.webp"
+    ],
+    "how_to_acquire": "Found in Greenpath in a maze of thorns featuring Charged Lumaflies. Requires Mothwing Cloak to reach.",
+    "effect": "Damages nearby enemies for the base Nail damage when hit",
+    "usefulness": "The Thorns of Agony deal damage equal to the base damage of the Nail, capable of hitting twice if within range. The main downside of this Charm is that it deals damage without collecting SOUL, and, in some situations, it may kill easier enemies that would have been useful for regaining SOUL. The animation for Thorns of Agony also takes up invincibility frames as the Knight cannot be controlled until the animation is over. This reduces the number of invincibility frames that the Knight has to move or reposition. This Charm is particularly useful when fighting multiple enemies at the same time, especially in the Colosseum of Fools. This charm is not recommended for use in Fog Canyon as damaging Oomas makes them burst, releasing their explosive core that home in on the Knight, dealing two Masks of damage.",
+    "description_2": "When taking damage, sprout thorny vines that damage nearby foes."
+  },
+  {
+    "id": "2076a979-5e04-4d3a-b7c0-9dd2b3553796",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Longnail",
+    "description_1": "Increases the range of the bearer's nail, allowing them to strike foes from further away.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Longnail.webp"
+    ],
+    "how_to_acquire": "Bought from Salubra in the Forgotten Crossroads for 300 Geo.",
+    "effect": "Increases Nail range by 15%",
+    "usefulness": "It is useful for keeping distance from more dangerous enemies and for performing safer Nail-bounces. While it has a slightly shorter range than the Mark of Pride Charm, it is acquired with less challenge and has a lower Notch cost. In most normal combat, the range difference is negligible. It does not affect the range of Nail Arts or Grubberfly's Elegy.",
+    "description_2": null
+  },
+  {
+    "id": "7000217c-98dd-440a-9ac3-a34b1255a552",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Mark of Pride",
+    "description_1": "Freely given by the Mantis Tribe to those they respect.",
+    "notches": 3,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Mark_of_Pride.webp"
+    ],
+    "how_to_acquire": "In the Mantis Village, in a chest in a room northeast of the Mantis Lords arena. This room can only be accessed after defeating the Mantis Lords.",
+    "effect": "Increases Nail range by 25%",
+    "usefulness": "It is useful for keeping distance from more dangerous enemies and for performing safer Nail-bounces. While it grants a longer range than the Longnail Charm, it is more challenging to acquire and has higher Notch cost. The range of both Nail Arts and the beam from the Grubberfly's Elegy Charm are unaffected by Mark of Pride.",
+    "description_2": "Greatly increases the range of the bearer's nail, allowing them to strike foes from further away."
+  },
+  {
+    "id": "4c40e390-435a-4dfa-bdc6-34fa03322c39",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Quick Focus",
+    "description_1": "A charm containing a crystal lens.",
+    "notches": 3,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Quick_Focus.webp"
+    ],
+    "how_to_acquire": "Bought from Salubra in the Forgotten Crossroads for 800 Geo.",
+    "effect": "Focus ~33% faster",
+    "usefulness": "Allows the Knight to cast FOCUS ~33% faster, not including the startup time (0.25 seconds). Startup time is not affected by Quick Focus. Though the Charm is costly, it makes healing in the middle of combat much more forgiving. Extremely useful in situations with lots of combat such as boss fights and arenas (notably the Colosseum of Fools). Allows healing where it is possible to get interrupted while Focusing or healing twice in situations where normally it is only possible to heal once.",
+    "description_2": "Increases the speed of focusing SOUL, allowing the bearer to heal damage faster."
+  },
+  {
+    "id": "1c1e9d7b-9b7b-4e66-a8cf-d2c6dec6ca2a",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Baldur Shell",
+    "description_1": "Protects its bearer with a hard shell while focusing SOUL.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Baldur_Shell.webp"
+    ],
+    "how_to_acquire": "This Charm is located in the southwest portion of the Howling Cliffs, where there is a chest that drops only 1 Geo. Jumping down into the chest takes the Knight to a cave guarded by two Elder Baldurs. Defeating the one on the right opens a tunnel filled with Elder Baldur corpses that leads to the Charm.",
+    "effect": "Block up to 4 hits while using Focus",
+    "usefulness": "Prevents the Knight from taking damage if hit with an attack while using Focus. The Knight also gains invincibility frames as if they were hit normally despite not taking damage. The shell can only absorb up to four hits before it breaks and it can only be repaired by resting at a Bench. The durability is represented by a tiny image of a blue shell that appears below the SOUL meter. As it takes hits, cracks form in the shell, until it breaks completely. This Charm is of debatable use, as taking a hit while Focusing still interrupts the charge and wastes SOUL, rendering the protection pointless. On top of that, it can only block four hits of damage and only regenerates when resting at a Bench. Due to this, Baldur Shell is outclassed by Quick Focus and even Shape of Unn for mid-battle healing. Its best use is against bosses that have a certain attack that is difficult to avoid. Starting to Focus during that attack can save the trouble of having to dodge it and risk losing health. Even so, its limited hits mean that it loses its effect in drawn-out battles. Note that Baldur Shell cannot be activated if the Knight does not have enough SOUL, as in order to use Focus there has to be a minimum of 33 SOUL in the gauge.",
+    "description_2": "The shell is not indestructible and will shatter if it absorbs too much damage."
+  },
+  {
+    "id": "e6bf7108-132b-48b2-beed-2f8a3970612a",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Glowing Womb",
+    "description_1": "Drains the SOUL of its bearer and uses it to birth hatchlings. ",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Glowing_Womb.webp"
+    ],
+    "how_to_acquire": "Glowing Womb can be acquired in the Forgotten Crossroads. The entrance is hidden to the right of the False Knight arena in the ceiling after a series of columns. There is a spike tunnel that can only be traversed after the Crystal Heart has been acquired. The area where the Charm is acquired is Infected even before triggering the Infected Crossroads. The Charm itself is found on the body of a giant Aspid Mother. The area itself is littered with Aspid Hunters and Aspid Mothers, both of which also show up in an arena where a fair number of them need to be fought before Glowing Womb can be acquired.",
+    "effect": "Spawns Hatchlings for 8 SOUL each, that deal 9 damage to enemies on contact. A Hatchling spawns every 4 seconds with a maximum of 4 Hatchlings at a time",
+    "usefulness": "A build using this Charm should be Nail-focused and efficient at dodging, as there is less SOUL to use for healing or casting Spells and having a passive assistant in combat may be useful.",
+    "description_2": "The hatchlings have no desire to eat or live, and will sacrifice themselves to protect their parent."
+  },
+  {
+    "id": "d9bee0c4-6fdf-4b85-a102-563746300c12",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Shape of Unn",
+    "description_1": "Reveals the form of Unn within the bearer.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Shape_of_Unn.webp"
+    ],
+    "how_to_acquire": "Acquired from Unn beneath the Lake of Unn. Requires Isma`s Tear.",
+    "effect": "Allows moving while focusing, and reduces hitbox height",
+    "usefulness": "Movement is limited; it is not possible to jump or use any movement abilities during this time and there is still a startup and ending animation for the Focus. Since Shape of Unn makes the Knight smaller and shorter, it is possible to avoid attacks from certain bosses by ducking under them when healing. For example, this works for the Mantis Lords Dash attack, however, it does not work for Paintmaster Sheo's Paint Spear attack.",
+    "description_2": "While focusing SOUL, the bearer will take on a new shape and can move freely to avoid enemies."
+  },
+  {
+    "id": "65af0ae5-77ed-43e5-9d32-a9f4cda464ef",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Sharp Shadow",
+    "description_1": "Contains a forbidden spell that transforms shadows into deadly weapons.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Sharp_Shadow.webp"
+    ],
+    "how_to_acquire": "Located in Deepnest, southeast of the Hot Spring behind a Shade Gate. Requires Shade Cloak.",
+    "effect": "Damages enemies for 1 x Nail damage when dashing through them, When using Shade Cloak, increases shadow dash length by 40% (does not affect the regular Mothwing Cloak dashes)",
+    "usefulness": "Enemies struck by the Sharp Shadow do not generate SOUL. Sharp Shadow can harm enemies that are immune to Nail attacks. Be warned that while the 40% increase to dash length can be useful against certain bosses, making it easier to dash through them and their attacks, it can also make some platforming sections more difficult.",
+    "description_2": "When using Shadow Dash, the bearer's body will sharpen and damage enemies."
+  },
+  {
+    "id": "6804f93d-5a6f-4855-96cb-0ee16b8ce577",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Spore Shroom",
+    "description_1": "Composed of living fungal matter. Scatters spores when exposed to SOUL.",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Spore_Shroom.webp"
+    ],
+    "how_to_acquire": "This Charm is located in the Fungal Wastes near a pool of acid, close to the entrances to the Queen's Gardens and Deepnest. Requires Mantis Claw.",
+    "effect": "Focus releases a cloud of spores dealing ~26 damage over 4.1 seconds. It cannot be used again until either 4.25 seconds pass or the Knight takes damage, Able to understand the dialogue of Mister Mushroom, Able to read certain Lore Tablets found in Fungal Wastes and one in Kingdom's Edge",
+    "usefulness": "Spore Shroom is useful to damage slow or static enemies after healing for a decent amount of damage, ignoring shields. This makes the Charm very effective against Crystal Hunters, Stalking Devouts, Heavy Sentries, and other enemies, as well as in the confined arena in the Colosseum of Fools. It has great use in the Broken Vessel and the Lost Kin fights, as the spore cloud instantly kills the Infected Balloons spawned during the fights. It damages neutral enemies of Mantis Village and The Hive, turning them aggressive. It also damages Oomas, triggering their explosion, so it is recommended to not heal near them. Wearing Spore Shroom allows the Knight to understand the mushroom language, in particular: Mister Mushroom's regular dialogue, Mushroom Lore Tablets in the Fungal Wastes, Mister Mushroom Lore Tablet in Kingdom's Edge. After using Spore Shroom, it cannot be used again for 4.25 seconds, or until the Knight takes damage.",
+    "description_2": "When focusing SOUL, emit a spore cloud that slowly damages enemies."
+  },
+  {
+    "id": "51638d02-9554-4baa-986c-edb488a02c2b",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Hiveblood",
+    "description_1": "Golden nugget of the Hive's precious hardened nectar.",
+    "notches": 4,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Hiveblood.webp"
+    ],
+    "how_to_acquire": "Located in the Hive, below the room where the Hive Knight is fought. Requires defeating the Hive Knight.",
+    "effect": "Passively heals the last unit of health lost after 10 seconds without taking further damage,Makes the enemies inside the Hive passive",
+    "usefulness": "The regenerating Mask is marked by a small blob of dripping honey that slowly grows bigger. Taking damage again while regenerating starts the process over (at the Knight's current health). In the case of an attack that deals two Masks of damage (such as an explosion), Hiveblood only regenerates one Mask. Finally, healing a Mask with Focus ends the regeneration in progress. Hiveblood does regenerate Lifeblood Masks gained from the Joni's Blessing Charm, though it takes twice as long (20s). Other sources of Lifeblood — like Lifeblood Cocoons, or the Lifeblood Heart and Lifeblood Core Charms — are not affected. Hiveblood is decent in combat if the Knight can dodge a boss effectively, but has trouble finding opportunities to heal. As the Knight is likely to not go on the offensive while waiting for Hiveblood to regenerate health, Hiveblood pairs well with Charms that can damage foes while dodging, such as Glowing Womb or Sharp Shadow. The best use of Hiveblood is to regenerate health in situations where SOUL is not readily available. This makes it very helpful in difficult platforming sections with few enemies, such as the Crystallised Mound in the Crystal Peak, the path to Nailmaster Sheo in Greenpath, the Nail-jumping section to reach a Vessel Fragment in Deepnest, and most prominently, the White Palace and the Path of Pain. It also serves as the only means by which health may be recovered mid-air, making it useful for the Colosseum of Fools. Its ability to render the Hive's residents passive makes it very useful on return trips to the area.",
+    "description_2": "Heals the bearer's wounds over time, allowing them to regain health without focusing SOUL."
+  },
+  {
+    "id": "ce8d2f1a-3d24-4809-925a-4a6b797a6f8c",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Joni's Blessing",
+    "description_1": "Blessed by Joni, the kindly heretic. Transfigures vital fluids into blue lifeblood.",
+    "notches": 4,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Joni_s_Blessing.webp"
+    ],
+    "how_to_acquire": "Found in Joni's Repose in the Howling Cliffs. The Charm is resting on the corpse of Blue Child Joni.",
+    "effect": "Increase Masks by 40% (rounded up), all Masks become Lifeblood, Causes Lifeseeds to flock to the Knight instead of running away",
+    "usefulness": "When having Joni's Blessing equipped it becomes easier to enter the Lifeblood Chamber in the Abyss. With 8-9 Masks and Fragile Heart/Unbreakable Heart or Lifeblood Heart, it is easy to make the 15-Mask threshold, thus earning Lifeblood Core. As with Lifeblood Heart and Lifeblood Core, Joni's Blessing is more useful in a Spell-focused build where SOUL can be used to cast Spells rather than heal. As such, it should be saved for later in the game when more Notches have been acquired, but Lifeblood Core remains inaccessible. However, Lifeblood Core is usually a more efficient Charm for adding survivability in the endgame. Joni's Blessing adds at most 5 Lifeblood Masks while Lifeblood Core adds 4, costs 1 less Notch, and does not prevent healing.",
+    "description_2": "The bearer will have a healthier shell and can take more damage, but they will not be able to heal themselves by focusing SOUL."
+  },
+  {
+    "id": "a007b27c-7dee-4139-8a69-07f49e5a60e6",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Void Heart",
+    "description_1": "An emptiness that was hidden within, now unconstrained. Unifies the void under the bearer's will.",
+    "notches": null,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Void_Heart.webp"
+    ],
+    "how_to_acquire": "Found in a secret area at the bottom of the Abyss known as the Birthplace. The area's entrance only opens if the Kingsoul Charm is equipped. At the end of the area is an egg which, upon being hit with the Dream Nail, reveals a memory of the Knight involving Vessels and the Pale King. It is after traversing this memory that the Kingsoul is changed into Void Heart.",
+    "effect": "Unlocks 4 endings, Prevents the non-Void Heart ending for the save file, Renders the Siblings, Void Tendrils and Shade passive, Allows access to the Radiance, Allows access to the Pantheon of Hallownest, Unlocks new interactions with certain NPCs",
+    "usefulness": "This charm replaces the Kingsoul Charm and cannot be unequipped. However, it no longer has Kingsoul's effects, nor does it use any Notches. Having Void Heart unlocks new dialogue with Confessor Jiji, Steel Soul Jinn, the White Lady, Hornet, and Bardoon.",
+    "description_2": "This charm is a part of its bearer and can not be unequipped."
+  },
+  {
+    "id": "eba07db8-d3eb-4f69-8f99-be50871470ca",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Weaversong",
+    "description_1": "Silken charm containing a song of farewell, left by the Weavers who departed Hallownest for their old home. ",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Weaversong.webp"
+    ],
+    "how_to_acquire": "Found in the upper part of Weavers' Den.",
+    "effect": "Summons 3 small Weaverlings that attack enemies for 3 damage per hit, Unlocks new interactions with Midwife",
+    "usefulness": "The Weaverlings attack automatically, making it a bit easier to deal damage to enemies that might be out of range. If a Weaverling falls out of the world or loses track of the Knight, a new one will spawn after a few moments. While wearing this Charm, Midwife has a new piece of dialogue and Dream Nail dialogue.",
+    "description_2": "Summons weaverlings to give the lonely bearer some companionship and protection."
+  },
+  {
+    "id": "a20ec052-fd44-428b-8aa2-9a0834e160ed",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Wayward Compass",
+    "description_1": "Whispers its location to the bearer whenever a map is open, allowing wanderers to pinpoint their current location.",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Wayward_Compass.webp"
+    ],
+    "how_to_acquire": "Bought from Iselda in Dirtmouth for 220 Geo after the first encounter with Cornifer.",
+    "effect": "Shows Knight's location on map",
+    "usefulness": "This Charm is useful for exploration and is good during a first playthrough. It is recommended to switch to something more combat-oriented when preparing for a boss battle. Once a keen knowledge of the map's layout is attained, this Charm is no longer worthwhile.",
+    "description_2": null
+  },
+  {
+    "id": "1de83a59-5971-4bd2-acd0-fc7d8263e658",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Dream Wielder",
+    "description_1": "Transient charm created for those who wield the Dream Nail and collect Essence.",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Dream_Wielder.webp"
+    ],
+    "how_to_acquire": "Given by Seer after gathering 500 Essence.",
+    "effect": "Gain +33 additional SOUL when hitting enemies with the Dream Nail (33 to 66), Reduces the time needed to attack with the Dream Nail by ~37.5%, Increases the likelihood of receiving Essence when killing enemies by 50%, Decreases Dreamgate setting and warping time by ~0.5 seconds",
+    "usefulness": "Dream Wielder is by far the most efficient SOUL-gathering Charm due to its low cost and high effectiveness. The only downside is that the Knight must be standing still to use it, and it deals no damage, only knockback. Due to the Dream Nail causing no damage, this Charm is useful in the Colosseum of Fools in order to acquire full SOUL.",
+    "description_2": "Allows the bearer to charge the Dream Nail faster and collect more SOUL when striking foes."
+  },
+  {
+    "id": "d0da2146-d18f-4d07-8cf0-d16221d04810",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Dreamshield",
+    "description_1": "Defensive charm once wielded by a tribe that could shape dreams.",
+    "notches": 3,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Dreamshield.webp"
+    ],
+    "how_to_acquire": "Found in a room in the Resting Grounds, below Seer's room.",
+    "effect": "Conjures a shield that slowly rotates around the Knight's position, blocks certain projectiles, and deals 1 x Nail damage when colliding with an enemy",
+    "usefulness": "Whenever the shield touches an enemy, the shield breaks and takes two seconds to reform. Attacking with the Nail causes the shield to bash outward. While Focusing, the Shield rotates 173% faster.",
+    "description_2": "Conjures a shield that follows the bearer and attempts to protect them."
+  },
+  {
+    "id": "9a63f3cb-bdcd-4440-b962-43a557b647b5",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Flukenest",
+    "description_1": "Living charm born in the gut of a Flukemarm.",
+    "notches": 3,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Flukenest.webp"
+    ],
+    "how_to_acquire": "Dropped by Flukemarm in the Royal Waterways when defeated.",
+    "effect": "Replaces Vengeful Spirit with 9 flukes, and Shade Soul with 16 flukes, Each fluke does 4 damage, resulting in a total damage of 36 with Vengeful Spirit and 64 with Shade Soul, Unlocks a new interaction with Fluke Hermit",
+    "usefulness": "Using Flukenest is primarily a preference-based decision, as range and consistency have to be sacrificed for approximately double damage. Flukenest's main advantage is the massively increased damage compared to not having it, which can be helpful for bosses. Likely due to a coding mistake, after a fluke bursts, its hitbox continues to exist for 1 second. Because of this, enemies can be damaged more than once, potentially dealing significant amounts of damage. Wearing it unlocks extra dialogue with Fluke Hermit.",
+    "description_2": "Transforms the Vengeful Spirit spell into a horde of volatile baby flukes."
+  },
+  {
+    "id": "8df7688a-3b78-49b2-be00-7150b4dfc49a",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Heavy Blow",
+    "description_1": "Formed from the nails of fallen warriors.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Heavy_Blow.webp"
+    ],
+    "how_to_acquire": "Bought from Sly for 350 Geo after bringing him the Shopkeeper's Key found in the Crystal Peak.",
+    "effect": "Increases Nail attack knockback by 75%, Increases Great Slash knockback by 33%, Reduces number of hits needed to stagger a boss by 1",
+    "usefulness": "High knockback can be useful for enemies who have an uninterruptible attack, like the Massive Moss Charger and the Wandering Husk. Using Heavy Blow against this kind of enemy usually pushes them back far enough to prevent their attack from hitting the Knight, allowing for more consecutive attacks, a chance to escape and heal, and safer Nail attacks for enemies with high range (thus removing the need for a ranged Spell and saving SOUL). However, this Charm should not be used against ranged enemies and Warrior Dreams such as No Eyes and Gorb (especially considering that they cannot be staggered), as it is harder to deal consistent damage to them from a distance. Enemies that do not take knockback are not affected by Heavy Blow's increased knockback. This includes most bosses. However, since Heavy Blow decreases the hits needed to stagger a boss by 1, it can still be useful during boss fights.",
+    "description_2": "Increases the force of the bearer's nail, causing enemies to recoil further when hit."
+  },
+  {
+    "id": "8b020f35-4490-4496-9556-b5cc56c7947f",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Lifeblood Heart",
+    "description_1": "Contains a living core that seeps precious lifeblood.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Lifeblood_Heart.webp"
+    ],
+    "how_to_acquire": "Bought from Salubra in the Forgotten Crossroads for  250 Geo.",
+    "effect": "Adds 2 Lifeblood Masks when resting",
+    "usefulness": "As with Lifeblood Core, this Charm is useful if the Knight focuses on Spells, as it allows them to use more of their SOUL on casting rather than healing. The lower cost is useful for saving Notches, but 2 Lifeblood Masks are not very significant compared to Lifeblood Core's four Masks or even healing Charms like Quick Focus and Hiveblood.",
+    "description_2": "When resting, the bearer will gain a coating of lifeblood that protects from a modest amount of damage."
+  },
+  {
+    "id": "baea3f58-ea55-4be4-884f-11be0dbe0ad8",
+    "created_at": "2024-06-12 18:25:17.550112+00",
+    "charm": "Carefree Melody",
+    "description_1": "Token commemorating the start of a friendship.",
+    "notches": 3,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Carefree_Melody.webp"
+    ],
+    "how_to_acquire": "After banishing the Grimm Troupe, the Charm can be acquired from Nymm by listening to him in Dirtmouth.",
+    "effect": "Has a chance to block incoming damage.",
+    "usefulness": "The block chance resets to 0% every time the Charm prevents damage and increases with each hit taken up to a maximum of 90%. The average block chance is ~22.46%. The hit count does not reset upon death or when the Charm is unequipped, which makes it helpful in Godmaster content Radiant fights. The Charm is also particularly useful when no accessible means of healing are available. Allows the effects of other Charms (such as Thorns of Agony) to continue through or activate alongside its own effect, save for Grubsong which requires taking actual damage.",
+    "description_2": "Contains a song of protection that may defend the bearer from damage."
+  },
+  {
+    "id": "c5bba369-dc7e-4e80-b94e-a5b9700b63fb",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Deep Focus",
+    "description_1": "Naturally formed within a crystal over a long period. Draws in SOUL from the surrounding air.",
+    "notches": 4,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Deep_Focus.webp"
+    ],
+    "how_to_acquire": "Found in Crystal Peak in a hidden cave made entirely of crystals. Below the area where Cornifer can be found, look for a Husk Miner mining a wall. Break the wall to reveal the secret area. Requires Crystal Heart.",
+    "effect": "Focus heals 2 Masks of Health while increasing Focus time by 65%",
+    "usefulness": "With Deep Focus, it takes 65% longer to Focus, not including the startup time (0.25 seconds). Startup time is not affected by Deep Focus. Its restrictive cost and slow Focus time make it hard to use in boss battles. It is better used in areas where there is lots of time to rest, such as while tackling difficult platforming challenges, where it shines in combination with Grubsong and Hiveblood.",
+    "description_2": "The bearer will focus SOUL at a slower rate, but the healing effect will double."
+  },
+  {
+    "id": "7ea00328-65aa-452a-8e38-e6b15de4cba0",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Defender's Crest",
+    "description_1": "Unique charm bestowed by the King of Hallownest to his most loyal knight. Scratched and dirty, but still cared for.",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Defender_s_Crest.webp"
+    ],
+    "how_to_acquire": "Reward from defeating Dung Defender in the Royal Waterways.",
+    "effect": "Spawns toxic clouds that deal ~3 damage and last 1.1 seconds. A new one spawns at the Knight's location every 0.75 seconds, Unlocks new interactions with certain NPCs",
+    "usefulness": "The clouds are not very powerful and have very little range, making it situational. Useful when fleeing enemies, as the clouds linger behind the Knight and damage pursuing enemies. It can be very useful during both the Broken Vessel and Lost Kin fights since the cloud can kill the Infected Balloons with one damage, so the Knight can focus on the boss and gain precious healing time. It also damages Oomas, triggering their explosion. As such, it is best to use caution when traversing Fog Canyon with this Charm equipped. Costing only one Notch, it is most effective when used with one of the other Charms listed below, as it greatly increases their power. Wearing Defender's Crest unlocks extra dialogue with Elderbug, White Lady, Relic Seeker Lemm, Dung Defender, Leg Eater, Tuk, and Divine. Additionally, it unlocks the following interactions: Leg Eater gives a 20% discount on his items and repairs, Relic Seeker Lemm refuses to barter, Tuk gives a free Rancid Egg",
+    "description_2": "Causes the bearer to emit a heroic odour."
+  },
+  {
+    "id": "a1f3b84e-0bd7-4ab0-86b4-66407267c6cd",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Nailmaster's Glory",
+    "description_1": "Contains the passion, skill and regrets of a Nailmaster.",
+    "notches": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Nailmaster_s_Glory.webp"
+    ],
+    "how_to_acquire": "Given by Sly after receiving all 3 Nail Arts from the Nailmasters: Nailmaster Mato, Nailmaster Oro, Nailmaster Sheo",
+    "effect": "Reduces the charge time of Nail Arts by ~44%, Unlocks new interactions with certain NPCs",
+    "usefulness": "With the Pure Nail's power to kill most base enemies in one hit, combined with this Charm's charging speed, many areas can be cleared incredibly quickly, making challenge rooms and backtracking much easier. It especially shines in the Colosseum of Fools, where it makes it easier to take down some of the tougher enemies. Having Nailmaster's Glory unlocks new dialogue with Nailmaster Mato, Nailmaster Oro, Nailmaster Sheo, and Sly.",
+    "description_2": "Increases the bearer's mastery of Nail Arts, allowing them to focus their power faster and unleash arts sooner."
+  },
+  {
+    "id": "4fd239d4-0d79-4466-a922-796b5a09f730",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Fury of the Fallen",
+    "description_1": "Embodies the fury and heroism that comes upon those who are about to die.",
+    "notches": 2,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Fury_of_the_Fallen.webp"
+    ],
+    "how_to_acquire": "Found in King's Pass, the starting cavern, behind a spike-filled cavern. Look for the Geo cluster in the southeast part of the pit room. Dash or Nail-bounce to cross the spikes, and continue east to find the Charm.",
+    "effect": "Increases Nail damage by 75% when at 1 Mask, This effect is also applied to Nail Arts",
+    "usefulness": "Fury of the Fallen only affects Nail damage, so a build using this Charm should be Nail-focused and not Spell-focused. It does not affect the damage of the Sharp Shadow, Dreamshield, and Thorns of Agony Charms. Since the ability requires the Knight to be in a near-death state, it is most useful in builds where the Knight tends to get damaged a lot or builds designed to intentionally bring the Knight down to 1 Mask, such as speedrunning where the Knight can reliably dodge most attacks. In a regular game, Fury of the Fallen is only useful if the Knight is able to avoid taking the last hit of damage for long enough to get in Nail hits. Using the Quick Slash and Grubberfly's Elegy Charms to deal more damage faster or from a safer distance is recommended. Otherwise, it is more advised to use a Charm like Quick Focus to bring the Knight back into the fight sooner. While in the Fury of the Fallen state at one Mask, adding extra Lifeblood Masks onto the end of the health bar does not negate the effect, making this Charm useful for situations such as the Pantheons. Lifeblood Masks from the Joni's Blessing Charm are treated like actual Masks. Due to this, Fury of the Fallen only triggers when the Knight has one Mask remaining.",
+    "description_2": "When close to death, the bearer's strength will increase."
+  },
+  {
+    "id": "77e7af03-c5c8-47ea-84a2-1ae5811387fe",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Grubberfly's Elegy",
+    "description_1": "Contains the gratitude of grubs who will move to the next stage of their lives. Imbues weapons with a holy strength.",
+    "notches": 3,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Grubberfly_s_Elegy.webp"
+    ],
+    "how_to_acquire": "Gifted by Grubfather after freeing all 46 Grubs.",
+    "effect": "When at full Masks, Nail attacks fire a projectile dealing 50% Nail damage per hit",
+    "usefulness": "Grubberfly's Elegy is an effective Nail range upgrade, this Charm is very powerful as a crowd-control tool and when fighting certain bosses such as the Watcher Knights, or Oro and Mato. This Charm is useful for completing the Delicate Flower quest as it allows for fighting from a distance. It can be used for exploring areas and switched out for another Charm when fighting bosses. However, during the fight with the Radiance, the projectiles of Grubberfly's Elegy can deal damage to the boss without the need to jump, which can be a viable source of damage when combined with the Quick Slash Charm. This also applies to the Flukemarm fight as the combo makes quick work of her without needing to jump to reach her. The range of the projectiles is not affected by Longnail nor Mark of Pride, though their height is increased 35% with the latter. Grubberfly's Elegy can be useful for defeating Radiant difficulty bosses since the Charm's effect is never lost, as being hit results in instant death anyway. When used with Joni's Blessing, taking damage of any kind halts the effects of Grubberfly's Elegy until resting on a Bench, even if the health is restored by Hiveblood.",
+    "description_2": "When the bearer is at full health, they will fire beams of white-hot energy from their nail."
+  },
+  {
+    "id": "1bf9c9c1-c50c-4b16-bc01-305156adb19a",
+    "created_at": "2024-06-12 18:39:02.268686+00",
+    "charm": "Kingsoul",
+    "description_1": "Holy charm symbolising a union between higher beings. The bearer will slowly absorb the limitless SOUL contained within.",
+    "notches": 5,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Kingsoul.webp"
+    ],
+    "how_to_acquire": "Kingsoul is obtained after getting both White Fragments. The left half of Kingsoul is given by the White Lady in the Queen's Gardens, the right half is taken off the body of the Pale King after completing the White Palace. After getting both halves, the Kingsoul is automatically created and replaces the slot where the half of the Kingsoul previously resided.",
+    "effect": "Slowly generates 4 SOUL every 2 seconds, Opens a secret area within the Abyss, Unlocks a new interaction with the White Lady.",
+    "usefulness": "Kingsoul is a fairly useful Charm for exploration and platforming challenges, being superior to Hiveblood in that it can recharge SOUL for healing even with full Masks. However, the high Notch cost prevents other useful Charm combinations from being equipped. Because Kingsoul allows gaining SOUL without having to hit enemies with the Nail, it can be effective for those who are both patient and prefer to cast Spells. This approach is especially useful when delivering the Delicate Flower, as engaging enemies directly can be risky. This Charm is primarily only equipped to unlock the Birthplace at the bottom of the Abyss, after which it is permanently replaced by Void Heart. Wearing Kingsoul unlocks extra dialogue with the White Lady.",
+    "description_2": "Opens the way to a birthplace."
+  },
+  {
+    "id": "a5594e40-a92f-455d-8f56-7e5859e5fd71",
+    "created_at": "2024-06-05 18:59:10.162579+00",
+    "charm": "Lifeblood Core",
+    "description_1": "Contains a living core that bleeds precious lifeblood.",
+    "notches": 3,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Charms/Charm_Lifeblood_Core.webp"
+    ],
+    "how_to_acquire": "On the left wall of the Abyss is a door that only opens when having 14 or more Lifeblood Masks, or 15 or more when using Joni's Blessing. This can be reached through the Lifeblood Heart Charm and by killing Lifeseeds. Joni's Blessing also converts the extra health from Fragile Heart/Unbreakable Heart into Lifeblood Masks. Dreamgate can be used to warp to the door without obstacles. The Charm is found sitting on a dais at the end of the chamber. There is also an Arcane Egg in the same area. Once Lifeblood Core is picked up, the Knight is immediately ejected from the room and the door becomes permanently closed, so it is recommended to pick up the Arcane Egg first and then the Charm.",
+    "effect": "Adds 4 Lifeblood Masks when resting",
+    "usefulness": "As with Lifeblood Heart, this Charm is useful if the Knight focuses on Spells, as it allows them to use more of their SOUL on casting rather than healing. However, it is the most difficult Lifeblood Charm to obtain. Arguably the best Lifeblood Charm, as it provides twice as many Masks as Lifeblood Heart with only one extra Notch cost, and does not turn all Masks into Lifeblood, unlike Joni's Blessing, allowing for healing if necessary. While having 9 Masks, Lifeblood Core grants the same number of Masks as Joni's Blessing.",
+    "description_2": "When resting, the bearer will gain a coating of lifeblood that protects from a large amount of damage."
+  }
+]

@@ -11,7 +11,7 @@ export const KnightScreen = () => {
   return (
     <View style={[globalStyles.container]}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View style={{ alignItems: 'center' }}>
+        <View style={{ alignItems: 'center', marginTop: 50 }}>
           <Image
             source={require('../../../assets/description-image.webp')}
             style={{
@@ -35,7 +35,6 @@ export const KnightScreen = () => {
             <Text
               style={{
                 color: '#f5f5f5',
-                fontFamily: 'Times New Roman',
                 fontSize: 16,
               }}>
               The Knight is a discarded Vessel. They are the child of the Pale King and the White
@@ -47,7 +46,6 @@ export const KnightScreen = () => {
             <Text
               style={{
                 color: '#f5f5f5',
-                fontFamily: 'Times New Roman',
                 fontSize: 16,
                 marginTop: 15,
               }}>
@@ -61,7 +59,6 @@ export const KnightScreen = () => {
             <Text
               style={{
                 color: '#f5f5f5',
-                fontFamily: 'Times New Roman',
                 fontSize: 16,
                 marginTop: 15,
               }}>
@@ -80,7 +77,6 @@ export const KnightScreen = () => {
             <Text
               style={{
                 color: '#f5f5f5',
-                fontFamily: 'Times New Roman',
                 fontSize: 16,
               }}>
               At the beginning of the game, the Knight is equipped with only their Old Nail and the
@@ -90,7 +86,6 @@ export const KnightScreen = () => {
             <Text
               style={{
                 color: '#f5f5f5',
-                fontFamily: 'Times New Roman',
                 fontSize: 16,
                 marginTop: 15,
               }}>
@@ -104,29 +99,36 @@ export const KnightScreen = () => {
             <Text
               style={{
                 color: '#f5f5f5',
-                fontFamily: 'Times New Roman',
                 fontSize: 16,
                 marginTop: 15,
               }}>
-              If the Knight has fought Hornet twice and has the King's Brand and the Shade Cloak, they have access to both halves of the Kingsoul. When the complete Kingsoul is equipped, the Knight can transform this Charm into Void Heart by going to their birthplace at the bottom of the Abyss and remembering their past. Void Heart allows the Knight to unify the Void under their will.
+              If the Knight has fought Hornet twice and has the King's Brand and the Shade Cloak,
+              they have access to both halves of the Kingsoul. When the complete Kingsoul is
+              equipped, the Knight can transform this Charm into Void Heart by going to their
+              birthplace at the bottom of the Abyss and remembering their past. Void Heart allows
+              the Knight to unify the Void under their will.
             </Text>
             <Text
               style={{
                 color: '#f5f5f5',
-                fontFamily: 'Times New Roman',
                 fontSize: 16,
                 marginTop: 15,
               }}>
-              With Void Heart, the Knight can use the Dream Nail on the Hollow Knight after Hornet holds them down. If the Dream Nail is not used, the Knight has to kill the Hollow Knight. This gives a similar ending as the ending without having Void Heart, but instead, Hornet becomes a Dreamer, her face appearing on the entrance to Black Egg.
+              With Void Heart, the Knight can use the Dream Nail on the Hollow Knight after Hornet
+              holds them down. If the Dream Nail is not used, the Knight has to kill the Hollow
+              Knight. This gives a similar ending as the ending without having Void Heart, but
+              instead, Hornet becomes a Dreamer, her face appearing on the entrance to Black Egg.
             </Text>
             <Text
               style={{
                 color: '#f5f5f5',
-                fontFamily: 'Times New Roman',
                 fontSize: 16,
                 marginTop: 15,
               }}>
-              Using the Dream Nail initiates the fight with the Radiance. At the end of this fight, the Knight breaks their own shell and lands the finishing blows on the Radiance in their Shade form, with the help of the Shade of the Hollow Knight. Both siblings and all the other Shades in the Abyss then return to the Void.
+              Using the Dream Nail initiates the fight with the Radiance. At the end of this fight,
+              the Knight breaks their own shell and lands the finishing blows on the Radiance in
+              their Shade form, with the help of the Shade of the Hollow Knight. Both siblings and
+              all the other Shades in the Abyss then return to the Void.
             </Text>
           </View>
         </View>

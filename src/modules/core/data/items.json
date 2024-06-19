@@ -1,0 +1,318 @@
+[
+  {
+    "id": "44c7d3db-af45-44e6-bdbf-59b1c4ac24ae",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Arcane Egg",
+    "description_1": "Mysterious stone egg from before the birth of Hallownest.",
+    "use": "Can be sold to Relic Seeker Lemm for 1200 Geo.",
+    "how_to_acquire": [
+      "1 located below the room where Lifeblood Core is found in the abyss.",
+      "1 directly west of where Shade Cloak is acquired in the abyss.",
+      "1 in the south part of the Birthplace (requires Kingsoul) in the abyss.",
+      "1 given by the Seer in the Resting Grounds as a reward for 1,200 Essence."
+    ],
+    "effects": "Can be sold to Relic Seeker Lemm",
+    "type": "Collectible",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Arcane_Egg/Arcane_Egg.webp"
+    ],
+    "description_2": "Relic from the ancient past. This item now holds little value except for those dedicated to history."
+  },
+  {
+    "id": "9563ddc6-676a-48cd-b00e-c8ecbb635fb8",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Collector's Map",
+    "description_1": "Hold QUICK MAP to view a map of the area.",
+    "use": "Marks the location of all 46 Grubs on any purchased Maps.",
+    "how_to_acquire": [
+      "Found at the top of the Tower of Love after defeating the Collector."
+    ],
+    "effects": "Reveals location of Grubs on the Map.",
+    "type": "Quest Item",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Collector_s_Map/Collector_s_Map.webp"
+    ],
+    "description_2": "The locations of imprisoned Grubs will be displayed."
+  },
+  {
+    "id": "da0a11b9-6e7c-43b4-b553-0b28dfbe900a",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "King's Idol",
+    "description_1": "A white idol depicting the King of Hallownest. The elusive king was worshipped through these idols.",
+    "use": "Can be sold to Relic Seeker Lemm for 800 Geo.",
+    "how_to_acquire": [
+      "1 given by Grubfather as a reward for saving 38 Grubs.",
+      "1 found in Crystal Peak above where Cornifer sells the map.",
+      "1 found in the Resting Grounds behind a waterfall in Spirits' Glade.",
+      "1 found in the Royal Waterways, in a secret room where White Defender is fought, only accessible with Desolate Dive/Descending Dark.",
+      "1 found in the Howling Cliffs in the southwestern part of the map.",
+      "1 directly under the Colosseum of Fools behind a breakable wall.",
+      "1 behind the Colosseum of Fools and in a secret room.",
+      "1 found in Deepnest west of where Zote is trapped in the spider's web."
+    ],
+    "effects": "Can be sold to Relic Seeker Lemm",
+    "type": "Collectible",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/King_s_Idol/King_s_Idol.webp"
+    ],
+    "description_2": "Relic from Hallownest's past. This item now holds little value except for those dedicated to the kingdom's history."
+  },
+  {
+    "id": "ebeea32d-c4e6-4e83-882c-7f1d651377fa",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Hunter's Journal",
+    "description_1": "Press INVENTORY to open the Menu, then navigate to the \"Journal\" pane.",
+    "use": "Defeating a specified number of each enemy unlocks additional notes from the Hunter about that enemy, as well as bits of lore, techniques for fighting said enemy, or even information about the Hunter himself. A few entries can only be obtained by inspecting a specific object or as a reward for completing a challenge. After completing most entries, the Hunter`s Mark can be acquired.",
+    "how_to_acquire": [
+      "Dropped on the ground by the Hunter in Greenpath after listening to him for the first time. When it is inspected, the Journal can be found as a pane in the Menu."
+    ],
+    "effects": "Register each enemy",
+    "type": "Quest Item",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Hunter_s_Journal/Hunter_s_journal.webp"
+    ],
+    "description_2": "Defeat enemies to add new entries to the journal and decipher the Hunter's notes."
+  },
+  {
+    "id": "a499c7df-79d6-4c0e-a051-1c1e0e8e60f3",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "City Crest",
+    "description_1": "Stone slab bearing the crest of the Hallownest capital city. Has an insert on the back that would fit into a slot.",
+    "use": "Opens the gate between the Fungal Wastes and the City of Tears. The Mantis Claw is required to gain access to this area of the Fungal Wastes. The Crest needs to be inserted into a slot on a statue of the Great Knight Hegemol. Placing it there consumes the City Crest. After walking through the opened gate, it closes and cannot be opened again. It is possible to open the ceiling above the gate by coming from the City of Tears and using the Desolate Dive/Descending Dark Spell on a breakable floor. While the intended entrance to the City of Tears is to use the City Crest, there are additional ways to enter the City of Tears, such as dropping down from the Resting Grounds or coming from the Royal Waterways.",
+    "how_to_acquire": [
+      "Drops from False Knight in the Forgotten Crossroads after defeating him."
+    ],
+    "effects": "Unlocks an entrance to the City of Tears",
+    "type": "Key",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/City_Crest/City_Crest.webp"
+    ],
+    "description_2": null
+  },
+  {
+    "id": "2a046ab9-fb14-4f7e-860c-a8f698bbe196",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Love Key",
+    "description_1": "Covered in padding, it bears a symbol of love.",
+    "use": "Opens the door inside the Tower of Love where the Collector can be fought.",
+    "how_to_acquire": [
+      "Found on a corpse in the southeast of the Queen's Gardens above the path to the Fungal Wastes. Retrieving the key requires Isma's Tear."
+    ],
+    "effects": "Unlocks door of Tower of Love.",
+    "type": "Key",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Love_Key/Love_Key.webp"
+    ],
+    "description_2": null
+  },
+  {
+    "id": "d32464ba-897b-43f8-b41f-7271923b946d",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Salubra's Blessing",
+    "description_1": "A boon bestowed by Charm Lover Salubra.",
+    "use": "When resting at a Bench, an apparition of Salubra appears after two seconds, dancing over the Knight and regenerating 50 SOUL per second. This does not occur when the Knight is resting after resuming a save file. To start restoring SOUL, simply get up from the Bench and rest again. Buying her blessing also gives the Blessed achievement.",
+    "how_to_acquire": [
+      "Bought from Salubra in the Forgotten Crossroads for 800 Geo after acquiring 40 Charms."
+    ],
+    "effects": "Restores 50 SOUL per second while sitting at a Bench",
+    "type": "Upgrade",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Salubra_s_Blessing/Salubra_s_Blessing.webp"
+    ],
+    "description_2": "Those blessed are followed by beauty and love."
+  },
+  {
+    "id": "19b42263-b248-48da-9ae0-1d4a58ca3dfc",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Rancid Egg",
+    "description_1": "Fatty, rancid egg of an unknown creature. Emits a powerful stench of decay.",
+    "use": "A collectable item recovered from the corpses of Bluggsacs. Either an already-dead Bluggsac has to be found or a living one has to be killed to make it drop a Rancid Egg. Once a Bluggsac has been killed, it remains dead, even when resting at a Bench. Can be given to Confessor Jiji to summon the Shade that is currently in the game world. In Steel Soul Mode, Steel Soul Jinn replaces Jiji and can be given Rancid Eggs in return for 290-449 Geo.",
+    "how_to_acquire": [
+      "An infinite amount can be bought from Tuk for 80-100 Geo in the Royal Waterways but she does not sell anymore if the Knight has 80 Eggs (Only in normal mode)",
+      "1 on Tuk's corpse (Only in Steel Soul mode)",
+      "1 given by Tuk if wearing the Defender's Crest Charm (Only in normal mode)",
+      "1 bought from Sly for  60 in Dirtmouth",
+      "2 found in City of Tears",
+      "3 found in Crystal Peak",
+      "3 found in Deepnest",
+      "1 found in Fungal Wastes",
+      "1 found in Greenpath",
+      "2 found in Kingdom's Edge",
+      "1 found in Queen's Gardens",
+      "1 found in Resting Grounds",
+      "4 found in Royal Waterways",
+      "1 given by Grubfather in Forgotten Crossroads (16 Grubs)"
+    ],
+    "effects": "Give to Confessor Jiji, Sell to Steel Soul Jinn (Steel Soul)",
+    "type": "Collectible",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Rancid_Egg/Rancid_Egg.webp"
+    ],
+    "description_2": "Generally not considered edible."
+  },
+  {
+    "id": "d0715c68-9357-441e-ac1e-e3501e483615",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Simple Key",
+    "description_1": "Cheaply manufactured from a common design. Can be used to open a range of simple locks.",
+    "use": "The entrance to the Royal Waterways from the City of Tears. The cave to the right of Dirtmouth, beyond the graveyard. This cave is home to Confessor Jiji, who, in return for a Rancid Egg, can summon the Knight's Shade, which is useful if the Shade is stuck in a hard-to-access area and holding a lot of Geo. In Steel Soul Mode, the cave is instead home to Steel Soul Jinn, who trades Rancid Eggs from the Knight for Geo. The Pleasure House in the City of Tears, along with a Hot Spring, Poggy Thorax, and Songstress Marissa. It is also Millibelle's refuge after she scams the Knight. Once inside, a shortcut can be opened from the Hot Spring to a lift shaft that leads from the City of Tears to the Resting Grounds, and also grants easy access to the northern part of Kingdom's Edge and the Colosseum of Fools. The cocoon of the Godseeker in the Junk Pit. Using the Dream Nail on her grants access to Godhome.",
+    "how_to_acquire": [
+      "One can be bought from Sly in Dirtmouth for 950 Geo.",
+      "One can be found in the City of Tears, in the big room with Winged Sentries and a Whispering Root just below the City Storerooms. The key is located in the topmost alcove on the right of the room.",
+      "One can be found in the Ancient Basin, on the dead body of a Royal Retainer inside a Mawlurk corpse.",
+      "One can be obtained by killing the Pale Lurker in a hidden area behind the Colosseum of Fools."
+    ],
+    "effects": "Opens simple locks.",
+    "type": "Key",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Simple_Key/Simple_Key.webp"
+    ],
+    "description_2": "Flimsily made, it breaks after a single use."
+  },
+  {
+    "id": "d0031492-d71a-4785-971b-d405ab3656f6",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Lumafly Lantern",
+    "description_1": "Crystal lantern containing a Lumafly. Brightens dark caverns so wanderers can find their way.",
+    "use": "In dark areas, the Lumafly Lantern brightens up the area around the Knight, giving more visibility and allowing them to pay tolls to open Benches or doors. It is also required to fight No Eyes at the Stone Sanctuary. The following maps show all areas and which parts of the areas the Lumafly Lantern applies to. The Lumafly Lantern is not used in Fog Canyon, Fungal Wastes, Kingdom's Edge, and the Hive.",
+    "how_to_acquire": [
+      "Can be purchased from Sly in Dirtmouth for 1800 Geo."
+    ],
+    "effects": "Brightens up the area around the Knight",
+    "type": "Key",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Lumafly_Lantern/Lumafly_Lantern.webp"
+    ],
+    "description_2": null
+  },
+  {
+    "id": "94aa1299-9b1c-42fe-ab42-6ee04b4d5888",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Tram Pass",
+    "description_1": "A lifetime pass to the tramways connecting parts of Hallownest. These passes cost a huge amount of Geo and each purchase required authorisation by the King.",
+    "use": "Allows the Knight to ride the Tram. If the Tram is inspected before acquiring the pass, the description reads \"A door with an open slot.\"",
+    "how_to_acquire": [
+      "Found in the Failed Tramway in Deepnest in the wreck of a tram."
+    ],
+    "effects": "Allows use of Tram fast travel",
+    "type": "Key",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Tram_Pass/Tram_Pass.webp"
+    ],
+    "description_2": null
+  },
+  {
+    "id": "06aff287-6d83-4c44-96ba-3c7b6bdbb937",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Shopkeeper's Key",
+    "description_1": "Small brass key made in the likeness of a shopkeeper.",
+    "use": "Presenting the key to Sly unlocks more of his wares.",
+    "how_to_acquire": [
+      "This key is found in the Crystal Peak, in the room to the left of the Bench room where the Crystal Guardian is first encountered."
+    ],
+    "effects": "Unlocks Sly's further stock",
+    "type": "Key",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Shopkeeper_s_Key/Shopkeeper_s_Key.webp"
+    ],
+    "description_2": null
+  },
+  {
+    "id": "57b4c4ab-8692-4312-8f6d-aeeb5a7c785f",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Hallownest Seal",
+    "description_1": "Official seal of the Kingdom of Hallownest, symbolising the authority of the King and his Knights.",
+    "use": "Can be sold to Relic Seeker Lemm for 450 Geo.",
+    "how_to_acquire": [
+      "1 given as a reward from Grubfather for saving the 23rd Grub.",
+      "1 found in the Forgotten Crossroads in a secret room on the left side of the well (requires Mantis Claw).",
+      "1 found in Greenpath to the southwest of where Thorns of Agony is acquired.",
+      "1 in the top section of the room east of Queen's Station.",
+      "1 in Mantis Village in a chest in the room northeast of the Mantis Lords boss fight, can only be accessed after defeating the Mantis Lords.",
+      "1 in Queen's Station up in the ceiling where Willoh is eating mushrooms.",
+      "1 in a room to the northeast of the Overgrown Mound, near the Lifeblood Cocoon.",
+      "1 in the room connected to the Forgotten Crossroads, hidden in the left wall.",
+      "1 found in the Resting Grounds in the catacombs east of the lift, behind several breakable walls.",
+      "1 given as a reward from the Seer for 100 Essence.",
+      "1 to the northwest of Relic Seeker Lemm.",
+      "1 above the King's Station Stag Station.",
+      "1 in Soul Sanctum in the west most room after fighting the Soul Master.",
+      "1 in Watcher's Spire in the room northwest of the Watcher Knight fight.",
+      "1 in the south part of Beast's Den.",
+      "1 in a room northwest of the Mantis Lords.",
+      "1 found in Queen's Gardens to the northwest of the Stag Station."
+    ],
+    "effects": "Can be sold to Relic Seeker Lemm",
+    "type": "Collectible",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Hallownest_Seal/Hallownest_Seal.webp"
+    ],
+    "description_2": "Relic from Hallownest's past. This item now holds little value except for those dedicated to the kingdom's history."
+  },
+  {
+    "id": "76445e5c-8ae5-478e-b38d-55999941ca1a",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Wanderer's Journal",
+    "description_1": "A journal left behind by a long-dead traveller. The words are written in a forgotten dialect and difficult to understand.",
+    "use": "Can be sold to Relic Seeker Lemm for 200 Geo.",
+    "how_to_acquire": [
+      "1 outside of the Stag Station behind a breakable wall.",
+      "1 in the room connecting to Fog Canyon.",
+      "1 in the room southwest of where two Shrumal Ogres are encountered.",
+      "1 near the Whispering Root north of the Mantis Village.",
+      "1 to the west of the City Storerooms Stag Station.",
+      "1 north of King's Station.",
+      "1 in the Pleasure House behind a hidden passage.",
+      "1 found in the Howling Cliffs.",
+      "1 found in Crystal Peak in a room with 7 Crystal Crawlers.",
+      "1 found in the Resting Grounds in a room near the Soul Eater Charm.",
+      "1 found in the Royal Waterways in the room which connects to Ancient Basin.",
+      "1 in the western part near the entrance to King's Station.",
+      "1 next to the Bench on the path leading to the Cast-Off Shell.",
+      "1 to the northwest of where Markoth can be found."
+    ],
+    "effects": "Can be sold to Relic Seeker Lemm",
+    "type": "Collectible",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Wanderer_s_Journal/Wanderer_s_Journal.webp"
+    ],
+    "description_2": "Relic from Hallownest's past. This item now holds little value except for those dedicated to the kingdom's history."
+  },
+  {
+    "id": "c89412fc-de6c-4cb0-926d-9918575f6d53",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Elegant Key",
+    "description_1": "Ornate key made from a glistening white metal.",
+    "use": "Opens the locked door that holds the Shade Soul Spell in Soul Sanctum, in the City of Tears. Inside is a Soul Warrior that continuously spawns Follies.",
+    "how_to_acquire": [
+      "Purchased from Sly in Dirtmouth for 800 Geo after giving him the Shopkeeper's Key."
+    ],
+    "effects": "Unlocks room to Shade Soul",
+    "type": "Key",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Elegant_Key/Elegant_Key.webp"
+    ],
+    "description_2": "Bears the mark of Hallownest's Soul Sanctum and glows faintly in the dark."
+  },
+  {
+    "id": "2292cb42-d18b-487a-b328-7583ac988145",
+    "created_at": "2024-06-14 19:20:59.541336+00",
+    "item": "Pale Ore",
+    "description_1": "Rare, pale metal that emanates an icy chill.",
+    "use": "Pale Ore can be found in several places throughout Hallownest. Giving the Nailsmith Pale Ore along with a payment of Geo allows him to upgrade the Knight's Nail. The first upgrade to the Nail requires no Pale Ore, the second requires one, the third requires two, and the final upgrade requires three Pale Ore, for a total of six.",
+    "how_to_acquire": [
+      "Found in Ancient Basin, west of the tram station and the main Ancient Basin entrance.",
+      "Given by the Seer.",
+      "Found in Hallownest's Crown at the very top of Crystal Peak, embedded in the pedestal of a statue of the Radiance.",
+      "Found in Nosk's lair in Deepnest, accessed by breaking a wall in the room just west of the Hot Spring.",
+      "Given by Grubfather.",
+      "Reward in Colosseum of Fools."
+    ],
+    "effects": "Give to Nailsmith to upgrade Nail",
+    "type": "Upgrade Material",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Items/Pale_Ore/Pale_Ore.webp"
+    ],
+    "description_2": "Prized by those who craft weapons."
+  }
+]

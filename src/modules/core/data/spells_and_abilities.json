@@ -1,0 +1,261 @@
+[
+  {
+    "id": "60b39e9f-05c4-4590-93ad-e766cf1c3778",
+    "created_at": "2024-06-05 12:46:53.921522+00",
+    "name": "Vengeful Spirit",
+    "inventory_description_1": "Conjure a spirit that will fly forward and burn foes in its path.",
+    "prompt_description_1": "Tap FOCUS/CAST to unleash the Spirit.",
+    "function": "Press FOCUS/CAST or QUICK CAST without holding UP or DOWN to launch a projectile that passes through enemies and deals damage. The projectile passes through invulnerable parts of an enemy, such as a shield or shell, but will not damage a fully protected enemy. Before any other Spells have been acquired, Vengeful Spirit is cast regardless of the direction being held.",
+    "modifiers": [
+      "The Flukenest Charm turns Vengeful Spirit into a horde of baby flukes that bounce around dealing damage. This is particularly powerful up close, and damage falls off with distance.",
+      "When combined with the Defender`s Crest Charm, launches a single large fluke that explodes into a damage-dealing cloud of gas.",
+      "The Shaman Stone Charm increases the size of the projectile and the damage dealt by 33%.",
+      "The Spell Twister Charm lowers the SOUL cost to cast Vengeful Spirit to 24 SOUL.",
+      "Can be upgraded into Shade Soul."
+    ],
+    "how_to_acquire": "It is given by the Snail Shaman located in the Ancestral Mound in the Forgotten Crossroads.",
+    "type": "spell",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Vengeful_Spirit/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Vengeful_Spirit/Prompt.webp"
+    ],
+    "inventory_description_2": "The spirit requires SOUL to be conjured. Strike enemies to gather SOUL.",
+    "prompt_description_2": "Spells will deplete SOUL. Replenish SOUL by striking enemies."
+  },
+  {
+    "id": "6bc7c9be-d9c7-4417-ad73-18927949d1de",
+    "created_at": "2024-06-05 12:46:53.921522+00",
+    "name": "Desolate Dive",
+    "inventory_description_1": "Strike the ground with a concentrated force of SOUL. This force can destroy foes or break through fragile structures.",
+    "prompt_description_1": "Tap FOCUS/CAST while holding DOWN to strike the earth with a burst of power.",
+    "function": "Press FOCUS/CAST or QUICK CAST while holding DOWN to cause the Knight to slam into the ground, creating a shockwave that spreads out and up. The dive deals 15 damage, while the shockwave deals 20. The Knight is invincible for 0.4 seconds during and after using Desolate Dive. This allows for chaining uses of Desolate Dive to avoid enemy damage as long as the Knight has enough SOUL. Using Desolate Dive in quick succession cancels the invincibility frames of the Spell if it is cast while the previous Spell`s invincibility frames have not yet run out. Desolate Dive also allows breaking certain floors, such as those to exit the Soul Sanctum and to enter Crystal Peak.",
+    "modifiers": [
+      "Shaman Stone increases the damage dealt by Desolate Dive by 51%.",
+      "Spell Twister lowers the SOUL cost to cast Desolate Dive to 24 SOUL.",
+      "Can be upgraded to Descending Dark."
+    ],
+    "how_to_acquire": "Reward for defeating Soul Master in the City of Tears.",
+    "type": "spell",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Desolate_Dive/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Desolate_Dive/Prompt.webp"
+    ],
+    "inventory_description_2": "The force requires SOUL to be conjured. Strike enemies to gather SOUL.",
+    "prompt_description_2": "Spells will deplete SOUL. Replenish SOUL by striking enemies."
+  },
+  {
+    "id": "9250ae52-8eac-41c8-9b47-7edf96f5ce5d",
+    "created_at": "2024-06-05 12:46:53.921522+00",
+    "name": "Abyss Shriek",
+    "inventory_description_1": "Blast foes with screaming SOUL and Shadow.",
+    "prompt_description_1": "Tap FOCUS/CAST while holding UP to unleash the Shriek. ",
+    "function": "Press FOCUS/CAST or QUICK CAST while holding UP to release a wave of energy in an arc with increased range around and above the Knight, dealing 4 bursts in quick succession. It is 16 times stronger than an Old Nail, making it the second strongest unmodified attack in the game, with the only other contender being the combined six strikes of the Cyclone Slash Nail Art with the Channelled, Coiled, and Pure Nails.",
+    "modifiers": [
+      "Shaman Stone increases the damage dealt by Abyss Shriek by 50%.",
+      "Spell Twister lowers the SOUL cost to cast Abyss Shriek to 24 SOUL."
+    ],
+    "how_to_acquire": "Stand on the pedestal in the room in the southwest part of the Abyss and use the Howling Wraiths Spell.",
+    "type": "spell",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Abyss_Shriek/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Abyss_Shriek/Prompt.webp"
+    ],
+    "inventory_description_2": "The Wraiths requires SOUL to be conjured. Strike enemies to gather SOUL.",
+    "prompt_description_2": "Spells will deplete SOUL. Replenish SOUL by striking enemies."
+  },
+  {
+    "id": "31a38152-16a6-45d2-bf02-7ca2fe3df6a6",
+    "created_at": "2024-06-05 12:46:53.921522+00",
+    "name": "Howling Wraiths",
+    "inventory_description_1": "Blast foes with screaming SOUL.",
+    "prompt_description_1": "Tap FOCUS/CAST while holding UP to unleash the Wraiths.",
+    "function": "Press FOCUS/CAST or QUICK CAST while holding UP to release a wave of energy in an arc around and above the Knight, dealing 3 hits. At 6 times the strength of an Old Nail, it deals twice as much damage as Vengeful Spirit if all three hits connect. The Spell has a wide range allowing for some hits even when the target is at an upper corner in relation to the Knight. Like Vengeful Spirit, this Spell can stall the Knight in mid-air, though it does not send them in a direction opposite of the force.",
+    "modifiers": [
+      "Shaman Stone increases the damage dealt by Howling Wraiths by 50%.",
+      "Spell Twister lowers the SOUL cost to cast Howling Wraiths to 24 SOUL.",
+      "Can be upgraded to Abyss Shriek."
+    ],
+    "how_to_acquire": "Found in the Overgrown Mound within Fog Canyon, next to the entrance to the Queen`s Gardens.",
+    "type": "spell",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Howling_Wraiths/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Howling_Wraiths/Prompt.webp"
+    ],
+    "inventory_description_2": "The Wraiths requires SOUL to be conjured. Strike enemies to gather SOUL.",
+    "prompt_description_2": "Spells will deplete SOUL. Replenish SOUL by striking enemies."
+  },
+  {
+    "id": "10dc8dc3-6982-43e7-b50c-66ca4927dcae",
+    "created_at": "2024-06-05 13:28:02.269472+00",
+    "name": "Mothwing Cloak",
+    "inventory_description_1": "Cloak threaded with mothwing strands. Allows the wearer to dash forwards along the ground or through the air.",
+    "prompt_description_1": "Press DASH to dash forwards.",
+    "function": "Press DASH to dash a short distance in the direction the Knight is facing. Can be used in mid-air. The cooldown between dashes is 0.6 seconds. Refreshes when the Knight lands on the ground, bounces off an enemy/object with their Nail, or clings to/jumps off a wall using the Mantis Claw. Allows the Knight to cross gaps too far to reach by jumping, and makes it easier to dodge enemies and their attacks.",
+    "modifiers": [
+      "Can be upgraded to the Shade Cloak.",
+      "The Dashmaster Charm reduces the cooldown between dashes from 0.6 seconds to 0.4 seconds. It also allows the Knight to dash downwards."
+    ],
+    "how_to_acquire": "Found on the body of a Vessel after defeating Hornet in Greenpath in the boss arena.",
+    "type": "ability",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Mothwing_Cloak/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Mothwing_Cloak/Prompt.webp"
+    ],
+    "inventory_description_2": null,
+    "prompt_description_2": "Use the cloak to dash quickly along the ground or through the air."
+  },
+  {
+    "id": "7e0f368e-4335-4f96-bd0a-375244004dd4",
+    "created_at": "2024-06-05 13:28:02.269472+00",
+    "name": "Mantis Claw",
+    "inventory_description_1": "Claw carved from bone. Allows the wearer to cling to walls and leap off them.",
+    "prompt_description_1": "Press JUMP while sliding against a wall to jump again.",
+    "function": "While close to a wall while in midair, press in the direction of the wall to cling to it and slide down. Press JUMP to launch diagonally away from the wall. This can be repeated an infinite number of times, allowing the Knight to climb up walls. This ability can only be used on completely vertical surfaces. This includes moving surfaces such as the conveyor belts in Crystal Peak. If both the RIGHT and LEFT buttons are pressed while sliding down a wall, the Knight slides at normal falling speed.",
+    "modifiers": null,
+    "how_to_acquire": "Located in Mantis Village. Mothwing Cloak recommended.",
+    "type": "ability",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Mantis_Claw/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Mantis_Claw/Prompt.webp"
+    ],
+    "inventory_description_2": null,
+    "prompt_description_2": "Jump from wall to wall to reach new areas."
+  },
+  {
+    "id": "7e938760-eea0-4eac-9f52-a9571ae01504",
+    "created_at": "2024-06-05 13:28:02.269472+00",
+    "name": "Isma's Tear",
+    "inventory_description_1": "Fruit formed from a single hardened tear. Once ingested it provides protection from the searing, acidic pools found in certain parts of Hallownest.",
+    "prompt_description_1": "Acid shall be repelled.",
+    "function": "Although very useful, Isma's Tear is not necessary to complete the game. Obtaining it allows access to the following: Shape of Unn in Greenpath. Access to Fog Canyon through Forgotten Crossroads or Fungal Wastes. A Grub in Isma's Grove. Access to the Queen`s Gardens. A Grub as well as a shortcut in Kingdom's Edge. It is also useful while exploring Fog Canyon and fighting Uumuu.",
+    "modifiers": null,
+    "how_to_acquire": "Located in Isma's Grove in the Royal Waterways. Accessing this area requires Crystal Heart and beating Dung Defender.",
+    "type": "ability",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Ismas_Tear/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Ismas_Tear/Prompt.webp"
+    ],
+    "inventory_description_2": null,
+    "prompt_description_2": "Swim in acidic waters without coming to any harm."
+  },
+  {
+    "id": "76b7a77a-cca1-45dc-aae2-df48747ef529",
+    "created_at": "2024-06-05 13:28:02.269472+00",
+    "name": "Shade Cloak",
+    "inventory_description_1": "Cloak formed from the substance of the Abyss. Allows the wearer to dash through enemies and their attacks without taking damage.",
+    "prompt_description_1": "Press DASH to dash forwards, cloaked in shadow.",
+    "function": "The Shade Cloak acts as an upgrade to the Mothwing Cloak. Environmental hazards still deal damage. Dashing through most projectiles destroys the projectile. The Shade Cloak has a small cooldown (1.5 sec) independent of the regular dash. This is indicated by shadow particles scattering around the Knight while it is on cooldown, then being absorbed into the Knight when it recharges. Dashing while the cooldown is in effect will result in a normal dash which does not phase through enemies. The Dashmaster Charm does not reduce the Shade Cloak cooldown. It only reduces the normal dash cooldown. Acquiring the Shade Cloak also unlocks new dialogue for Mask Maker.",
+    "modifiers": [
+      "The Sharp Shadow Charm causes the Shadow Dash to deal 1x Nail damage and increases dash length by 40%."
+    ],
+    "how_to_acquire": "Located in the Abyss, to the very east, beyond the sea of Void. The Knight must first climb the lighthouse on the west side of the sea and activate the light in order to suppress the Void Tendrils blocking access to the Shade Cloak room. Once there, standing inside the bowl of the Void fountain results in Void permeating the Knight before the ability is granted.",
+    "type": "ability",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Shade_Cloak/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Shade_Cloak/Prompt.webp"
+    ],
+    "inventory_description_2": null,
+    "prompt_description_2": "Use the cloak to dash through enemies and their attacks without taking damage."
+  },
+  {
+    "id": "eb8bde9c-d7ec-49bb-8688-0f3b5495a96a",
+    "created_at": "2024-06-05 12:46:53.921522+00",
+    "name": "Focus",
+    "inventory_description_1": "Focus collected SOUL to repair your shell and heal damage. Strike enemies to gather SOUL.",
+    "prompt_description_1": "Collect SOUL by striking enemies.",
+    "function": "Hold down FOCUS/CAST to drain SOUL and regenerate health at a rate of 1 Mask per 33 SOUL. It takes 1.141 seconds to heal the first Mask including the initial startup time of 0.25 seconds. Continuing to hold FOCUS/CAST continues to heal 1 Mask of health as long as the Knight has 33 or more SOUL. This takes 0.891 seconds and skips the startup time. If the Knight does not have enough SOUL, it is not possible to use Focus. However, if Focus is used while at full health, or a full cast of Focus is not performed, stored SOUL is still used up. Getting hit by an enemy interrupts casting (even while protected by the Baldur Shell Charm or having the damage negated by the Grimm Troupe content Carefree Melody Charm) and wastes any SOUL used during the incomplete cast.",
+    "modifiers": [
+      "Baldur Shell gives protection while Focusing.",
+      "Deep Focus heals 2 Masks of health per Focus at a 65% slower rate.",
+      "Quick Focus allows the Knight to Focus 33% faster.",
+      "Equipping both Quick Focus and Deep Focus restores 2 Masks at a 10% slower rate compared to having neither equipped.",
+      "Joni`s Blessing turns all Masks into Lifeblood Masks, preventing the Knight from healing Masks when Focusing.",
+      "Shape of Unn allows the Knight to move while Focusing.",
+      "Spore Shroom creates a cloud of damaging spores after Focusing."
+    ],
+    "how_to_acquire": "The Knight starts the game with this ability. Additionally, there is a tutorial prompt that appears after the Knight passes the Focus Lore Tablet in King's Pass and has enough SOUL to heal a missing Mask.",
+    "type": "spell",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Focus/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Focus/Prompt.webp"
+    ],
+    "inventory_description_2": "Strike enemies to gather SOUL.",
+    "prompt_description_2": "Once enough SOUL is collected Hold FOCUS/CAST to focus SOUL and HEAL."
+  },
+  {
+    "id": "609255f8-d2fc-4b01-91ad-2bf1c8b553a5",
+    "created_at": "2024-06-05 13:28:02.269472+00",
+    "name": "Crystal Heart",
+    "inventory_description_1": "The energy core of an old mining golem, fashioned around a potent crystal. The crystal's energy can be channeled sic to launch the bearer forward at dangerous speeds.",
+    "prompt_description_1": "Hold SUPER DASH while on the ground or clinging to a wall to concentrate the force.",
+    "function": "Hold SUPER DASH while on the ground or clinging to a wall to concentrate force. Release the button at full charge to blast forwards and fly through the air. The Knight continues moving forward until interrupted by damage or the environment, by pressing JUMP or by tapping SUPER DASH again. The Super Dash deals 10 damage on contact with an enemy, and any enemy killed by this hit does not damage the Knight or stop their movement.",
+    "modifiers": null,
+    "how_to_acquire": "Found in an old mining golem at the end of a platforming segment in Crystal Peak. Requires Mantis Claw and Mothwing Cloak.",
+    "type": "ability",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Crystal_Heart/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Crystal_Heart/Prompt.webp"
+    ],
+    "inventory_description_2": null,
+    "prompt_description_2": "Release the button to blast forwards and fly through the air."
+  },
+  {
+    "id": "0f5faa33-0b51-4772-8354-220a50a4480c",
+    "created_at": "2024-06-05 12:46:53.921522+00",
+    "name": "Shade Soul",
+    "inventory_description_1": "Conjure a shadow that will fly forward and burn foes in its path.",
+    "prompt_description_1": "Tap FOCUS/CAST to unleash a more powerful spirit.",
+    "function": "Press FOCUS/CAST or QUICK CAST without holding UP or DOWN to launch a projectile that passes through enemies and deals damage. The projectile now moves 12.5% faster and penetrates all objects in its path including walls and invulnerable parts of enemies, such as shields and shells, but does not damage a fully protected enemy.",
+    "modifiers": [
+      "Flukenest turns the Shade Soul into a horde of black baby flukes that bounce around dealing damage.",
+      "When Flukenest is combined with Defender`s Crest, it launches a single large fluke that explodes into a damage-dealing cloud of gas.",
+      "Shaman Stone increases the width of the projectile and increases the damage dealt by 33%.",
+      "Spell Twister lowers the SOUL cost to cast Shade Soul to 24 SOUL."
+    ],
+    "how_to_acquire": "Requires purchasing the Elegant Key from Sly in Dirtmouth after obtaining the Shopkeeper's Key. The Spell is located behind a locked door in Soul Sanctum within the City of Tears. Requires defeating a Soul Warrior that continuously spawns Follies.",
+    "type": "spell",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Shade_Soul/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Shade_Soul/Prompt.webp"
+    ],
+    "inventory_description_2": "The shadow requires SOUL to be conjured. Strike enemies to gather SOUL.",
+    "prompt_description_2": "This spell consumes the same amount of SOUL, with increased power."
+  },
+  {
+    "id": "4f998023-cc13-4831-81fa-22544c81da4f",
+    "created_at": "2024-06-05 12:46:53.921522+00",
+    "name": "Descending Dark",
+    "inventory_description_1": "Strike the ground with a concentrated force of SOUL and Shadow. This force can destroy foes or break through fragile structures.",
+    "prompt_description_1": "Tap FOCUS/CAST while holding DOWN to strike the earth with a burst of power.",
+    "function": "Press FOCUS/CAST or QUICK CAST while holding DOWN to cause the Knight to slam into the ground, creating a shockwave that spreads further upwards than Desolate Dive, and bursts twice. The dive itself deals 15 damage, the left half of the first burst deals 35 damage, the right half deals 30, and the second burst deals 15 damage on either side, for a total of 60 or 65 damage.Like Desolate Dive, using Descending Dark makes the Knight invincible for 0.4 seconds and allows breaking of some floors. Using Descending Dark in quick succession cancels the invincibility frames of the spell if it is cast while the previous Spell's invincibility frames have not yet run out.",
+    "modifiers": [
+      "Shaman Stone increases the damage dealt by Descending Dark by 47%.",
+      "Spell Twister lowers the SOUL cost to cast Descending Dark to 24 SOUL."
+    ],
+    "how_to_acquire": "It is found on a snail shaman's corpse in Crystal Peak, within the Crystallised Mound. It is recommended to have the Lumafly Lantern in order to reach this area.",
+    "type": "spell",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Descending_Dark/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Spells/Descending_Dark/Prompt.webp"
+    ],
+    "inventory_description_2": "The force requires SOUL to be conjured. Strike enemies to gather SOUL.",
+    "prompt_description_2": "Spells will deplete SOUL. Replenish SOUL by striking enemies."
+  },
+  {
+    "id": "453ef40e-c09c-40d2-a179-5ff0a7ebfe54",
+    "created_at": "2024-06-05 13:28:02.269472+00",
+    "name": "Monarch Wings",
+    "inventory_description_1": "Wings of ethereal matter that shimmer in the darkness. Allow one to jump again in mid-air.",
+    "prompt_description_1": "Press JUMP while in the air to flap the wings.",
+    "function": "Press JUMP while in the air to perform a double-jump. Refreshes when the Knight lands on the ground, bounces off an enemy/object with their Nail, or clings to/jumps off a wall using the Mantis Claw. Similar to the regular jump the height of the \"flap\" scales with how long the JUMP button is held. The Monarch Wings are not necessary to finish the game; however, they allow access to the following areas: The Palace Grounds and consequently the White Palace. The Fungal Core and consequently a Mask Shard. The Enraged Guardian's room and consequently a Mask Shard. The Monarch Wings are intended to be used to access Hallownest's Crown, the Watcher's Spire, the Hive, and Hornet in Kingdom's Edge. However, these locations can be accessed by Nail-bouncing on enemies and environmental objects. The Monarch Wings are also very useful for platforming and during fights against some bosses. The first frame of animation when using Monarch Wings does not immediately lift the Knight up, this is why there can be cases where the Knight gets hit by hazards below when falling despite the wings successfully manifesting.",
+    "modifiers": null,
+    "how_to_acquire": "Located in the Ancient Basin, just after the Broken Vessel boss fight. The Crystal Heart is required to reach this location.",
+    "type": "ability",
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Monarch_Wings/Inventory.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Spells_and_Abilities/Abilities/Monarch_Wings/Prompt.webp"
+    ],
+    "inventory_description_2": null,
+    "prompt_description_2": "Use these ethereal wings to sail above enemies and discover new paths."
+  }
+]

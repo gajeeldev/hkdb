@@ -2,7 +2,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Drawer } from 'expo-router/drawer';
 
 const DrawerLayout = () => (
-  <Drawer>
+  <Drawer screenOptions={{ headerTransparent: true, }}>
     <Drawer.Screen
       name="index"
       options={{
@@ -13,7 +13,7 @@ const DrawerLayout = () => (
     />
 
     <Drawer.Screen
-      name="achivements/index"
+      name="achievements/index"
       options={{
         headerTitle: 'Achievements',
         drawerLabel: 'Achievements',
@@ -28,9 +28,7 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'Areas',
         drawerLabel: 'Areas',
-        drawerIcon: ({ size, color }) => (
-          <Ionicons name="map-outline" size={size} color={color} />
-        ),
+        drawerIcon: ({ size, color }) => <Ionicons name="map-outline" size={size} color={color} />,
       }}
     />
 
@@ -88,9 +86,7 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'NPCs',
         drawerLabel: 'NPCs',
-        drawerIcon: ({ size, color }) => (
-          <Ionicons name="leaf-outline" size={size} color={color} />
-        ),
+        drawerIcon: ({ size, color }) => <Ionicons name="leaf-outline" size={size} color={color} />,
       }}
     />
 

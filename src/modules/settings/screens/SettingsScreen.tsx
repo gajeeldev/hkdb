@@ -5,7 +5,8 @@ export const SettingsScreen = () => {
   return (
     <Container>
       <ScreenContent path="app/settings/settings.tsx" title="Settings" />
-      <Link href={'/appearance'}>
+
+      <Link href={'/appearance'} asChild>
         <Button title="Go to Appearance" />
       </Link>
     </Container>

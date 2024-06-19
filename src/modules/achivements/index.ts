@@ -1,1 +1,1 @@
-export * from './screens/AchivementsScreen';
+export * from './screens/AchievementsScreen';

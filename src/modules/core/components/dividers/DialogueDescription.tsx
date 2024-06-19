@@ -32,7 +32,6 @@ const DialogueDescription = ({ firstDescription, secondDescription }: Props) => 
       <Text
         style={{
           color: '#f5f5f5',
-          fontFamily: 'Times New Roman',
           fontStyle: 'italic',
           fontSize: fontScale * 18,
           textAlign: 'center',
@@ -105,7 +104,6 @@ const SecondDescription = ({
       <Text
         style={{
           color: textColor,
-          fontFamily: 'Times New Roman',
           fontStyle: 'italic',
           fontSize: fontScale * 18,
           textAlign: 'center',
