@@ -2,18 +2,14 @@ import { Text } from 'react-native';
 import { useThemeContext } from '../../hooks/useThemeContext';
 
 export const Title = ({ text }: { text: string }) => {
-
-
-  const { theme } = useThemeContext();
   return (
     <Text
       style={{
-        color: theme.colors.text,
+        color: '#f5f5f5',
         fontSize: 24,
-        fontWeight: '700',
         textAlign: 'center',
         marginBottom: 20,
-        fontFamily: 'TrajanPro-Regular',
+        fontFamily: 'TrajanPro-Bold',
       }}>
       {text}
     </Text>

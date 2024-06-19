@@ -2,8 +2,6 @@ import { View, Text, useWindowDimensions, StyleSheet } from 'react-native';
 import React from 'react';
 import { Image } from 'expo-image';
 import { blurhash } from '../../config/constants/constans';
-import { useThemeContext } from '../../hooks/useThemeContext';
-import { useFonts } from 'expo-font';
 
 interface Props {
   firstDescription: string;
@@ -12,7 +10,6 @@ interface Props {
 
 const DialogueDescription = ({ firstDescription, secondDescription }: Props) => {
   const { width, height, fontScale } = useWindowDimensions();
-  const { theme } = useThemeContext();
 
   return (
     <View style={styles.container}>
@@ -34,7 +31,7 @@ const DialogueDescription = ({ firstDescription, secondDescription }: Props) => 
 
       <Text
         style={{
-          color: theme.colors.text,
+          color: '#f5f5f5',
           fontFamily: 'Times New Roman',
           fontStyle: 'italic',
           fontSize: fontScale * 18,
@@ -49,7 +46,7 @@ const DialogueDescription = ({ firstDescription, secondDescription }: Props) => 
           width={width}
           height={height}
           fontScale={fontScale}
-          textColor={theme.colors.text}
+          textColor={'#f5f5f5'}
           description={secondDescription}
         />
       )}

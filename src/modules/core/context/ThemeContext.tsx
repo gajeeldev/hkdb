@@ -39,7 +39,7 @@ export const ThemeContextProvider = ({ children }: PropsWithChildren) => {
   };
 
   return (
-    <ThemeProvider value={theme}>
+    <ThemeProvider value={darkTheme}>
       <ThemeContext.Provider
         value={{
           isDark: isDarkTheme,
