@@ -1,4 +1,7 @@
 
+export * from './components/ui/NoIdScreen';
+export * from './components/GoBack';
+
 export * from './config/constants/constans';
 
 export * from './config/theme/theme';
@@ -16,3 +19,4 @@ export { TabBarIcon } from './components/TabBarIcon';
 
 // Screens
 export * from './screens/KnightScreen';
+

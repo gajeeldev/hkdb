@@ -16,6 +16,7 @@ export const Button = forwardRef<TouchableOpacity, ButtonProps>(({ onPress, titl
 
 const styles = StyleSheet.create({
   button: {
+    marginBottom: 16,
     alignItems: 'center',
     backgroundColor: '#6366F1',
     borderRadius: 24,

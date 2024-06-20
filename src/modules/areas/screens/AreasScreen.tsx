@@ -1,10 +1,20 @@
 /* eslint-disable prettier/prettier */
-import { Container, ScreenContent } from '~/modules/core';
+import { Button, globalStyles } from '~/modules/core';
+import Areas from '../../core/data/areas.json';
+import { Link } from 'expo-router';
+import { ScrollView, View } from 'react-native';
 
 export const AreasScreen = () => {
+  Areas.sort((a, b) => a.area.localeCompare(b.area));
   return (
-    <Container>
-      <ScreenContent path="app/(drawer)/areas/index.tsx" title="Areas" />
-    </Container>
+    <View style={globalStyles.container}>
+      <ScrollView style={{ paddingTop: 20 }}>
+        {Areas.map((area) => (
+          <Link href={`/areas/${area.id}`} asChild key={area.id}>
+            <Button title={area.area} />
+          </Link>
+        ))}
+      </ScrollView>
+    </View>
   );
 };

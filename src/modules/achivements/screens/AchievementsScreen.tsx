@@ -21,6 +21,8 @@ const manualAchievements = [
 ];
 
 export const AchievementsScreen = () => {
+  Achievements.sort((a, b) => a.achievement.localeCompare(b.achievement));
+
   return (
     <View style={globalStyles.container}>
       <FlatList
@@ -29,7 +31,7 @@ export const AchievementsScreen = () => {
         renderItem={({ item }) => <AchievementsCard {...item} />}
         showsVerticalScrollIndicator={false}
         ItemSeparatorComponent={() => <View style={{ height: 10 }} />}
-        ListHeaderComponent={() => <View style={{ height: 80 }} />}
+        ListHeaderComponent={() => <View style={{ height: 20 }} />}
         ListFooterComponent={() => <View style={{ height: 20 }} />}
       />
     </View>
