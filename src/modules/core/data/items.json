@@ -62,7 +62,7 @@
     "created_at": "2024-06-14 19:20:59.541336+00",
     "item": "Hunter's Journal",
     "description_1": "Press INVENTORY to open the Menu, then navigate to the \"Journal\" pane.",
-    "use": "Defeating a specified number of each enemy unlocks additional notes from the Hunter about that enemy, as well as bits of lore, techniques for fighting said enemy, or even information about the Hunter himself. A few entries can only be obtained by inspecting a specific object or as a reward for completing a challenge. After completing most entries, the Hunter`s Mark can be acquired.",
+    "use": "Defeating a specified number of each enemy unlocks additional notes from the Hunter about that enemy, as well as bits of lore, techniques for fighting said enemy, or even information about the Hunter himself. A few entries can only be obtained by inspecting a specific object or as a reward for completing a challenge.\n\nAfter completing most entries, the Hunter`s Mark can be acquired.",
     "how_to_acquire": [
       "Dropped on the ground by the Hunter in Greenpath after listening to him for the first time. When it is inspected, the Journal can be found as a pane in the Menu."
     ],
@@ -78,7 +78,7 @@
     "created_at": "2024-06-14 19:20:59.541336+00",
     "item": "City Crest",
     "description_1": "Stone slab bearing the crest of the Hallownest capital city. Has an insert on the back that would fit into a slot.",
-    "use": "Opens the gate between the Fungal Wastes and the City of Tears. The Mantis Claw is required to gain access to this area of the Fungal Wastes. The Crest needs to be inserted into a slot on a statue of the Great Knight Hegemol. Placing it there consumes the City Crest. After walking through the opened gate, it closes and cannot be opened again. It is possible to open the ceiling above the gate by coming from the City of Tears and using the Desolate Dive/Descending Dark Spell on a breakable floor. While the intended entrance to the City of Tears is to use the City Crest, there are additional ways to enter the City of Tears, such as dropping down from the Resting Grounds or coming from the Royal Waterways.",
+    "use": "Opens the gate between the Fungal Wastes and the City of Tears. The Mantis Claw is required to gain access to this area of the Fungal Wastes.\n\nThe Crest needs to be inserted into a slot on a statue of the Great Knight Hegemol. Placing it there consumes the City Crest. After walking through the opened gate, it closes and cannot be opened again. It is possible to open the ceiling above the gate by coming from the City of Tears and using the Desolate Dive/Descending Dark Spell on a breakable floor.\n\nWhile the intended entrance to the City of Tears is to use the City Crest, there are additional ways to enter the City of Tears, such as dropping down from the Resting Grounds or coming from the Royal Waterways.",
     "how_to_acquire": [
       "Drops from False Knight in the Forgotten Crossroads after defeating him."
     ],
@@ -110,7 +110,7 @@
     "created_at": "2024-06-14 19:20:59.541336+00",
     "item": "Salubra's Blessing",
     "description_1": "A boon bestowed by Charm Lover Salubra.",
-    "use": "When resting at a Bench, an apparition of Salubra appears after two seconds, dancing over the Knight and regenerating 50 SOUL per second. This does not occur when the Knight is resting after resuming a save file. To start restoring SOUL, simply get up from the Bench and rest again. Buying her blessing also gives the Blessed achievement.",
+    "use": "When resting at a Bench, an apparition of Salubra appears after two seconds, dancing over the Knight and regenerating 50 SOUL per second.\n\nThis does not occur when the Knight is resting after resuming a save file. To start restoring SOUL, simply get up from the Bench and rest again.\n\nBuying her blessing also gives the Blessed achievement.",
     "how_to_acquire": [
       "Bought from Salubra in the Forgotten Crossroads for 800 Geo after acquiring 40 Charms."
     ],
@@ -126,7 +126,7 @@
     "created_at": "2024-06-14 19:20:59.541336+00",
     "item": "Rancid Egg",
     "description_1": "Fatty, rancid egg of an unknown creature. Emits a powerful stench of decay.",
-    "use": "A collectable item recovered from the corpses of Bluggsacs. Either an already-dead Bluggsac has to be found or a living one has to be killed to make it drop a Rancid Egg. Once a Bluggsac has been killed, it remains dead, even when resting at a Bench. Can be given to Confessor Jiji to summon the Shade that is currently in the game world. In Steel Soul Mode, Steel Soul Jinn replaces Jiji and can be given Rancid Eggs in return for 290-449 Geo.",
+    "use": "A collectable item recovered from the corpses of Bluggsacs. Either an already-dead Bluggsac has to be found or a living one has to be killed to make it drop a Rancid Egg. Once a Bluggsac has been killed, it remains dead, even when resting at a Bench.\n\nCan be given to Confessor Jiji to summon the Shade that is currently in the game world.\n\nIn Steel Soul Mode, Steel Soul Jinn replaces Jiji and can be given Rancid Eggs in return for 290-449 Geo.",
     "how_to_acquire": [
       "An infinite amount can be bought from Tuk for 80-100 Geo in the Royal Waterways but she does not sell anymore if the Knight has 80 Eggs (Only in normal mode)",
       "1 on Tuk's corpse (Only in Steel Soul mode)",
@@ -155,7 +155,7 @@
     "created_at": "2024-06-14 19:20:59.541336+00",
     "item": "Simple Key",
     "description_1": "Cheaply manufactured from a common design. Can be used to open a range of simple locks.",
-    "use": "The entrance to the Royal Waterways from the City of Tears. The cave to the right of Dirtmouth, beyond the graveyard. This cave is home to Confessor Jiji, who, in return for a Rancid Egg, can summon the Knight's Shade, which is useful if the Shade is stuck in a hard-to-access area and holding a lot of Geo. In Steel Soul Mode, the cave is instead home to Steel Soul Jinn, who trades Rancid Eggs from the Knight for Geo. The Pleasure House in the City of Tears, along with a Hot Spring, Poggy Thorax, and Songstress Marissa. It is also Millibelle's refuge after she scams the Knight. Once inside, a shortcut can be opened from the Hot Spring to a lift shaft that leads from the City of Tears to the Resting Grounds, and also grants easy access to the northern part of Kingdom's Edge and the Colosseum of Fools. The cocoon of the Godseeker in the Junk Pit. Using the Dream Nail on her grants access to Godhome.",
+    "use": "The entrance to the Royal Waterways from the City of Tears.\nThe cave to the right of Dirtmouth, beyond the graveyard. This cave is home to Confessor Jiji, who, in return for a Rancid Egg, can summon the Knight's Shade, which is useful if the Shade is stuck in a hard-to-access area and holding a lot of Geo. In Steel Soul Mode, the cave is instead home to Steel Soul Jinn, who trades Rancid Eggs from the Knight for Geo.\nThe Pleasure House in the City of Tears, along with a Hot Spring, Poggy Thorax, and Songstress Marissa. It is also Millibelle's refuge after she scams the Knight. Once inside, a shortcut can be opened from the Hot Spring to a lift shaft that leads from the City of Tears to the Resting Grounds, and also grants easy access to the northern part of Kingdom's Edge and the Colosseum of Fools.\nThe cocoon of the Godseeker in the Junk Pit. Using the Dream Nail on her grants access to Godhome.",
     "how_to_acquire": [
       "One can be bought from Sly in Dirtmouth for 950 Geo.",
       "One can be found in the City of Tears, in the big room with Winged Sentries and a Whispering Root just below the City Storerooms. The key is located in the topmost alcove on the right of the room.",
@@ -174,7 +174,7 @@
     "created_at": "2024-06-14 19:20:59.541336+00",
     "item": "Lumafly Lantern",
     "description_1": "Crystal lantern containing a Lumafly. Brightens dark caverns so wanderers can find their way.",
-    "use": "In dark areas, the Lumafly Lantern brightens up the area around the Knight, giving more visibility and allowing them to pay tolls to open Benches or doors. It is also required to fight No Eyes at the Stone Sanctuary. The following maps show all areas and which parts of the areas the Lumafly Lantern applies to. The Lumafly Lantern is not used in Fog Canyon, Fungal Wastes, Kingdom's Edge, and the Hive.",
+    "use": "In dark areas, the Lumafly Lantern brightens up the area around the Knight, giving more visibility and allowing them to pay tolls to open Benches or doors.\n\nIt is also required to fight No Eyes at the Stone Sanctuary.\n\nThe following maps show all areas and which parts of the areas the Lumafly Lantern applies to. The Lumafly Lantern is not used in Fog Canyon, Fungal Wastes, Kingdom's Edge, and the Hive.",
     "how_to_acquire": [
       "Can be purchased from Sly in Dirtmouth for 1800 Geo."
     ],
@@ -299,7 +299,7 @@
     "created_at": "2024-06-14 19:20:59.541336+00",
     "item": "Pale Ore",
     "description_1": "Rare, pale metal that emanates an icy chill.",
-    "use": "Pale Ore can be found in several places throughout Hallownest. Giving the Nailsmith Pale Ore along with a payment of Geo allows him to upgrade the Knight's Nail. The first upgrade to the Nail requires no Pale Ore, the second requires one, the third requires two, and the final upgrade requires three Pale Ore, for a total of six.",
+    "use": "Pale Ore can be found in several places throughout Hallownest. Giving the Nailsmith Pale Ore along with a payment of Geo allows him to upgrade the Knight's Nail.\n\nThe first upgrade to the Nail requires no Pale Ore, the second requires one, the third requires two, and the final upgrade requires three Pale Ore, for a total of six.",
     "how_to_acquire": [
       "Found in Ancient Basin, west of the tram station and the main Ancient Basin entrance.",
       "Given by the Seer.",

@@ -13,7 +13,7 @@ export const BossDetailScreen = ({ id }: { id: string | string[] }) => {
       <Stack.Screen
         options={{
           title: boss.boss,
-          headerLeft: () => <GoBack link="/bosses" />,
+          headerLeft: () => <GoBack />,
         }}
       />
       <ScrollView>

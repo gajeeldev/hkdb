@@ -1,14 +1,14 @@
 import { useLocalSearchParams } from 'expo-router';
 import { NoIdScreen } from '~/modules/core';
-import { CharmDetailScreen } from '~/modules/charms';
+import EnemyDetailScreen from '~/modules/enemies/screens/EnemyDetailScreen';
 
-const CharmsDetailPage = () => {
+const EnemyDetailPage = () => {
   const { id } = useLocalSearchParams();
 
   if (!id) {
     return <NoIdScreen />;
   }
-  return <CharmDetailScreen id={id} />;
+  return <EnemyDetailScreen id={id} />;
 };
 
-export default CharmsDetailPage;
+export default EnemyDetailPage;

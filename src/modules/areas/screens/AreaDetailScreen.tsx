@@ -13,7 +13,7 @@ export const AreaDetailScreen = ({ id }: { id: string | string[] }) => {
       <Stack.Screen
         options={{
           title: area?.area,
-          headerLeft: () => <GoBack link="/areas" />,
+          headerLeft: () => <GoBack />,
         }}
       />
       <ScrollView>

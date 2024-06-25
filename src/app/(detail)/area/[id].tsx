@@ -1,15 +1,19 @@
 import { useLocalSearchParams } from 'expo-router';
-import { BossDetailScreen } from '~/modules/bosses';
+import { AreaDetailScreen } from '~/modules/areas';
 import { NoIdScreen } from '~/modules/core';
 
-const BossesDetailPage = () => {
+const AreaDetailPage = () => {
   const { id } = useLocalSearchParams();
 
   if (!id) {
     return <NoIdScreen />;
   }
 
-  return <BossDetailScreen id={id} />;
+  return (
+    <>
+      <AreaDetailScreen id={id} />
+    </>
+  );
 };
 
-export default BossesDetailPage;
+export default AreaDetailPage;

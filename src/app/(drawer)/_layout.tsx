@@ -36,12 +36,6 @@ const DrawerLayout = () => (
         drawerIcon: ({ size, color }) => <Ionicons name="map-outline" size={size} color={color} />,
       }}
     />
-    <Drawer.Screen
-      name="areas/[id]"
-      options={{
-        drawerItemStyle: { display: 'none' },
-      }}
-    />
 
     <Drawer.Screen
       name="bosses/index"
@@ -53,12 +47,6 @@ const DrawerLayout = () => (
         ),
       }}
     />
-    <Drawer.Screen
-      name="bosses/[id]"
-      options={{
-        drawerItemStyle: { display: 'none' },
-      }}
-    />
 
     <Drawer.Screen
       name="charms/index"
@@ -66,12 +54,6 @@ const DrawerLayout = () => (
         headerTitle: 'Charms',
         drawerLabel: 'Charms',
         drawerIcon: ({ size, color }) => <Ionicons name="disc-outline" size={size} color={color} />,
-      }}
-    />
-    <Drawer.Screen
-      name="charms/[id]"
-      options={{
-        drawerItemStyle: { display: 'none' },
       }}
     />
 

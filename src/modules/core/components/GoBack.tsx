@@ -1,18 +1,22 @@
-import { Link } from 'expo-router';
+import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { Platform, Text, View } from 'react-native';
+import { Platform, Text, TouchableOpacity, View } from 'react-native';
 
-export const GoBack = ({ link }: { link: string }) => {
+export const GoBack = () => {
+  const router = useRouter();
+
   return (
-    <Link href={link} style={{ marginLeft: 10 }}>
+    <TouchableOpacity onPress={() => router.back()}>
       <View style={{ flexDirection: 'row', alignItems: 'center' }}>
         <Ionicons
           name={Platform.OS === 'ios' ? 'chevron-back-outline' : 'arrow-back'}
-          size={24}
+          size={26}
           color="white"
         />
-        <Text style={{ color: 'white' }}>{Platform.OS === 'ios' ? 'Back' : null}</Text>
+        <Text style={{ color: 'white', fontSize: 18 }}>
+          {Platform.OS === 'ios' ? 'Back' : null}
+        </Text>
       </View>
-    </Link>
+    </TouchableOpacity>
   );
 };

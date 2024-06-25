@@ -1,9 +1,21 @@
-import { Container, ScreenContent } from '~/modules/core';
+import { ScrollView, View } from 'react-native';
+import { Button, globalStyles } from '~/modules/core';
+import Enemies from '../../core/data/enemies.json';
+import { Link } from 'expo-router';
 
 export const EnemiesScreen = () => {
+
+  const sortedEnemies = [...Enemies].sort((a, b) => a.enemy.localeCompare(b.enemy));
+
   return (
-    <Container>
-      <ScreenContent path="app/(drawer)/enemies/index.tsx" title="Enemies" />
-    </Container>
+    <View style={globalStyles.container}>
+      <ScrollView style={{ paddingTop: 20 }}>
+        {sortedEnemies.map((enemy) => (
+          <Link href={`(detail)/enemy/${enemy.id}`} asChild key={enemy.id}>
+            <Button title={enemy.enemy} />
+          </Link>
+        ))}
+      </ScrollView>
+    </View>
   );
 };

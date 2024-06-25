@@ -3,9 +3,9 @@
     "id": "da612214-282c-4396-b4aa-4d70603de6bf",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Atra",
-    "description": "Don't fear little creature. Though a violent rage once possessed me the peaceful air in this place seems to keep it at bay. My appearance should not cause you worry. Here I am truly at peace.",
+    "description": "Don't fear little creature. Though a violent rage once possessed me the peaceful air in this place seems to keep it at bay.\n\nMy appearance should not cause you worry. Here I am truly at peace.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Atra/Atra.webp"
     ],
@@ -15,9 +15,9 @@
     "id": "1f31d2c8-d052-49b6-ab08-32a8bb4520d7",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Boss",
-    "description": "I came from far away to reach this place. Though my shell may seem foreign, beneath it I am a bug the same as you. You too are a warrior? I see your nail, but your shell seems underdeveloped. In your current state, to travel a land as dangerous as this seems unwise.",
+    "description": "I came from far away to reach this place. Though my shell may seem foreign, beneath it I am a bug the same as you.\n\nYou too are a warrior? I see your nail, but your shell seems underdeveloped. In your current state, to travel a land as dangerous as this seems unwise.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Boss/Boss.webp"
     ],
@@ -27,9 +27,9 @@
     "id": "a0d4a873-6b8e-4c5b-972c-35bf8be5b23e",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Brumm",
-    "description": "Mrmm. A song that never ends... is no song at all. - Brumm",
-    "lore": "Brumm is a member of the Grimm Troupe. Although he initially encourages the Knight to search for flames for the Grimmchild, he begins having second thoughts about the Ritual later on. He does not approve of the Ritual playing itself out repeatedly and endlessly, considering himself and the rest of the Troupe slaves to it. Brumm believes the gathering of flames desecrates the dead Kingdom of Hallownest. He wants to make the Ritual fail by destroying the Nightmare Lantern, the anchor keeping the Grimm Troupe in Hallownest.",
-    "type": "strange bug",
+    "description": "Mrmm. A song that never ends... is no song at all.\n\n - Brumm",
+    "lore": "Brumm is a member of the Grimm Troupe. Although he initially encourages the Knight to search for flames for the Grimmchild, he begins having second thoughts about the Ritual later on.\n\nHe does not approve of the Ritual playing itself out repeatedly and endlessly, considering himself and the rest of the Troupe slaves to it. Brumm believes the gathering of flames desecrates the dead Kingdom of Hallownest. He wants to make the Ritual fail by destroying the Nightmare Lantern, the anchor keeping the Grimm Troupe in Hallownest.",
+    "type": "Strange Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Brumm/Brumm_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Brumm/Brumm_2.webp"
@@ -40,9 +40,9 @@
     "id": "b8505abb-2d7e-47b5-a0a3-c89cd672f420",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Caelif & Fer Orthop",
-    "description": "Isn't this just the most intriguing place? So many discoveries waiting to be made. We're about to set off ourselves, though we can't seem to agree on which way to head. It's led to something of an argument between us. We should really stop squabbling about such petty things. Left or right? Which way is best? It should be a simple thing, yet we're always at odds.",
+    "description": "Isn't this just the most intriguing place? So many discoveries waiting to be made. We're about to set off ourselves, though we can't seem to agree on which way to head.\n\nIt's led to something of an argument between us. We should really stop squabbling about such petty things. Left or right? Which way is best? It should be a simple thing, yet we're always at odds.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Caelif_and_Fer_%20Orthop/Caelif_and_Fera.webp"
     ],
@@ -52,9 +52,9 @@
     "id": "13aadc6c-b3ff-4c32-ad93-8ca17a28a381",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Confessor Jiji",
-    "description": "If we don't deal with these regrets, hope starts to drain from us. - Confessor Jiji",
-    "lore": "Residents of Dirtmouth have long pondered on a mysterious stone door at the base of the Crystal Peak beyond their graveyard. Suggestions were once made to forcibly open the door, but awful groaning from within kept the townsfolk at bay. She was asleep there for a very long time but was woken up when the Knight entered. She notes that the land is now covered with the stains of regret, and wonders what would happen to her should she fall asleep again. Jiji makes mention of her \"masters\" whom she also shares with Steel Soul Jinn. These masters oppose order and have minds that are stated to be other. They are described as being different from Jinn and more complete.",
-    "type": "strange bug",
+    "description": "If we don't deal with these regrets, hope starts to drain from us.\n\n - Confessor Jiji",
+    "lore": "Residents of Dirtmouth have long pondered on a mysterious stone door at the base of the Crystal Peak beyond their graveyard. Suggestions were once made to forcibly open the door, but awful groaning from within kept the townsfolk at bay.\n\nShe was asleep there for a very long time but was woken up when the Knight entered. She notes that the land is now covered with the stains of regret, and wonders what would happen to her should she fall asleep again.\n\nJiji makes mention of her \"masters\" whom she also shares with Steel Soul Jinn. These masters oppose order and have minds that are stated to be other. They are described as being different from Jinn and more complete.",
+    "type": "Strange Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Confessor_Jiji/Confessor_Jiji.webp"
     ],
@@ -64,9 +64,9 @@
     "id": "c4bee501-4302-4f15-9508-ff11c6113756",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Caspian",
-    "description": "Beware your own mind little one. Twisted minds breed dark deeds and mine was more twisted than most. I thought it would be my end, but instead I found this glade and with it a sort of peace. Do you think dark thoughts little one? When hidden behind a visage as impassive as your own, I find it hard to tell.",
+    "description": "Beware your own mind little one. Twisted minds breed dark deeds and mine was more twisted than most.\n\nI thought it would be my end, but instead I found this glade and with it a sort of peace.\n\nDo you think dark thoughts little one? When hidden behind a visage as impassive as your own, I find it hard to tell.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Caspian/Caspian.webp"
     ],
@@ -76,9 +76,9 @@
     "id": "467c8287-9fcf-4c3b-8028-4df992be0cf4",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Cloth",
-    "description": "You act so confident in battle. You show no fear before your foes. I'll try my best to do the same. - Cloth",
-    "lore": "Cloth is a large cicada warrior. She set out to Hallownest in order to prove her courage by defeating mighty creatures. However, her cowardly nature often takes over her bravado and leads to hiding underground to escape her foes or to simply sleep, snoring loudly while doing so. She is motivated by the prospect of dying in an epic battle and joining her departed Nola. Cloth fights by brandishing a club cut from the tooth of an ancient beast. She jumps before landing her club, smashing her opponents to bits.",
-    "type": "normal bug",
+    "description": "You act so confident in battle. You show no fear before your foes. I'll try my best to do the same.\n\n - Cloth",
+    "lore": "Cloth is a large cicada warrior. She set out to Hallownest in order to prove her courage by defeating mighty creatures. However, her cowardly nature often takes over her bravado and leads to hiding underground to escape her foes or to simply sleep, snoring loudly while doing so. She is motivated by the prospect of dying in an epic battle and joining her departed Nola.\n\nCloth fights by brandishing a club cut from the tooth of an ancient beast. She jumps before landing her club, smashing her opponents to bits.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Cloth/Cloth_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Cloth/Cloth_2.webp",
@@ -90,9 +90,9 @@
     "id": "a9274479-1327-4bfc-86a7-e3fa531d25f6",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Distant Villagers",
-    "description": "We are friends. Welcome. Sit and rest. - Distant Villagers",
+    "description": "We are friends. Welcome. Sit and rest.\n\n - Distant Villagers",
     "lore": null,
-    "type": "normal bug",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Distant_Villagers/Royal_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Distant_Villagers/Royal_2.webp"
@@ -103,9 +103,9 @@
     "id": "4b4e88ed-06a2-45ce-bc77-fccfa0eb88d4",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Garro",
-    "description": "Are you a warrior, little one? A true warrior is one who can stand strong in the midst of a storm. Stand strong little warrior.",
+    "description": "Are you a warrior, little one? A true warrior is one who can stand strong in the midst of a storm.\n\nStand strong little warrior.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Garro/Garro.webp"
     ],
@@ -115,9 +115,9 @@
     "id": "359d9b96-04df-462e-9102-4da5cb54f59d",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Dung Defender",
-    "description": "Skilled combatant living at the heart of the Waterways. Assails intruders with balls of compacted dung. Fighting for \"honour\", or for \"loyalty\"... you may as well be fighting for dust. If you want to kill, do it for your own sake. That is the nature of a true Hunter.",
-    "lore": "The Dung Defender used to be known as Ogrim, the most loyal of the Five Great Knights of Hallownest. As such, he participated in many battles and adventures. He was also equally renowned for his bad scent, although that did not keep him from enjoying the company of the White Lady and his fellow knights. He was particularly fond of the knight Isma. Ogrim survived the Infection but isolated himself in a part of the Royal Waterways where refuse gathers. There, as the Dung Defender, he guards the pump control that allows entry to Isma's Grove on the other side of the sewers. The Dung Defender defies any who would enter the place to challenge him. He also passes time by rolling dung around and moulding statues out of it. The Dung Defender seems unaware of the fate of his king and the other knights. In his isolation, he deludes himself into thinking they will return and that Hallownest can be reborn.",
-    "type": "normal bug",
+    "description": "Skilled combatant living at the heart of the Waterways. Assails intruders with balls of compacted dung.\n\n Fighting for \"honour\", or for \"loyalty\"... you may as well be fighting for dust. If you want to kill, do it for your own sake. That is the nature of a true Hunter.",
+    "lore": "The Dung Defender used to be known as Ogrim, the most loyal of the Five Great Knights of Hallownest. As such, he participated in many battles and adventures. He was also equally renowned for his bad scent, although that did not keep him from enjoying the company of the White Lady and his fellow knights. He was particularly fond of the knight Isma.\n\nOgrim survived the Infection but isolated himself in a part of the Royal Waterways where refuse gathers. There, as the Dung Defender, he guards the pump control that allows entry to Isma's Grove on the other side of the sewers. The Dung Defender defies any who would enter the place to challenge him. He also passes time by rolling dung around and moulding statues out of it.\n\nThe Dung Defender seems unaware of the fate of his king and the other knights. In his isolation, he deludes himself into thinking they will return and that Hallownest can be reborn.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Dung_Defender/Dung_Defender.webp"
     ],
@@ -127,9 +127,9 @@
     "id": "286ee62a-a19c-4ca4-bc85-ca012d0fd670",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Dr Chagax",
-    "description": "I used to help others. They were brought to me sick and dying... What difference did it make?... Any victory against death will always be temporary.... What a gloomy thought.",
+    "description": "I used to help others. They were brought to me sick and dying... What difference did it make?...\n\nAny victory against death will always be temporary.... What a gloomy thought.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Dr_Chagax/Dr_Chagax.webp"
     ],
@@ -139,9 +139,9 @@
     "id": "c32f2d49-e77e-4e80-9878-de94e10372f8",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Gravedigger",
-    "description": "Ehh... Another wielding a weapon. I suppose you'll be leaving many a corpse in your wake?. If you won't spare thought for the dead at least consider all the extra work you force upon those in my profession. Do as you will little wanderer. Cut a path toward your goal. I shouldn't complain. It's your kind that keeps folks like me in business.",
+    "description": "Ehh... Another wielding a weapon. I suppose you'll be leaving many a corpse in your wake?.\n\nIf you won't spare thought for the dead at least consider all the extra work you force upon those in my profession.\n\nDo as you will little wanderer. Cut a path toward your goal.\n\nI shouldn't complain. It's your kind that keeps folks like me in business.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Gravedigger/Gravedigger.webp"
     ],
@@ -151,9 +151,9 @@
     "id": "9747c029-f6d0-4fd6-9b21-8c1181450312",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Fluke Hermit",
-    "description": "Noisy... Gla gla... Scary up up... Stay here, gla… - Fluke Hermit",
+    "description": "Noisy... Gla gla... Scary up up... Stay here, gla…\n\n - Fluke Hermit",
     "lore": "Fluke Hermit is an uninfected Fluke. She gathers some of the junk that collects in and around the Junk Pit, regarding it as treasure. She notes that her mother's \"glow\" appears angry, hinting at Flukemarm being Infected. After Flukemarm's death, she wonders if she is now the new mother.",
-    "type": "fluke",
+    "type": "Fluke",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Fluke_Hermit/Fluke_Hermit_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Fluke_Hermit/Fluke_Hermit_2.webp"
@@ -164,9 +164,9 @@
     "id": "63cee0a1-bf9b-43da-9eee-5a053a3d6ffc",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Elderbug",
-    "description": "I'm afraid there's only me left to offer welcome. Our town`s fallen quiet you see. The other residents, they've all disappeared. - Elderbug",
-    "lore": "While Elderbug is the oldest bug in Dirtmouth, he was not around before the fall of Hallownest, the Stag Station of Dirtmouth being closed even before his time. Since all of Dirtmouth's residents have disappeared down the well into the Forgotten Crossroads, Elderbug is the only remaining resident in town. These bugs followed their dreams and then never returned, making him believe that dreams are not so great after all. He has become pessimistic, seeing the world as faded, with dark thoughts creeping into his mind. Elderbug had an old friend who is buried in the graveyard of Dirtmouth. He visits her grave occasionally.",
-    "type": "normal bug",
+    "description": "I'm afraid there's only me left to offer welcome. Our town's fallen quiet you see. The other residents, they've all disappeared.\n\n - Elderbug",
+    "lore": "While Elderbug is the oldest bug in Dirtmouth, he was not around before the fall of Hallownest, the Stag Station of Dirtmouth being closed even before his time.\n\nSince all of Dirtmouth's residents have disappeared down the well into the Forgotten Crossroads, Elderbug is the only remaining resident in town. These bugs followed their dreams and then never returned, making him believe that dreams are not so great after all. He has become pessimistic, seeing the world as faded, with dark thoughts creeping into his mind.\n\nElderbug had an old friend who is buried in the graveyard of Dirtmouth. He visits her grave occasionally.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Elderbug/Elderbug_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Elderbug/Elderbug_2.webp"
@@ -177,9 +177,9 @@
     "id": "065e427c-d8be-4ac8-9f48-ea01372e1c10",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Eternal Emilitia",
-    "description": "I'm renowned amongst the upper caste of Hallownest. ...Well I was... once, until those cretins cast me out. - Eternal Emilitia",
+    "description": "I'm renowned amongst the upper caste of Hallownest. ...Well I was... once, until those cretins cast me out.\n\n - Eternal Emilitia",
     "lore": "Emilitia used to be renowned amongst the upper caste of Hallownest but was at some point cast out by her fellows. While the rest of Hallownest's higher class has died, their bodies walking around mindlessly in the City of Tears, Emilitia managed to survive. This fact brings her great happiness, causing her to laugh to herself constantly in her room.",
-    "type": "upper-class bug",
+    "type": "Upper-Class Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Eternal_Emilitia/Eternal_Emilitia.webp"
     ],
@@ -189,9 +189,9 @@
     "id": "6d8710f7-ba5f-4a4d-92f1-735fef6e83a7",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Grimm",
-    "description": "Master of the Grimm Troupe. \"Through dream I travel, at lantern's call, To consume the flames of a kingdom's fall.\" - Grimm",
-    "lore": "Grimm is the master of the Grimm Troupe, a mysterious travelling circus. In truth, Grimm and his Troupe travel from the Nightmare Realm to wherever the Nightmare Lantern has been lit by acolytes. They gather Nightmare Flames from ruined lands to fuel the sinister being enslaving the Troupe, the Nightmare's Heart. Their ritual to feed the Nightmare's Heart consists of feeding first a Grimmchild with Nightmare Flames. They then slay the Nightmare King for it to be reborn anew through the Grimmchild.",
-    "type": "strange bug",
+    "description": "Master of the Grimm Troupe.\n\n\"Through dream I travel, at lantern's call, To consume the flames of a kingdom's fall.\"\n\n - Grimm",
+    "lore": "Grimm is the master of the Grimm Troupe, a mysterious travelling circus. In truth, Grimm and his Troupe travel from the Nightmare Realm to wherever the Nightmare Lantern has been lit by acolytes. They gather Nightmare Flames from ruined lands to fuel the sinister being enslaving the Troupe, the Nightmare's Heart.\n\nTheir ritual to feed the Nightmare's Heart consists of feeding first a Grimmchild with Nightmare Flames. They then slay the Nightmare King for it to be reborn anew through the Grimmchild.",
+    "type": "Strange Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Troupe_Master_Grimm/Grimm_1.webp"
     ],
@@ -201,9 +201,9 @@
     "id": "19280125-62f5-4973-b504-554d09a7e7d1",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Grimmsteed",
-    "description": "The roads between are dark and long, but the Master's light will always guide us. - Grimmsteed",
-    "lore": "The Grimmsteeds are two faithful bugs who are part of the Grimm Troupe. They are possibly the ones who pull the Troupe's caravan. Due to their visual similarities, they appear to be of the same species as Willoh. The Grimmsteeds sit silently in front of Grimm's tent, waiting for the performance to begin.",
-    "type": "strange bug",
+    "description": "The roads between are dark and long, but the Master's light will always guide us.\n\n - Grimmsteed",
+    "lore": "The Grimmsteeds are two faithful bugs who are part of the Grimm Troupe. They are possibly the ones who pull the Troupe's caravan. Due to their visual similarities, they appear to be of the same species as Willoh.\n\nThe Grimmsteeds sit silently in front of Grimm's tent, waiting for the performance to begin.",
+    "type": "Strange Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Grimmsteed/Grimmsteed_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Grimmsteed/Grimmsteed_2.webp"
@@ -214,9 +214,9 @@
     "id": "5489c0d8-7ba2-40d5-947c-a0c682280243",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Grubfather",
-    "description": "Happy...happy...happy!!! - Grubfather",
-    "lore": "Grubfather is the ageing patriarch of a colony of Grubs who make their home in a room in the Forgotten Crossroads. Grubs are harmless creatures who have a good sense of direction and are highly skilled tunnelers. They are known to collect shiny things in their burrows, such as Geo and Relics. Due to mysterious reasons, all of Grubfather's children disappeared. The Grubs can be found trapped in jars in various locations throughout Hallownest, locked there by the Collector.",
-    "type": "normal bug",
+    "description": "Happy...happy...happy!!!\n\n - Grubfather",
+    "lore": "Grubfather is the ageing patriarch of a colony of Grubs who make their home in a room in the Forgotten Crossroads. Grubs are harmless creatures who have a good sense of direction and are highly skilled tunnelers. They are known to collect shiny things in their burrows, such as Geo and Relics.\n\nDue to mysterious reasons, all of Grubfather's children disappeared. The Grubs can be found trapped in jars in various locations throughout Hallownest, locked there by the Collector.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Grubfather/Grubfather_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Grubfather/Grubfather_2.webp"
@@ -227,9 +227,9 @@
     "id": "2f4d5414-5d91-4895-824e-9ffadfac960b",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Grohac",
-    "description": "We're always left with reminders of the errors we've made. Let your mistakes not burden you, but serve as guideposts on where not to travel. These husks around my neck? They`re my precious friends, always there to keep me company and much better for conversation than the rest of the odd lot around here.",
+    "description": "We're always left with reminders of the errors we've made. Let your mistakes not burden you, but serve as guideposts on where not to travel.\n\nThese husks around my neck? They're my precious friends, always there to keep me company and much better for conversation than the rest of the odd lot around here.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Grohac/Grohac.webp"
     ],
@@ -241,7 +241,7 @@
     "npc": "Hex",
     "description": "\"I'll see you soon,\" she said, though that was long ago. I wonder where she went?. Go bother someone else. You're not the one I'm waiting for.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Hex/Hex.webp"
     ],
@@ -251,8 +251,8 @@
     "id": "89b382b7-cbd5-4f19-86ff-088f8c75cce9",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Hornet",
-    "description": "Skilled protector of Hallownest`s ruins. Wields a needle and thread. I have seen this nimble little creature. I thought her prey and pounced at her, but with a flash she stabbed me with her flying stinger and darted away. Could she be... a Hunter?",
-    "lore": "Hornet is the daughter of the Pale King and Herrah the Beast, the queen of Deepnest. Her birth was the result of a bargain for her mother to become a Dreamer, and as such, she spent only a short time with Herrah. Her shared father with the Knight and the rest of the Vessels makes them siblings. Raised in Deepnest, Hornet survived the Infection and the fall of the kingdom. She wanders its ruins, chasing off travellers who would seek to desecrate them, but also protecting the sealing of the Black Egg. She also guards the Cast-Off Shell in the Kingdom's Edge which can grant the King's Brand, the key to the Abyss. In her duties, she encountered Quirrel in the Howling Cliffs at his arrival in Hallownest. She attempted to fight him but was repelled by the mask of Monomon he wears on his head. Hornet leaves him be after recognizing the mask, knowing that he was called upon, despite him not knowing it. Like Quirrel and the Knight, she sensed the awakening of the Infection and started wandering Hallownest in search of answers. In Hollow Knight, she works to stop the impending doom looming on Hallownest. In Hollow Knight: Silksong, she ends up captured and brought to the haunted kingdom of Pharloom.",
+    "description": "Skilled protector of Hallownest's ruins. Wields a needle and thread.\n\nI have seen this nimble little creature. I thought her prey and pounced at her, but with a flash she stabbed me with her flying stinger and darted away. Could she be... a Hunter?",
+    "lore": "Hornet is the daughter of the Pale King and Herrah the Beast, the queen of Deepnest. Her birth was the result of a bargain for her mother to become a Dreamer, and as such, she spent only a short time with Herrah. Her shared father with the Knight and the rest of the Vessels makes them siblings.\n\nRaised in Deepnest, Hornet survived the Infection and the fall of the kingdom. She wanders its ruins, chasing off travellers who would seek to desecrate them, but also protecting the sealing of the Black Egg. She also guards the Cast-Off Shell in the Kingdom's Edge which can grant the King's Brand, the key to the Abyss. In her duties, she encountered Quirrel in the Howling Cliffs at his arrival in Hallownest. She attempted to fight him but was repelled by the mask of Monomon he wears on his head. Hornet leaves him be after recognizing the mask, knowing that he was called upon, despite him not knowing it.\n\nLike Quirrel and the Knight, she sensed the awakening of the Infection and started wandering Hallownest in search of answers. In Hollow Knight, she works to stop the impending doom looming on Hallownest. In Hollow Knight: Silksong, she ends up captured and brought to the haunted kingdom of Pharloom.",
     "type": "arachnid",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Hornet/Hornet_1.webp",
@@ -264,9 +264,9 @@
     "id": "34400aa6-df2e-40de-93d5-fd67cd7ce884",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Jinn",
-    "description": "Jinn, little know... cannot tell of self. Too young, its thought, its mind. Born to provide, to trade. - Steel Soul Jinn",
+    "description": "Jinn, little know... cannot tell of self. Too young, its thought, its mind. Born to provide, to trade.\n\n- Steel Soul Jinn",
     "lore": "Jinn resides in the locked cavern by the base of Crystal Peak in Dirtmouth, where she has been sleeping. She has unseen masters who do not seek order. Jinn speaks in rhythm and claims to be too young to tell anything about herself beside her purpose of providing and trading. Her metallic body cannot take damage, although she still reacts to strikes at her.",
-    "type": "strange bug",
+    "type": "Strange Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Jinn/Jinn_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Jinn/Jinn_2.webp"
@@ -277,9 +277,9 @@
     "id": "d3846b7b-5179-40a4-9b94-669eec809a1c",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Joni",
-    "description": "Ahhh, I see you bear my blessing. I can't remember giving it, but my memory has been a little lacking of late. - Joni",
+    "description": "Ahhh, I see you bear my blessing. I can't remember giving it, but my memory has been a little lacking of late.\n\n - Joni",
     "lore": "Joni was known as \"the kindly heretic\". She gave a blessing which is able to transfigure vital fluids into blue lifeblood. At a certain point, Joni passed away. Her corpse was placed on a plinth in Joni's Repose.",
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Joni/Joni_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Joni/Joni_2.webp"
@@ -290,9 +290,9 @@
     "id": "c0c69bd9-cfc6-44b2-9bec-b9b85971820d",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Karina",
-    "description": "Are you admiring my fabulous markings? I'm of a distinguished species you see, though I've not seen another like me for the longest time. You don't seem to bear the markings of rank, though you bear no markings of a lower form. What are you? Do tell me. Are you a higher being or just another lowly grub?",
+    "description": "Are you admiring my fabulous markings? I'm of a distinguished species you see, though I've not seen another like me for the longest time.\n\nYou don't seem to bear the markings of rank, though you bear no markings of a lower form.\n\nWhat are you? Do tell me. Are you a higher being or just another lowly grub?",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Karina/Karina.webp"
     ],
@@ -302,9 +302,9 @@
     "id": "8be276cf-b7f1-4864-a47f-f12fe7862874",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Kcin",
-    "description": "I was once obsessed with power though my time within this glade has shed me of such desire. What folly it was to ever crave such a vicious thing. Seeking power is a hollow goal. Best to search for other things.",
+    "description": "I was once obsessed with power though my time within this glade has shed me of such desire.\n\nWhat folly it was to ever crave such a vicious thing.\n\nSeeking power is a hollow goal. Best to search for other things.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Kcin/Kcin.webp"
     ],
@@ -314,9 +314,9 @@
     "id": "61ea8b80-a4a7-4793-9f66-f33fd8bc98ac",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Last Stag",
-    "description": "I've grown stiff and tired over these many years and I've forgotten much, but the sound of the bell will always call me back. - The Last Stag",
-    "lore": "The Last Stag is a large stag beetle and the last of his kind in Hallownest. During the kingdom's heyday, stags were used to transport bugs and goods across the land through the Stagways. When Hallownest fell, travels died down and most of the Stag Stations were closed. Even though his own kind disappeared and old age starts impairing him, the Last Stag remains faithful to his duties. He transports any bug calling him with the bell of a Station, wherever they are. However, his memory has been lacking and he forgot where the Stations are located on the Stagways, even the Stag Nest. Yet, the Last Stag keeps a good memory of the places he once visited and still remembers much of Hallownest's golden age. His dedication to the Stagways makes him dislike the Tramways the Pale King was building before the latter's disappearance. He also makes no difference between his riders, despite his own feelings about them.",
-    "type": "normal bug",
+    "description": "I've grown stiff and tired over these many years and I've forgotten much, but the sound of the bell will always call me back.\n\n - The Last Stag",
+    "lore": "The Last Stag is a large stag beetle and the last of his kind in Hallownest. During the kingdom's heyday, stags were used to transport bugs and goods across the land through the Stagways. When Hallownest fell, travels died down and most of the Stag Stations were closed.\n\nEven though his own kind disappeared and old age starts impairing him, the Last Stag remains faithful to his duties. He transports any bug calling him with the bell of a Station, wherever they are. However, his memory has been lacking and he forgot where the Stations are located on the Stagways, even the Stag Nest. Yet, the Last Stag keeps a good memory of the places he once visited and still remembers much of Hallownest's golden age.\n\nHis dedication to the Stagways makes him dislike the Tramways the Pale King was building before the latter's disappearance. He also makes no difference between his riders, despite his own feelings about them.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Last_Stag/Last_Stag.webp"
     ],
@@ -326,9 +326,9 @@
     "id": "8afbbb31-1154-4fff-b761-f04e9d237feb",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Leg Eater",
-    "description": "If you have enough Geo, you become a king. When I get enough Geo, I'll become a king... - Leg Eater",
+    "description": "If you have enough Geo, you become a king. When I get enough Geo, I'll become a king...\n\n - Leg Eater",
     "lore": "Leg Eater is blind but has a powerful sense of smell. He is a reserved bug who reacts with anger at any threat he may perceive. He is fixated on earning Geo, believing that if he has enough of it, it will make him become a king. Despite his own greed, he is prone to accusing others of the same sin, even wrongfully.",
-    "type": "normal bug",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Legeater/Legeater.webp"
     ],
@@ -338,9 +338,9 @@
     "id": "6566d503-9558-4ce8-b93c-d538b050e308",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Lemm",
-    "description": "There's a forgotten history hidden in this kingdom's antiques, though few seem willing to look. Others come just to claw away at the cracks and ruins. - Relic Seeker Lemm",
-    "lore": "Lemm moved into his shop in the City of Tears at some point after the place was already empty and everyone in the tower was dead. He explores his current location and covets antiques, gleaning any information on the land's history. While Lemm happily discusses his discoveries and hypotheses, he guards his collection and is not willing to sell any of it. He does not seek company unless they bring him more material for his collection.",
-    "type": "normal bug",
+    "description": "There's a forgotten history hidden in this kingdom's antiques, though few seem willing to look. Others come just to claw away at the cracks and ruins.\n\n - Relic Seeker Lemm",
+    "lore": "Lemm moved into his shop in the City of Tears at some point after the place was already empty and everyone in the tower was dead. He explores his current location and covets antiques, gleaning any information on the land's history.\n\nWhile Lemm happily discusses his discoveries and hypotheses, he guards his collection and is not willing to sell any of it. He does not seek company unless they bring him more material for his collection.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Lemm/Lemm_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Lemm/Lemm_2.webp"
@@ -351,9 +351,9 @@
     "id": "2712a063-a4a2-47c4-9417-a7c785916c2b",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Little Fool",
-    "description": "A true fool keeps on fighting, even when there is no more glory to be gained. - Little Fool",
+    "description": "A true fool keeps on fighting, even when there is no more glory to be gained.\n\n - Little Fool",
     "lore": "Little Fool is a dedicated supporter of the Fools battling for glory in the Colosseum's Trials. He himself dreams of proving his strength in battle to Lord Fool.",
-    "type": "normal bug",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Little_Fool/Little_Fool.webp"
     ],
@@ -363,8 +363,8 @@
     "id": "e84e4127-8aea-4a03-89f8-e4bad0f1a12d",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Midwife",
-    "description": "I`m a friend to all and happy to serve a traveller so bold as you. Is it information you seek? That I can provide. - Midwife",
-    "lore": "Midwife is a servant to the Nest, although few need her services as a midwife since Deepnest`s brood has fallen to the Infection. While she is willing to provide information on Herrah and the Weavers, her appetite often gets the better of her, making her try to eat others.",
+    "description": "I'm a friend to all and happy to serve a traveller so bold as you. Is it information you seek? That I can provide.\n\n - Midwife",
+    "lore": "Midwife is a servant to the Nest, although few need her services as a midwife since Deepnest's brood has fallen to the Infection. While she is willing to provide information on Herrah and the Weavers, her appetite often gets the better of her, making her try to eat others.",
     "type": "arachnoid",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Midwife/Midwife_1.webp",
@@ -376,21 +376,21 @@
     "id": "1f2ab660-3f23-4df6-b502-5909300566cb",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Millybug",
-    "description": "Buy my cookies! They`re ever so tasty. Buy my cookies! Once I`ve sold them all I can go home.",
+    "description": "Buy my cookies! They're ever so tasty.\n\n Buy my cookies! Once I've sold them all I can go home.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Millybug/Millybug.webp"
     ],
-    "location": "Spirits` Glade"
+    "location": "Spirits' Glade"
   },
   {
     "id": "fba34d60-254f-4b6b-9d4e-9410e9b4ab27",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Magnus Strong",
-    "description": "All of life's problems can be solved with crushing force. Such a simple mantra and one I`ve always lived by. If you weren't so scrawny, I'd suggest you follow my example. Remember tiny bug, crush your fears; crush your problems; crush your foes.",
+    "description": "All of life's problems can be solved with crushing force. Such a simple mantra and one I've always lived by.\n\nIf you weren't so scrawny, I'd suggest you follow my example.\n\nRemember tiny bug, crush your fears; crush your problems; crush your foes.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Magnus_Strong/Magnus_Strong.webp"
     ],
@@ -400,9 +400,9 @@
     "id": "e52b5071-bfe3-43dd-9f75-13ffef8cb1d7",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Marissa",
-    "description": "Huge crowds once flocked to hear me sing, then something changed. The audience, once so enrapt, began to leave. - Marissa",
-    "lore": "Marissa was a songstress of some renown in Hallownest's capital. She performed in the Pleasure House for enrapt crowds, with a voice that was described as being able to ease burdens and still troubled minds. When the Infection spread across Hallownest, Marissa's audiences eventually stopped coming to her performances. At some point, Marissa passed away. Her spirit remained on the stage where she used to perform. She continued to sing here even though nobody was left to listen.",
-    "type": "spirit",
+    "description": "Huge crowds once flocked to hear me sing, then something changed. The audience, once so enrapt, began to leave.\n\n - Marissa",
+    "lore": "Marissa was a songstress of some renown in Hallownest's capital. She performed in the Pleasure House for enrapt crowds, with a voice that was described as being able to ease burdens and still troubled minds. When the Infection spread across Hallownest, Marissa's audiences eventually stopped coming to her performances.\n\nAt some point, Marissa passed away. Her spirit remained on the stage where she used to perform. She continued to sing here even though nobody was left to listen.",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Marissa/Marissa.webp"
     ],
@@ -412,9 +412,9 @@
     "id": "c9fbd6a2-efb6-416b-b113-3dc24cf5679b",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Mask Maker",
-    "description": "A wonderful thing to have, a face. Not a thing with which we all are blessed. For this kingdom`s faceless, I shall provide. - Mask Maker",
-    "lore": "Mask Maker provides \"faces\" for the faceless of the Kingdom. They compare a mask to a face and believe that a face is needed to define, to focus, and to exist. While they say that they provide masks for the Kingdom, none of the masks which can be seen in their room correspond to the head of any bug found in Hallownest. Mask Maker comments on this, claiming that in Hallownest it is difficult to decipher whether a bug's face is a mask or their actual face. Mask Maker knows about the Vessel corpses sealed in the Abyss and about the ancient caste's attempts at ruling the entirety of Hallownest. They also have knowledge of the Knight's Void nature.",
-    "type": "large bug",
+    "description": "A wonderful thing to have, a face. Not a thing with which we all are blessed. For this kingdom's faceless, I shall provide.\n\n - Mask Maker",
+    "lore": "Mask Maker provides \"faces\" for the faceless of the Kingdom. They compare a mask to a face and believe that a face is needed to define, to focus, and to exist.\n\nWhile they say that they provide masks for the Kingdom, none of the masks which can be seen in their room correspond to the head of any bug found in Hallownest. Mask Maker comments on this, claiming that in Hallownest it is difficult to decipher whether a bug's face is a mask or their actual face.\n\nMask Maker knows about the Vessel corpses sealed in the Abyss and about the ancient caste's attempts at ruling the entirety of Hallownest. They also have knowledge of the Knight's Void nature.",
+    "type": "Large Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Mask_Maker/Mask_Maker_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Mask_Maker/Mask_Maker_2.webp",
@@ -427,9 +427,9 @@
     "id": "9e0273dc-09a9-4869-8e6b-2faeb8938150",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Mato",
-    "description": "Now I know how my own master felt when he passed down his teachings to us. - Nailmaster Mato",
-    "lore": "Mato learnt the Nail Arts from the Great Nailsage Sly along with his brothers Oro and Sheo. He was not the most skilled disciple of the three, his favourite move being the Cyclone Slash. Yet, he had a passion for teaching and hoped to perpetuate the Nailsage's knowledge to the next generation of Nailmasters. His devotion to the Nail Arts made him very close to his brother Sheo, the most talented. When the three disciples became confirmed Nailmasters, Mato decided to never meet his old master again before mastering his teachings. He established a hut at the top of the world in the Howling Cliffs to continue honing his skills. He did not leave Oro in good terms though, and still awaits the promise his brother made to him.",
-    "type": "normal bug",
+    "description": "Now I know how my own master felt when he passed down his teachings to us.\n\n - Nailmaster Mato",
+    "lore": "Mato learnt the Nail Arts from the Great Nailsage Sly along with his brothers Oro and Sheo. He was not the most skilled disciple of the three, his favourite move being the Cyclone Slash. Yet, he had a passion for teaching and hoped to perpetuate the Nailsage's knowledge to the next generation of Nailmasters. His devotion to the Nail Arts made him very close to his brother Sheo, the most talented.\n\nWhen the three disciples became confirmed Nailmasters, Mato decided to never meet his old master again before mastering his teachings. He established a hut at the top of the world in the Howling Cliffs to continue honing his skills. He did not leave Oro in good terms though, and still awaits the promise his brother made to him.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Mato/Mato.webp"
     ],
@@ -439,9 +439,9 @@
     "id": "b402f3a1-d16b-43b3-96dd-5b29de403c18",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Mister Mushroom",
-    "description": "Caps and shells may fall to dust, But Mr Mushroom readjusts... - Mister Mushroom",
+    "description": "Caps and shells may fall to dust, But Mr Mushroom readjusts...\n\n - Mister Mushroom",
     "lore": null,
-    "type": "mushroom",
+    "type": "Mushroom",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Mister_Mushroom/Mister_Mushroom_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Mister_Mushroom/Mister_Mushroom_2.webp"
@@ -452,9 +452,9 @@
     "id": "57a68741-bc18-4569-8240-24b66c69a996",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Nymm",
-    "description": "I find the place a little melancholy, what with the wind, and the darkness, and the sense of decline... I was hoping my music could go some way to livening up the place. - Nymm",
-    "lore": "Nymm is a bug who arrives in Dirtmouth after the Grimm Troupe is banished. He plays an accordion-like bug to bring cheer to the fading town, although he admits that even his song is a little on the sadder side. Nymm is content to be in Dirtmouth beside the company of the Knight. He greatly resembles Brumm without his mask. Nymm has no memory of why he travelled to Dirtmouth, or where he came from. He is not sure how he obtained Carefree Melody, but when he looks at its design it makes him think of something and somebody that he lost and forgot about.",
-    "type": "strange bug",
+    "description": "I find the place a little melancholy, what with the wind, and the darkness, and the sense of decline... I was hoping my music could go some way to livening up the place.\n\n - Nymm",
+    "lore": "Nymm is a bug who arrives in Dirtmouth after the Grimm Troupe is banished. He plays an accordion-like bug to bring cheer to the fading town, although he admits that even his song is a little on the sadder side. Nymm is content to be in Dirtmouth beside the company of the Knight.\n\nHe greatly resembles Brumm without his mask. Nymm has no memory of why he travelled to Dirtmouth, or where he came from. He is not sure how he obtained Carefree Melody, but when he looks at its design it makes him think of something and somebody that he lost and forgot about.",
+    "type": "Strange Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Nymm/Nymm.webp"
     ],
@@ -466,7 +466,7 @@
     "npc": "Molten",
     "description": "Don't fear my rotting form. Though my body sheds and changes my core remains the same.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Molten/Molten.webp"
     ],
@@ -476,9 +476,9 @@
     "id": "f15eb322-e445-4dd9-a63c-de1a75c6204e",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Moss Prophet",
-    "description": "Light is life, beaming, pure, brilliant. To stifle that light is to suppress nature. Nature suppressed distorts, plagues us. Embrace light! Achieve union! - Moss Prophet",
+    "description": "Light is life, beaming, pure, brilliant. To stifle that light is to suppress nature. Nature suppressed distorts, plagues us. Embrace light! Achieve union!\n\n - Moss Prophet",
     "lore": "While most Mosskin follow Unn, Moss Prophet preaches about the Radiance's light. They believe that Hallownest will be reborn once it is united in her blazing image. Moss Prophet warns that suppressing the Radiance's light causes the Infection.",
-    "type": "mosskin",
+    "type": "Mosskin",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Moss_Prophet/Moss_Prophet_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Moss_Prophet/Moss_Prophet_2.webp"
@@ -489,9 +489,9 @@
     "id": "403ead24-34c0-4413-a52e-2c3b705258e2",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Myla",
-    "description": "This is hard work, but I don't mind. Down here, I can k-keep working without even sleeping. It's fun! - Myla",
-    "lore": "While searching for something valuable hidden deeper within the crystals, she enjoys singing and wants to come up with some songs of her own. Myla hears the crystals singing and whispering, hoping to find them and hear what they are saying. Eventually, Myla becomes Infected, her cheerful song changing. The voice of the Radiance appears in her mind, commanding her to kill the Knight. In the end, the Infection overtakes her, making her become hostile. However, the song she always sang remains in her thoughts.",
-    "type": "normal bug",
+    "description": "This is hard work, but I don't mind. Down here, I can k-keep working without even sleeping. It's fun!\n\n - Myla",
+    "lore": "While searching for something valuable hidden deeper within the crystals, she enjoys singing and wants to come up with some songs of her own. Myla hears the crystals singing and whispering, hoping to find them and hear what they are saying.\n\nEventually, Myla becomes Infected, her cheerful song changing. The voice of the Radiance appears in her mind, commanding her to kill the Knight. In the end, the Infection overtakes her, making her become hostile. However, the song she always sang remains in her thoughts.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Myla/Myla_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Myla/Myla_2.webp"
@@ -502,9 +502,9 @@
     "id": "aa1b4af0-89a6-41f0-a293-aa2fe51447d9",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Nailsmith",
-    "description": "I`m not much for talk, but if its sic a nail that needs repair then you`ve come to the right bug. - The Nailsmith",
+    "description": "I'm not much for talk, but if its a nail that needs repair then you've come to the right bug.\n\n - The Nailsmith",
     "lore": "The Nailsmith is one of the few bugs that lived through the fall of Hallownest. Driven by his craft and working in seclusion, he barely noticed the world changing around him. Even before that, he hardly paid attention to the Kingdom's Five Great Knights. He spends his time honing his craft, hoping to forge one day a Pure Nail, the apex of his work. There are many nails surrounding his hut.",
-    "type": "normal bug",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Nailsmith/Nailsmith_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Nailsmith/Nailsmith_2.webp",
@@ -517,9 +517,9 @@
     "id": "9ae1545d-0954-408b-aae2-5c1e26fdc291",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Seer",
-    "description": "Tending these graves and guiding the Wielder... all penitence for old crimes. Certain things have to be kept in balance. - Seer",
+    "description": "Tending these graves and guiding the Wielder... all penitence for old crimes. Certain things have to be kept in balance.\n\n - Seer",
     "lore": "The Seer is the last surviving member of the Moth Tribe. She tends the graves of the Resting Grounds and guides the Knight because she regrets that her ancestors forgot about their creator, the Radiance.",
-    "type": "normal bug",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Seer/Seer_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Seer/Seer_2.webp"
@@ -530,9 +530,9 @@
     "id": "e0a2c62d-f354-44e5-a1dc-49f098c38780",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Sheo",
-    "description": "The wielding of a nail, the wielding of a brush... these things are not so different. We cut into the world so that we can peer deeper inside. - Nailmaster Sheo",
-    "lore": "Sheo learnt the Nail Arts from the Great Nailsage Sly, along with his brothers Oro and Mato. Despite his aloof and kind demeanour, he was the most skilled disciple, driven solely by his desire for strength and the mastering of his skills. Yet, this passion faded over time, as he desired to explore new forms of arts that could move him. He still had a good relationship with both of his quarrelling brothers and had respect for his master. After some time, Sheo hung up his nail to become an artist. He established a hut in a far corner of Greenpath where he experiments various forms of creative art in peace. He hopes to be able to show how far he has come in his craft to his old teacher.",
-    "type": "normal bug",
+    "description": "The wielding of a nail, the wielding of a brush... these things are not so different. We cut into the world so that we can peer deeper inside.\n\n - Nailmaster Sheo",
+    "lore": "Sheo learnt the Nail Arts from the Great Nailsage Sly, along with his brothers Oro and Mato. Despite his aloof and kind demeanour, he was the most skilled disciple, driven solely by his desire for strength and the mastering of his skills. Yet, this passion faded over time, as he desired to explore new forms of arts that could move him. He still had a good relationship with both of his quarrelling brothers and had respect for his master.\n\nAfter some time, Sheo hung up his nail to become an artist. He established a hut in a far corner of Greenpath where he experiments various forms of creative art in peace. He hopes to be able to show how far he has come in his craft to his old teacher.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Sheo/Sheo.webp"
     ],
@@ -542,9 +542,9 @@
     "id": "ba1db068-142c-4d25-a52d-f0219ea5ea68",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Revek",
-    "description": "The bugs within this glade are under my watch. Treat them with respect and you may remain, but raise your nail and you'll contend with me. - Revek",
+    "description": "The bugs within this glade are under my watch. Treat them with respect and you may remain, but raise your nail and you'll contend with me.\n\n - Revek",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Revek/Revek_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Revek/Revek_2.webp",
@@ -556,9 +556,9 @@
     "id": "8d889a70-7952-49e0-8d62-d5441c373dec",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Salubra",
-    "description": "I can see you've started your own collection. Very nice! I'll show you some of my own, and you can take one home with you if you like! - Charm Lover Salubra",
+    "description": "I can see you've started your own collection. Very nice! I'll show you some of my own, and you can take one home with you if you like!\n\n - Charm Lover Salubra",
     "lore": "Salubra's shop is located above the abandoned village at the bottom of the Forgotten Crossroads, near the Blue Lake. She is knowledgeable in the craft and use of Charms and eagerly shares them with others for Geo. She seems to be under the delusion that the village outside her house is still lively and is unaware of the Kingdom's demise. She is also very fond of the looks of the Knight.",
-    "type": "normal bug",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Salubra/Salubra.webp"
     ],
@@ -568,9 +568,9 @@
     "id": "422dc331-9ad0-47c5-a63a-ad3b4f0af434",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Poggy Thorax",
-    "description": "Skroink! You look pretty skinny. Very scrawny. That's the way to be I reckon. Just look at me! A great big, juicy, fatty, oily... scrumptious bug. No wonder I`m so popular around here. I've been waiting an awfully long while. Surely it's dinner time soon?",
+    "description": "Skroink! You look pretty skinny. Very scrawny. That's the way to be I reckon. Just look at me! A great big, juicy, fatty, oily... scrumptious bug. No wonder I'm so popular around here. I've been waiting an awfully long while. Surely it's dinner time soon?",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Poggy_Thorax/Poggy_Thorax.webp"
     ],
@@ -580,9 +580,9 @@
     "id": "425d19a4-0643-4e67-b592-1987ca84dede",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "The Hunter",
-    "description": "When I was young, my brothers and sisters and I would hunt each other in the nest. Now I hunt alone. - The Hunter",
-    "lore": "When the Hunter was young, he and his siblings used to hunt each other in their nest. Ever since then, he hunts alone without any companion or partner. The Hunter tries to kill any living being he can find, which he does only for his own sake, believing this to be the nature of the Hunt. In addition to this, he attempts to eat certain creatures, even Infected ones, though he does not like the taste of those. He looks down on the bugs of the kingdom of Hallownest, regarding them as weak and pathetic, with their kingdom being destined for ruin. Upon completion of his quest, the Hunter bides his time before his next hunt begins, as he believes that a true Hunter has no home or kingdom.",
-    "type": "strange bug",
+    "description": "When I was young, my brothers and sisters and I would hunt each other in the nest. Now I hunt alone.\n\n - The Hunter",
+    "lore": "When the Hunter was young, he and his siblings used to hunt each other in their nest. Ever since then, he hunts alone without any companion or partner.\n\nThe Hunter tries to kill any living being he can find, which he does only for his own sake, believing this to be the nature of the Hunt. In addition to this, he attempts to eat certain creatures, even Infected ones, though he does not like the taste of those.\n\nHe looks down on the bugs of the kingdom of Hallownest, regarding them as weak and pathetic, with their kingdom being destined for ruin.\n\nUpon completion of his quest, the Hunter bides his time before his next hunt begins, as he believes that a true Hunter has no home or kingdom.",
+    "type": "Strange Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/The_Hunter/Hunter_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/The_Hunter/Hunter_2.webp"
@@ -593,7 +593,7 @@
     "id": "64e0ae3a-c8bb-46f8-a167-2f79a8fcf151",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Tuk",
-    "description": "The water brings me everything I wish for... I just need to find it. It brought you here, too. -  Tuk",
+    "description": "The water brings me everything I wish for... I just need to find it. It brought you here, too.\n\n -  Tuk",
     "lore": "Tuk is a scavenger who keeps to herself. She vehemently searches the Royal Waterways for someone, hoping they will offer their apologies to her. She sustains herself with Rancid Eggs, and believes the water down there will always provide her what she is looking for. Despite her introverted nature, she remembers those who help her, such as the Dung Defender.",
     "type": "large bug",
     "images": [
@@ -606,9 +606,9 @@
     "id": "87823432-d570-47ca-a193-646bb41a75c4",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Thistlewind",
-    "description": "I`ve been many places and done a great many things, but I suspect you will outdo me by far. - Thistlewind",
+    "description": "I've been many places and done a great many things, but I suspect you will outdo me by far.\n\n - Thistlewind",
     "lore": "Thistlewind was an explorer who travelled across Hallownest. Despite the moths being a passive species, they were one of the few moths who wielded a weapon. Eventually, Thistlewind died and was buried in Spirits' Glade.",
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Thistlewind/Thistlewind.webp"
     ],
@@ -618,9 +618,9 @@
     "id": "e14f9987-0cdd-4ef6-b5f5-f1bb286d12b2",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Tiso",
-    "description": "Though few could truly challenge me, I'm hoping this arena presents the sort of brutal challenge I'm after. - Tiso",
-    "lore": "He is arrogant, thinking of himself as the ultimate warrior and showing nothing but contempt for the weak. He almost pays no notice to the Knight until later on, and even then he finds them beneath him. Despite his bravado, he is never actually fought, as he dies off-screen in the Colosseum of Fools, his body later found dumped by the acid pits at the bottom of Kingdom's Edge with the other slain warriors.",
-    "type": "normal bug",
+    "description": "Though few could truly challenge me, I'm hoping this arena presents the sort of brutal challenge I'm after.\n\n - Tiso",
+    "lore": "He is arrogant, thinking of himself as the ultimate warrior and showing nothing but contempt for the weak. He almost pays no notice to the Knight until later on, and even then he finds them beneath him.\n\nDespite his bravado, he is never actually fought, as he dies off-screen in the Colosseum of Fools, his body later found dumped by the acid pits at the bottom of Kingdom's Edge with the other slain warriors.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Tiso/Tiso_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Tiso/Tiso_2.webp",
@@ -632,9 +632,9 @@
     "id": "948218df-539f-4d49-afbc-425982066a66",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Traitors' Child",
-    "description": "Ahhh Le'mer, you could not know of tragedy as complete as che's, true lovers stripped apart, two worlds that could not meet. - Grey Mourner",
-    "lore": "The Traitors' Child was a mantis who was the daughter of the Traitor Lord. She and Ze'mer, a member of the Five Great Knights, were lovers. However, the other mantises did not approve of their union due to Ze'mer being an outsider. For unknown reasons, the Traitors' Child eventually died. She was buried in the Queen's Gardens.",
-    "type": "spirit",
+    "description": "Ahhh Le'mer, you could not know of tragedy as complete as che's, true lovers stripped apart, two worlds that could not meet.\n\n - Grey Mourner",
+    "lore": "The Traitors' Child was a mantis who was the daughter of the Traitor Lord. She and Ze'mer, a member of the Five Great Knights, were lovers. However, the other mantises did not approve of their union due to Ze'mer being an outsider.\n\nFor unknown reasons, the Traitors' Child eventually died. She was buried in the Queen's Gardens.",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Traitors_Child/Traitors_Child_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Traitors_Child/Traitors_Child_2.webp"
@@ -645,9 +645,9 @@
     "id": "2205d974-7269-4368-894c-05296be3e4fc",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Unnamed Moth",
-    "description": "You who pry into even the most hidden of dreams... Take heed. Recorded within this shrine are utterings from another world. - Unnamed Moth",
+    "description": "You who pry into even the most hidden of dreams... Take heed. Recorded within this shrine are utterings from another world.\n\n - Unnamed Moth",
     "lore": "Unnamed Moth is a moth who only appears in the Dream Realm. They stand outside of the Shrine of Believers, commenting on the messages inside the Shrine.",
-    "type": "normal bug",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Unnamed_Moth/Unnamed_Moth.webp"
     ],
@@ -657,9 +657,9 @@
     "id": "3055f15e-2e2f-4a76-8722-a89c973b3cd6",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Bardoon",
-    "description": "For quiet retreat did I climb up here, away from spitting creatures. Ormmph... Yes. High up. Away from simple minds, lost to light. - Bardoon",
-    "lore": "Bardoon is an old caterpillar found sleeping in Kingdom's Edge. He climbed up to the top of Kingdom's Edge to get away from bugs plagued by the Infection. He resists the light's allure, which he explains offers unity but also reduces a bug to instinct alone. Bardoon has knowledge of the Pale King's origins and the King's Brand. Though he knows about Wyrms, he is not one himself.",
-    "type": "normal bug",
+    "description": "For quiet retreat did I climb up here, away from spitting creatures. Ormmph... Yes. High up. Away from simple minds, lost to light.\n\n - Bardoon",
+    "lore": "Bardoon is an old caterpillar found sleeping in Kingdom's Edge. He climbed up to the top of Kingdom's Edge to get away from bugs plagued by the Infection. He resists the light's allure, which he explains offers unity but also reduces a bug to instinct alone.\n\nBardoon has knowledge of the Pale King's origins and the King's Brand. Though he knows about Wyrms, he is not one himself.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Bardoon/Bardoon.webp"
     ],
@@ -669,9 +669,9 @@
     "id": "01170e43-880c-435a-8bab-fc9193841b47",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Vespa",
-    "description": "To rail against nature is folly. All things must accept an end. - Hive Queen Vespa",
-    "lore": "Vespa was the queen of the Hive, a tribe that is walled off from the lands of the Pale King. The Hive rejected Hallownest's attempt at perpetuation, arguing that it is pointless to go against nature. Vespa eventually grew so large that she could no longer leave the Hive. At some point in time, Vespa died, causing the Hive to become consumed by the Infection.",
-    "type": "normal bug",
+    "description": "To rail against nature is folly. All things must accept an end.\n\n - Hive Queen Vespa",
+    "lore": "Vespa was the queen of the Hive, a tribe that is walled off from the lands of the Pale King. The Hive rejected Hallownest's attempt at perpetuation, arguing that it is pointless to go against nature. Vespa eventually grew so large that she could no longer leave the Hive.\n\nAt some point in time, Vespa died, causing the Hive to become consumed by the Infection.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Vespa/Vespa_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Vespa/Vespa_2.webp"
@@ -682,9 +682,9 @@
     "id": "55795fd4-d42a-4662-a0a1-5bddd09ad324",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Waldie",
-    "description": "Don't judge me by appearance. Though my stature is small, I bear a dark soul and a tendency to go berserk in battle. You wouldn`t have the guts to face me anyway.",
+    "description": "Don't judge me by appearance. Though my stature is small, I bear a dark soul and a tendency to go berserk in battle. You wouldn't have the guts to face me anyway.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Waldie/Waldie.webp"
     ],
@@ -694,9 +694,9 @@
     "id": "2f4701b2-1423-415c-8407-986aa7ccfca5",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Wayner",
-    "description": "Hark, fellow adventurer! Are you heading out into the world? I'd join you, but it's been so long, I fear I'd lose my head. I'm envious of you, facing this world without fear. I could stand to learn from your approach.",
+    "description": "Hark, fellow adventurer! Are you heading out into the world? I'd join you, but it's been so long, I fear I'd lose my head.\n\nI'm envious of you, facing this world without fear. I could stand to learn from your approach.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Wayner/Wayner.webp"
     ],
@@ -706,9 +706,9 @@
     "id": "069eed50-d0b5-4fd4-84e2-592625d6438b",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Willoh",
-    "description": "Come in search of treats have you? I chanced upon a unique little fungus growing right above us. I've found it only in this station and the taste is just divine. - Willoh",
-    "lore": "Willoh is a giraffe weevil who found a unique fungus growing in Queen's Station. Since she is wary of the dangers of the Fungal Wastes and Fog Canyon, she wants to stay in Queen's Station for as long as her food lasts. Besides the fungus in the station, Willoh has eaten various bugs and thinks about eating the Knight as well. Willoh met Cloth at some point, warning her about the Mantis Tribe in Mantis Village.",
-    "type": "normal bug",
+    "description": "Come in search of treats have you? I chanced upon a unique little fungus growing right above us. I've found it only in this station and the taste is just divine.\n\n - Willoh",
+    "lore": "Willoh is a giraffe weevil who found a unique fungus growing in Queen's Station. Since she is wary of the dangers of the Fungal Wastes and Fog Canyon, she wants to stay in Queen's Station for as long as her food lasts.\n\nBesides the fungus in the station, Willoh has eaten various bugs and thinks about eating the Knight as well.\n\nWilloh met Cloth at some point, warning her about the Mantis Tribe in Mantis Village.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Willoh/Willoh_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Willoh/Willoh_2.webp"
@@ -719,9 +719,9 @@
     "id": "7c70419a-2638-40dc-857e-dc8d5c491e63",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Wyatt",
-    "description": "Watch out! I've an acidic touch and I wouldn't want you getting burned. It's a protection system of my kind, though something of a nuisance when it comes to meeting others. Don't get too close. I'd not wish to cause any harm.",
+    "description": "Watch out!\n\n I've an acidic touch and I wouldn't want you getting burned. It's a protection system of my kind, though something of a nuisance when it comes to meeting others.\n\n Don't get too close. I'd not wish to cause any harm.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Wyatt/Wyatt.webp"
     ],
@@ -731,9 +731,9 @@
     "id": "e39260f2-412a-47a3-9689-807fbe1697b7",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Zote",
-    "description": "A self-proclaimed Knight, of no renown. Wields a nail he carved from shellwood, named \"Life Ender.\" Some rare creatures are so weak, so helpless, so inept and so irritating that hunting them gives no pleasure.",
-    "lore": "Zote is a traveller from outside Hallownest who came to the Kingdom to fulfill a promise. This is ultimately revealed to be a promise of glory for himself. He named his nail \"Life Ender\" because names supposedly have power. Unfortunately, because it is made of shellwood, it cannot deal damage. While he claims to be the strongest warrior in the land, he is found trapped by weak enemies or claiming the glory of another bug's deeds. He regards the Knight as beneath him and accuses them of constantly getting in his way.",
-    "type": "normal bug",
+    "description": "A self-proclaimed Knight, of no renown. Wields a nail he carved from shellwood, named \"Life Ender.\"\n\n Some rare creatures are so weak, so helpless, so inept and so irritating that hunting them gives no pleasure.",
+    "lore": "Zote is a traveller from outside Hallownest who came to the Kingdom to fulfill a promise. This is ultimately revealed to be a promise of glory for himself.\n\nHe named his nail \"Life Ender\" because names supposedly have power. Unfortunately, because it is made of shellwood, it cannot deal damage.\n\nWhile he claims to be the strongest warrior in the land, he is found trapped by weak enemies or claiming the glory of another bug's deeds. He regards the Knight as beneath him and accuses them of constantly getting in his way.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Zote/Zote.webp"
     ],
@@ -743,9 +743,9 @@
     "id": "e8b5e4de-20a9-43ee-9f5a-a119bb59f87d",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Bretta",
-    "description": "I... you came here to rescue me, Bretta? The girl that everyone just... ignores? - Bretta",
-    "lore": "Bretta is a beetle who is looking for a saviour. She has a massive crush on the Knight after she is rescued. Bretta blushes if the Knight sits next to her for a while. She has several drawings and dolls of the Knight in her house, along with a diary where she writes about her \"saviour\". If Zote is saved and defeated in the Colosseum of Fools, Zote shows up in Dirtmouth and Bretta falls in love with him. One single painting of Zote replaces the dolls and drawings of the Knight that she had in her house. Eventually, Bretta leaves Hallownest, regarding the Knight as merely a beast, and Zote as being diminished. She realizes that she will not meet her life's companion if she sits idle.",
-    "type": "normal bug",
+    "description": "I... you came here to rescue me, Bretta? The girl that everyone just... ignores?\n\n - Bretta",
+    "lore": "Bretta is a beetle who is looking for a saviour. She has a massive crush on the Knight after she is rescued. Bretta blushes if the Knight sits next to her for a while. She has several drawings and dolls of the Knight in her house, along with a diary where she writes about her \"saviour\".\n\nIf Zote is saved and defeated in the Colosseum of Fools, Zote shows up in Dirtmouth and Bretta falls in love with him. One single painting of Zote replaces the dolls and drawings of the Knight that she had in her house.\n\nEventually, Bretta leaves Hallownest, regarding the Knight as merely a beast, and Zote as being diminished. She realizes that she will not meet her life's companion if she sits idle.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Bretta/Bretta_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Bretta/Bretta_2.webp",
@@ -757,9 +757,9 @@
     "id": "2020f171-ac20-451d-ac47-6c8ad33aa076",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Cornifer",
-    "description": "I`m a cartographer by trade, and I'm working on mapping this area right now. Would you like to buy a copy of my work so far? - Cornifer",
+    "description": "I'm a cartographer by trade, and I'm working on mapping this area right now. Would you like to buy a copy of my work so far?\n\n - Cornifer",
     "lore": "When Cornifer was first hatched, he wandered off right away, leaving his siblings and his mother behind. He later moved to Dirtmouth with Iselda as soon as he could.",
-    "type": "normal bug",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Cornifer/Cornifer_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Cornifer/Cornifer_2.webp"
@@ -770,9 +770,9 @@
     "id": "21ebe051-9945-4feb-97a8-4713220df0ac",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Divine",
-    "description": "That charm... beautiful! Most precious thing! Little lovely, will you let me see it? Have to show it to me! - Divine",
-    "lore": "Divine is a member of the Grimm Troupe. She is looking for the source of the smell deep below her, Leg Eater. She eats the Fragile Charms that he created when the Knight gives them to her, only giving them back as Unbreakable Charms after being given a large amount of Geo. If the Knight goes to Leg Eater after upgrading all of the Fragile Charms to their Unbreakable variants while also having one of them equipped, he says that he \"smells\" her and goes above ground to find her. When the Knight returns to Divine, Leg Eater's dismembered claws can be seen on the floor in front of her. After this, Divine leaves with the rest of the Grimm Troupe.",
-    "type": "strange bug",
+    "description": "That charm... beautiful! Most precious thing! Little lovely, will you let me see it? Have to show it to me!\n\n - Divine",
+    "lore": "Divine is a member of the Grimm Troupe. She is looking for the source of the smell deep below her, Leg Eater. She eats the Fragile Charms that he created when the Knight gives them to her, only giving them back as Unbreakable Charms after being given a large amount of Geo.\n\nIf the Knight goes to Leg Eater after upgrading all of the Fragile Charms to their Unbreakable variants while also having one of them equipped, he says that he \"smells\" her and goes above ground to find her.\n\nWhen the Knight returns to Divine, Leg Eater's dismembered claws can be seen on the floor in front of her. After this, Divine leaves with the rest of the Grimm Troupe.",
+    "type": "Strange Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Divine/Divine.webp"
     ],
@@ -782,9 +782,9 @@
     "id": "a1544752-ae93-4543-9d0d-b61a032c5ef5",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Grey Mourner",
-    "description": "Why does che' wake? Why does che' persist? Ahhh Le'mer, you could not know of tragedy as complete as che's, true lovers stripped apart, two worlds that could not meet. - Grey Mourner",
-    "lore": "Grey Mourner's real name is Ze'mer. She used to be one of the Five Great Knights of Hallownest. She is not originally from Hallownest, being native to an area outside of the kingdom known as \"lands serene\". It is from this place that she also brought Delicate Flowers. The daughter of the Traitor Lord was her lover, but the mantises denied their union, rejecting Grey Mourner due to her being an outsider. Some time after her Mantis lover died, Grey Mourner retreated to her house in the Resting Grounds where she turned to mourning.",
-    "type": "normal bug",
+    "description": "Why does che' wake? Why does che' persist? Ahhh Le'mer, you could not know of tragedy as complete as che's, true lovers stripped apart, two worlds that could not meet.\n\n - Grey Mourner",
+    "lore": "Grey Mourner's real name is Ze'mer. She used to be one of the Five Great Knights of Hallownest. She is not originally from Hallownest, being native to an area outside of the kingdom known as \"lands serene\". It is from this place that she also brought Delicate Flowers.\n\nThe daughter of the Traitor Lord was her lover, but the mantises denied their union, rejecting Grey Mourner due to her being an outsider. Some time after her Mantis lover died, Grey Mourner retreated to her house in the Resting Grounds where she turned to mourning.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Grey_Mourner/Grey_Mourner.webp"
     ],
@@ -794,9 +794,9 @@
     "id": "5a01b181-016e-4876-9b52-ca1937937f32",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Herrah",
-    "description": "...Bound... For brood... For child... ...Fair bargain made... ...Give all... ...For her... - Herrah the Beast",
-    "lore": "Herrah was the queen of the Spider Tribe of Deepnest and is the mother of Hornet. Her partner was part of the honoured caste, while Herrah herself is only a common beast. At a certain point, her partner died, leaving Herrah without an heir. The Spider Tribe and Herrah herself never accepted the Pale King and his rule. When the Infection first appeared, the Pale King asked Herrah to become a Dreamer to seal the entrance to the Black Egg in the Temple of the Black Egg. She only agreed if the Pale King would have a child with her, which ended up being Hornet. After Hornet was born, Herrah and Hornet were permitted little time together as Herrah went into an eternal sleep.",
-    "type": "dreamer",
+    "description": "...Bound... For brood... For child...\n...Fair bargain made...\n...Give all...\n...For her...\n\n - Herrah the Beast",
+    "lore": "Herrah was the queen of the Spider Tribe of Deepnest and is the mother of Hornet. Her partner was part of the honoured caste, while Herrah herself is only a common beast. At a certain point, her partner died, leaving Herrah without an heir.\n\nThe Spider Tribe and Herrah herself never accepted the Pale King and his rule. When the Infection first appeared, the Pale King asked Herrah to become a Dreamer to seal the entrance to the Black Egg in the Temple of the Black Egg. She only agreed if the Pale King would have a child with her, which ended up being Hornet. After Hornet was born, Herrah and Hornet were permitted little time together as Herrah went into an eternal sleep.",
+    "type": "Dreamer",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Herrah/Herrah_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Herrah/Herrah_2.webp",
@@ -810,7 +810,7 @@
     "npc": "Hundred Nail Warrior",
     "description": "Do you like my nails little wanderer? I carry only three, far less than legends may suggest Still! Each is sharper than the last and I'd require only one to cut you down. Aren't my nails the most wonderful things? Their gleaming blades so sharp and deadly.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Hundred_Nail_Warrior/Hundred_Nail_Warrior.webp"
     ],
@@ -820,9 +820,9 @@
     "id": "c6180ece-49c7-41d3-a714-5f6884ff529e",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Iselda",
-    "description": "At times my husband makes Hallownest sound a wonder, but sometimes it seems a ghastly, dangerous place. - Iselda",
-    "lore": "Iselda used to be a fighter; however, when she followed her husband Cornifer, his thirst for exploration leading them to Hallownest, she put down her weapon to enjoy a quieter life in Dirtmouth. Despite her tall stature, the two took residence in a small house next to the town's Stag Station from which she operates their shop. She wishes Cornifer would spend more time at home and worries about his health and safety. She has always declined to join her husband on his adventures beyond the Forgotten Crossroads. She doesn't find much interest in shopkeeping, yet takes great care in crafting cartography pins while taking into account her customers' needs.",
-    "type": "normal bug",
+    "description": "At times my husband makes Hallownest sound a wonder, but sometimes it seems a ghastly, dangerous place.\n\n - Iselda",
+    "lore": "Iselda used to be a fighter; however, when she followed her husband Cornifer, his thirst for exploration leading them to Hallownest, she put down her weapon to enjoy a quieter life in Dirtmouth. Despite her tall stature, the two took residence in a small house next to the town's Stag Station from which she operates their shop.\n\nShe wishes Cornifer would spend more time at home and worries about his health and safety. She has always declined to join her husband on his adventures beyond the Forgotten Crossroads. She doesn't find much interest in shopkeeping, yet takes great care in crafting cartography pins while taking into account her customers' needs.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Iselda/Iselda.webp"
     ],
@@ -832,9 +832,9 @@
     "id": "b2edb5fa-980b-4118-b955-f061b5835029",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Lurien",
-    "description": "Though my gaze shall no longer fall upon this city, I will act forever in its protection. - Lurien the Watcher",
-    "lore": "Lurien used to watch over the City of Tears from the Watcher's Spire. The Watcher Knights were his guards, and he had various servants such as his butler. At the top of his Spire, Lurien had a large telescope that looks down over the City of Tears, contributing to his title of \"The Watcher\". After the Infection appeared, Lurien became part of the Pale King's plan to seal the Radiance away in the Hollow Knight. He volunteered to be a Dreamer out of loyalty to the Pale King and to protect the City of Tears and the kingdom of Hallownest. Lurien and the other Dreamers sealed the entrance to the Black Egg in the Temple of the Black Egg, which put them into an eternal sleep.",
-    "type": "dreamer",
+    "description": "Though my gaze shall no longer fall upon this city, I will act forever in its protection.\n\n - Lurien the Watcher",
+    "lore": "Lurien used to watch over the City of Tears from the Watcher's Spire. The Watcher Knights were his guards, and he had various servants such as his butler. At the top of his Spire, Lurien had a large telescope that looks down over the City of Tears, contributing to his title of \"The Watcher\".\n\nAfter the Infection appeared, Lurien became part of the Pale King's plan to seal the Radiance away in the Hollow Knight. He volunteered to be a Dreamer out of loyalty to the Pale King and to protect the City of Tears and the kingdom of Hallownest. Lurien and the other Dreamers sealed the entrance to the Black Egg in the Temple of the Black Egg, which put them into an eternal sleep.",
+    "type": "Dreamer",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Lurien/Lurien_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Lurien/Lurien_2.webp",
@@ -847,9 +847,9 @@
     "id": "d7479184-f0ec-47e6-bc98-4be8e0351c1c",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Millibelle",
-    "description": "Losing one's Geo is a terrible thing and it's so much more likely if you carry it about on yourself. - Millibelle the Banker",
-    "lore": "Despite the lack of activity in Hallownest, Millibelle opened a bank in a recluse and safe area in Fog Canyon, next to the abandoned Queen's Station. Instead of a vault, she uses her shell to store Geo - a detail she tries to brush off. However, behind her kind and polite facade, Millibelle is a thief whose purpose of using her shell to store Geo is so she can simply run off with it easily. If she gets enough Geo and is given the chance, she abandons her position with all the stored earnings.",
-    "type": "normal bug",
+    "description": "Losing one's Geo is a terrible thing and it's so much more likely if you carry it about on yourself.\n\n - Millibelle the Banker",
+    "lore": "Despite the lack of activity in Hallownest, Millibelle opened a bank in a recluse and safe area in Fog Canyon, next to the abandoned Queen's Station. Instead of a vault, she uses her shell to store Geo - a detail she tries to brush off.\n\nHowever, behind her kind and polite facade, Millibelle is a thief whose purpose of using her shell to store Geo is so she can simply run off with it easily. If she gets enough Geo and is given the chance, she abandons her position with all the stored earnings.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Millibelle/Millibelle_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Millibelle/Millibelle_2.webp"
@@ -860,9 +860,9 @@
     "id": "a665991a-9743-4638-9c10-483272858ee2",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Monomon",
-    "description": "A world forever unchanging... the Seals, must break... - Monomon the Teacher",
-    "lore": "Monomon used to be a chief researcher and teacher of Hallownest. Her archives in Fog Canyon contain strange, jumbled Lore Tablets that contain certain phrases such as: \"KINGLIGHT\" and \"OLDLIGHT\", which are probably the Pale King and the Radiance. \"VESSEL\" and \"VOID\", which are the Vessels and the Void. \"SEAL\", \"EGG\", and \"DREAMER\", which seem to explain how the Radiance is sealed. The archives also contain a tank full of Charged Lumaflies, presumably there in order to study them. Monomon is hinted to have sourced the creatures resembling jellyfish found in Fog Canyon, if not only by accident. When the Infection appeared, Monomon took part in the Pale King's plan to seal the Radiance away in the Hollow Knight. Monomon became a Dreamer to seal the entrance to the Black Egg in the Temple of the Black Egg, which put her into an eternal sleep. Quirrel was Monomon's apprentice or assistant. She entrusted him with her mask which serves as additional protection for her once she became a Dreamer. Monomon called Quirrel back to Hallownest to undo this protection after the Hollow Knight weakened.",
-    "type": "dreamer",
+    "description": "A world forever unchanging... the Seals, must break...\n\n - Monomon the Teacher",
+    "lore": "Monomon used to be a chief researcher and teacher of Hallownest. Her archives in Fog Canyon contain strange, jumbled Lore Tablets that contain certain phrases such as:\n\n \"KINGLIGHT\" and \"OLDLIGHT\", which are probably the Pale King and the Radiance.\n\"VESSEL\" and \"VOID\", which are the Vessels and the Void.\n\"SEAL\", \"EGG\", and \"DREAMER\", which seem to explain how the Radiance is sealed.\n\nThe archives also contain a tank full of Charged Lumaflies, presumably there in order to study them. Monomon is hinted to have sourced the creatures resembling jellyfish found in Fog Canyon, if not only by accident.\n\nWhen the Infection appeared, Monomon took part in the Pale King's plan to seal the Radiance away in the Hollow Knight. Monomon became a Dreamer to seal the entrance to the Black Egg in the Temple of the Black Egg, which put her into an eternal sleep.\n\nQuirrel was Monomon's apprentice or assistant. She entrusted him with her mask which serves as additional protection for her once she became a Dreamer. Monomon called Quirrel back to Hallownest to undo this protection after the Hollow Knight weakened.",
+    "type": "Dreamer",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Monomon/Monomon_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Monomon/Monomon_2.webp",
@@ -874,9 +874,9 @@
     "id": "11b413e7-598d-4723-ad50-c58fb33ea39a",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Oro",
-    "description": "It is the law of the Great Nailsage that I must pass down my teachings to those who are worthy. But no law forbids me from exacting a payment for my time. - Nailmaster Oro",
-    "lore": "Oro learnt the Nail Arts from the Great Nailsage Sly along with his brothers Mato and Sheo. Of the three disciples, he was not the most skilled, with his signature move being the Dash Slash. While Oro is respectful of the Nailsage's teachings, he was reluctant to obey them to the letter. Oro always seemed haunted by something. After a falling out among the Nailmasters, he chose to move away in seclusion. He did not leave his brother Mato in good terms and still owes him something. He established a hut in the far reaches of the Kingdom's Edge to avoid company.",
-    "type": "normal bug",
+    "description": "It is the law of the Great Nailsage that I must pass down my teachings to those who are worthy. But no law forbids me from exacting a payment for my time.\n\n - Nailmaster Oro",
+    "lore": "Oro learnt the Nail Arts from the Great Nailsage Sly along with his brothers Mato and Sheo. Of the three disciples, he was not the most skilled, with his signature move being the Dash Slash. While Oro is respectful of the Nailsage's teachings, he was reluctant to obey them to the letter.\n\nOro always seemed haunted by something. After a falling out among the Nailmasters, he chose to move away in seclusion. He did not leave his brother Mato in good terms and still owes him something. He established a hut in the far reaches of the Kingdom's Edge to avoid company.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Oro/Oro.webp"
     ],
@@ -886,9 +886,9 @@
     "id": "6e08ca6b-3a7a-444b-abdb-43b03f6023e0",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Perpetos Noo",
-    "description": "Are you enjoying your time in our glade? I'd offer advice, though to have made it here you're obviously quite adept at navigating our world and its perils. You're very impressive for such a small thing. I'm something of a warrior myself, though even I`d hesitate to raise my nail against you.",
+    "description": "Are you enjoying your time in our glade? I'd offer advice, though to have made it here you're obviously quite adept at navigating our world and its perils. You're very impressive for such a small thing. I'm something of a warrior myself, though even I'd hesitate to raise my nail against you.",
     "lore": null,
-    "type": "spirit",
+    "type": "Spirit",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Perpetos_Noo/Perpetos_Noo.webp"
     ],
@@ -898,9 +898,9 @@
     "id": "6c003149-84c5-4fe1-a349-6a58fb38c68d",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Quirrel",
-    "description": "For so long I've felt drawn here. So many tales full of wonders and horrors. No longer could I resist. I just had to see it for myself. - Quirrel",
-    "lore": "Before the fall of Hallownest, Quirrel used to be Monomon's apprentice. When Monomon became a Dreamer, she entrusted Quirrel with her mask, which was part of an additional protection enacted upon herself. Quirrel can be seen wearing this mask on top of his head. In the official comic, it is shown that Quirrel ended up outside of Hallownest. Quirrel lost much of his memory eventually. He was called back to Hallownest by Monomon in order to reverse the protection placed on her. After helping Boon fight off some bugs and travelling with them for some time, they part ways. He had dreams of Hallownest; the City of Tears, Fog Canyon, the Forgotten Crossroads, the Temple of the Black Egg, and the Hollow Knight. After entering the Howling Cliffs, Quirrel meets Hornet, whom he briefly fights. Hornet allows Quirrel to enter Hallownest when she recognizes Monomon's mask. Quirrel can initially be found at the Temple of the Black Egg, but he can be encountered in several locations around Hallownest. After helping the Knight kill Monomon by removing the protection on her, he goes to the Blue Lake to see the source of the rain in the City of Tears.",
-    "type": "normal bug",
+    "description": "For so long I've felt drawn here. So many tales full of wonders and horrors. No longer could I resist. I just had to see it for myself.\n\n - Quirrel",
+    "lore": "Before the fall of Hallownest, Quirrel used to be Monomon's apprentice. When Monomon became a Dreamer, she entrusted Quirrel with her mask, which was part of an additional protection enacted upon herself. Quirrel can be seen wearing this mask on top of his head. In the official comic, it is shown that Quirrel ended up outside of Hallownest.\n\nQuirrel lost much of his memory eventually. He was called back to Hallownest by Monomon in order to reverse the protection placed on her. After helping Boon fight off some bugs and travelling with them for some time, they part ways. He had dreams of Hallownest; the City of Tears, Fog Canyon, the Forgotten Crossroads, the Temple of the Black Egg, and the Hollow Knight. After entering the Howling Cliffs, Quirrel meets Hornet, whom he briefly fights. Hornet allows Quirrel to enter Hallownest when she recognizes Monomon's mask.\n\nQuirrel can initially be found at the Temple of the Black Egg, but he can be encountered in several locations around Hallownest. After helping the Knight kill Monomon by removing the protection on her, he goes to the Blue Lake to see the source of the rain in the City of Tears.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Quirrel/Quirrel_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Quirrel/Quirrel_2.webp"
@@ -911,9 +911,9 @@
     "id": "a0fe7262-8060-4ab8-ab97-d638dbeeb8db",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Sly",
-    "description": "All`s fair in a world made of Geo. - Sly",
-    "lore": "Sly used to be the Great Nailsage. During his previous occupation, he trained some disciples in the Nail Arts: Oro, Mato, and Sheo. Eventually, Sly abandoned his occupation as Nailsage. He became convinced of the strength of accumulating Geo over honing one's nail. He thus turned to the simple life of a merchant, finding and selling wares from his shop in Dirtmouth. He did not, however, forget his mastery and respect of the nail and those who practice its arts. He keeps his greatnail in the basement of his shop and still remembers his pupils. At some point, a dream led him to wander off into the caverns below Dirtmouth. He also lost his Shopkeeper's Key which ended up in a room in Crystal Peak.",
-    "type": "normal bug",
+    "description": "All's fair in a world made of Geo.\n\n - Sly",
+    "lore": "Sly used to be the Great Nailsage. During his previous occupation, he trained some disciples in the Nail Arts: Oro, Mato, and Sheo.\n\nEventually, Sly abandoned his occupation as Nailsage. He became convinced of the strength of accumulating Geo over honing one's nail. He thus turned to the simple life of a merchant, finding and selling wares from his shop in Dirtmouth. He did not, however, forget his mastery and respect of the nail and those who practice its arts. He keeps his greatnail in the basement of his shop and still remembers his pupils.\n\nAt some point, a dream led him to wander off into the caverns below Dirtmouth. He also lost his Shopkeeper's Key which ended up in a room in Crystal Peak.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Sly/Sly_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Sly/Sly_2.webp",
@@ -926,9 +926,9 @@
     "id": "da05fe88-96a1-4ec3-9cb6-aa5a28004410",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "Snail Shaman",
-    "description": "I`m going to give you a gift, a nasty little spell of my own creation. It's just perfect for a little one like you! - Snail Shaman",
-    "lore": "Snail Shaman is a member of the snail shaman tribe. His relatives can be found around Hallownest, but since he is bound to the Ancestral Mound he is unable to visit them. He is therefore unaware of their fate. While Snail Shaman can create Soul Spells such as Vengeful Spirit, he and the other snails are unable to make Spells like Abyss Shriek, having never been to the Abyss.",
-    "type": "normal bug",
+    "description": "I'm going to give you a gift, a nasty little spell of my own creation. It's just perfect for a little one like you!\n\n - Snail Shaman",
+    "lore": "Snail Shaman is a member of the snail shaman tribe. His relatives can be found around Hallownest, but since he is bound to the Ancestral Mound he is unable to visit them. He is therefore unaware of their fate.\n\nWhile Snail Shaman can create Soul Spells such as Vengeful Spirit, he and the other snails are unable to make Spells like Abyss Shriek, having never been to the Abyss.",
+    "type": "Normal Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Snail_Shaman/Snail_Shaman_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/Snail_Shaman/Snail_Shaman_2.webp"
@@ -939,8 +939,8 @@
     "id": "50f2349e-a3f8-438f-9225-75b394c6e8a0",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "The Godseeker",
-    "description": "Hallownest. This kingdom is blessed with true Gods. True! All around, the corpses of pretender Gods. But! Not in Hallownest... - Godseeker",
-    "lore": "The Godseekers originate from a land called the Land of Storms. Their gods either died or abandoned them, which prompted them to travel and seek new ones. At some point, they merged within the mind of a single Godseeker. This individual can focus their thoughts into a complex dream world: Godhome. This feat is possible through their mask, which can be passed along to other Godseekers. They also built a temporary tuning device in order to find the resonance of other powerful beings in distant lands. The current Godseeker bearing the mask ended up in Hallownest following the remnants of the Pale King's power. With the King's vanishing, she hopes to attune instead Godhome to the \"God of Gods\" of Hallownest, and commune with them - initially assuming this \"God of Gods\" to be the Radiance. For this, she uses the Godtuner to attune the mind or essence of Hallownest's most powerful creatures to Godhome, where they can become gods. There, the Godseekers observe their fights within the Pantheons. With each fight, they aim to ascend to and commune with even higher, out-of-reach creatures, until reaching the Radiance herself. During her quest, the Godseeker was forced to go into hibernation for unknown reasons, which prompted her physical metamorphosis. She ended up in a chained, sarcophagus-like cocoon, which was washed away down the Royal Waterways.",
+    "description": "Hallownest. This kingdom is blessed with true Gods. True! All around, the corpses of pretender Gods. But! Not in Hallownest...\n\n - Godseeker",
+    "lore": "The Godseekers originate from a land called the Land of Storms. Their gods either died or abandoned them, which prompted them to travel and seek new ones. At some point, they merged within the mind of a single Godseeker. This individual can focus their thoughts into a complex dream world: Godhome. This feat is possible through their mask, which can be passed along to other Godseekers. They also built a temporary tuning device in order to find the resonance of other powerful beings in distant lands.\n\nThe current Godseeker bearing the mask ended up in Hallownest following the remnants of the Pale King's power. With the King's vanishing, she hopes to attune instead Godhome to the \"God of Gods\" of Hallownest, and commune with them - initially assuming this \"God of Gods\" to be the Radiance. For this, she uses the Godtuner to attune the mind or essence of Hallownest's most powerful creatures to Godhome, where they can become gods. There, the Godseekers observe their fights within the Pantheons. With each fight, they aim to ascend to and commune with even higher, out-of-reach creatures, until reaching the Radiance herself.\n\nDuring her quest, the Godseeker was forced to go into hibernation for unknown reasons, which prompted her physical metamorphosis. She ended up in a chained, sarcophagus-like cocoon, which was washed away down the Royal Waterways.",
     "type": "large bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/The_Godseeker/Godseeker_1.webp",
@@ -953,9 +953,9 @@
     "id": "5b590daf-4ae3-43f9-afc7-cf0ad8bf171c",
     "created_at": "2024-06-11 15:38:54.110515+00",
     "npc": "White Lady",
-    "description": "These bindings about me, I've chosen to erect. There is some shame I feel from my own part in the deed, and this method guarantees it cease. - White Lady",
-    "lore": "The White Lady is a root higher being who used to be the Queen of Hallownest and the wife of the Pale King. During Hallownest's prime, the Queen's Gardens were her well-guarded retreat. This area used to belong to the Mosskin, but the White Lady claimed it to create her gardens. The White Lady is the mother of the Vessels. Out of shame for her part in their creation, she bound herself in the Queen's Gardens to stop herself from having more offspring. Dryya, one of the Five Great Knights, stood guard over her, although Dryya died after defeating numerous Mantis Traitors. The White Lady is not aware of her death. Over time, the White Lady's vision worsened and she could not see much anymore. She did sense within her roots the weakening of the Hollow Knight, prompting her to await a visit from a Vessel to give them her part of the Kingsoul.",
-    "type": "strange bug",
+    "description": "These bindings about me, I've chosen to erect. There is some shame I feel from my own part in the deed, and this method guarantees it cease.\n\n - White Lady",
+    "lore": "The White Lady is a root higher being who used to be the Queen of Hallownest and the wife of the Pale King. During Hallownest's prime, the Queen's Gardens were her well-guarded retreat. This area used to belong to the Mosskin, but the White Lady claimed it to create her gardens.\n\nThe White Lady is the mother of the Vessels. Out of shame for her part in their creation, she bound herself in the Queen's Gardens to stop herself from having more offspring. Dryya, one of the Five Great Knights, stood guard over her, although Dryya died after defeating numerous Mantis Traitors. The White Lady is not aware of her death.\n\nOver time, the White Lady's vision worsened and she could not see much anymore. She did sense within her roots the weakening of the Hollow Knight, prompting her to await a visit from a Vessel to give them her part of the Kingsoul.",
+    "type": "Strange Bug",
     "images": [
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/White_Lady/White_Lady_1.webp",
       "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/NPCs/White_Lady/White_Lady_2.webp"

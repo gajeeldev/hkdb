@@ -21,12 +21,16 @@ const manualAchievements = [
 ];
 
 export const AchievementsScreen = () => {
-  Achievements.sort((a, b) => a.achievement.localeCompare(b.achievement));
+
+
+  const sortedAchievements = [...Achievements, ...manualAchievements].sort(
+    (a, b) => a.achievement.localeCompare(b.achievement)
+  );
 
   return (
     <View style={globalStyles.container}>
       <FlatList
-        data={[...Achievements, ...manualAchievements]}
+        data={sortedAchievements}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => <AchievementsCard {...item} />}
         showsVerticalScrollIndicator={false}

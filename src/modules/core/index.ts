@@ -1,3 +1,4 @@
+export * from './domain/entities';
 
 export * from './components/ui/NoIdScreen';
 export * from './components/GoBack';
@@ -19,4 +20,3 @@ export { TabBarIcon } from './components/TabBarIcon';
 
 // Screens
 export * from './screens/KnightScreen';
-

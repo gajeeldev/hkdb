@@ -4,12 +4,13 @@ import { Button, globalStyles } from '~/modules/core';
 import { Link } from 'expo-router';
 
 export const CharmsScreen = () => {
-  Charms.sort((a, b) => a.charm.localeCompare(b.charm));
+  const sortedCharms = [...Charms].sort((a, b) => a.charm.localeCompare(b.charm));
+
   return (
     <View style={globalStyles.container}>
       <ScrollView style={{ paddingTop: 20 }}>
-        {Charms.map((charm) => (
-          <Link href={`/charms/${charm.id}`} asChild key={charm.id}>
+        {sortedCharms.map((charm) => (
+          <Link href={`(detail)/charm/${charm.id}`} asChild key={charm.id}>
             <Button title={charm.charm} />
           </Link>
         ))}

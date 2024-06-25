@@ -14,7 +14,7 @@ export const CharmDetailScreen = ({ id }: { id: string | string[] }) => {
       <Stack.Screen
         options={{
           title: charm.charm,
-          headerLeft: () => <GoBack link="/charms" />,
+          headerLeft: () => <GoBack />,
         }}
       />
       <ScrollView>
@@ -52,7 +52,6 @@ export const CharmDetailScreen = ({ id }: { id: string | string[] }) => {
 
         <Subtitle text="How to acquire" />
         <Text style={{ color: 'white' }}>{charm.how_to_acquire}</Text>
-
 
         <View style={{ height: 20 }} />
       </ScrollView>
