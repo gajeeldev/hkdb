@@ -1,0 +1,1543 @@
+[
+  {
+    "id": "2723f553-9a13-4d54-8578-77e934a16813",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Ambloom",
+    "description_1": "Simple-minded crawling fungus. Its cap is covered in a layer of hardened spikes.",
+    "location": "Amblooms are found only in the Fungal Wastes, with four in the Fungal Core.",
+    "health": 12,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Ambloom/Ambloom.webp"
+    ],
+    "description_2": "Lie on your belly, open your maw and let this tasty morsel stroll straight into your stomach.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "466855a6-5423-44dc-8928-5678ac5887cc",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Aspid Hunter",
+    "description_1": "Bests its prey by spitting corrosive liquid. Often hunts in packs.",
+    "location": "Aspid Hunters can be found in the Forgotten Crossroads (mainly the area where the Glowing Womb Charm is collected) and in the west side of the Ancient Basin Tram tunnel. They can also be spawned by the Collector.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Aspid_Hunter/Aspid_Hunter_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Aspid_Hunter/Aspid_Hunter_2.webp"
+    ],
+    "description_2": "Cunning predators that will try to pick you off from a distance. Don't give them any space, just charge in and cut them down! You'll find they're not so cunning once they are dead.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "8cea1610-fc02-48a2-96f0-d6a626c5b0d9",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Aspid Mother",
+    "description_1": "Carries the eggs of its young inside its belly. Can hatch and birth its young as needed to deal with intruders.",
+    "location": "Aspid Mothers can be found in the Forgotten Crossroads, mainly next to the Tram station.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Aspid_Mother/Aspid_Mother_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Aspid_Mother/Aspid_Mother_2.webp"
+    ],
+    "description_2": "Shamelessly uses its own young as a weapon against its foes! Appalling, yes, but I do admire its resourcefulness. Good hunters do not always make good parents.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "5f94a066-284a-4b48-95aa-4ebdb496f023",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Bluggsac",
+    "description_1": "Placid but putrid creature. Holds rancid eggs within its gut.",
+    "location": "They can be found scattered throughout Hallownest, with seemingly no pattern or main area of appearance.\n\n1 in Blue Lake.\n2 in Crystal Peak.\n2 in Deepnest.\n1 in Kingdom's Edge.\n1 in Queen's Gardens.\n3 in Royal Waterways.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Bluggsac/Bluggsac.webp"
+    ],
+    "description_2": "Easily tracked down if you have a sense of smell. I strongly suggest you do not eat its eggs.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "1e668e7d-c1f1-4f05-8195-e089af27ca7d",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Boofly",
+    "description_1": "Large, docile creature that peacefully buzzes around in the caverns of Kingdom's Edge.",
+    "location": "They are found only in Kingdom's Edge, usually in the platforming sections.",
+    "health": 40,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Boofly/Boofly.webp"
+    ],
+    "description_2": "Too slow to escape you and too large to hide from you. This prey will not challenge you, but sometimes it is good to take things easy.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "c2a53b56-d54e-4342-901b-b825b2212da9",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Aluba",
+    "description_1": "Passive glider that prefers to dwell near acid waters.",
+    "location": "One is found floating above the Lake of Unn, floating back and forth peacefully. More can be seen in the background in this area.\n\nAnother is found in the Queen's Gardens, flying just outside the structure where the White Lady is located.",
+    "health": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Aluba/Aluba.webp"
+    ],
+    "description_2": "What careless a life led drifting above us all. If one ever comes too close to the ground though...",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "2b57f038-9b08-4470-befe-a6142b778e65",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Aspid Hatchling",
+    "description_1": "Recently birthed, these young aspid instinctively swarm around intruders.",
+    "location": "Located in the Forgotten Crossroads, anywhere that an Aspid Mother appears, as it only spawns if summoned by one.",
+    "health": 5,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Aspid_Hatchling/Aspid_Hatchling.webp"
+    ],
+    "description_2": "These hatchlings are born with an instinct to kill! They are still only infants though, and you can crush them between your fangs without thinking. Just don't let them overwhelm you with numbers.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "02b56fdd-ec09-4fa6-a6ac-ff51db7ca62e",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Armoured Squit",
+    "description_1": "Hardened squit, bred for battle in the Colosseum of Fools. Tougher and more aggressive than its wild ancestor.",
+    "location": "Armoured Squits can be found in the Colosseum of Fools, in the Trial of the Conqueror and in the Trial of the Fool. Additionally, they can be spawned by the Collector in the Hall of Gods on Ascended difficulty or above, and in the Pantheon of Hallownest.",
+    "health": 40,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Armoured_Squit/Armoured_Squit.webp"
+    ],
+    "description_2": "Strong and quick! When they rear back, either move out of the way or prepare to strike back!",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "dce3e4f5-1d6f-49ec-b460-64d757ccaafc",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Baldur",
+    "description_1": "Rolls into a ball and propels itself at intruders who wander into its territory. Aggressive even when newly born.",
+    "location": "They are found in the Ancestral Mound, Crystallised Mound, and the Howling Cliffs. They can also be spawned by the Collector and Elder Baldurs.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Baldur/Baldur_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Baldur/Baldur_2.webp"
+    ],
+    "description_2": "Younger hunters delight in catching these creatures and rolling them around for sport. I encourage you to indulge yourself if the fancy strikes you.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "24cbcb85-10b9-4b04-b37a-d4f8e5cf778e",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Battle Obble",
+    "description_1": "Raised in the Colosseum. Although trained for combat, its movements and attacks are still haphazard.",
+    "location": "Battle Obbles are only found in the Colosseum of Fools, in the second and last Trials.",
+    "health": 70,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Battle_Obble/Battle_Obble.webp"
+    ],
+    "description_2": "They have crafted a tiny mask for it! Is such an extravagance practical I wonder?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "6e5f3a3f-2e97-45f7-98f3-1c9d3ad41eee",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Belfly",
+    "description_1": "Thin wings hide a highly volatile belly. Will give its own life to protect its territory.",
+    "location": "Belflies can be found mainly in the Royal Waterways and Kingdom's Edge; however, they can also be found in smaller numbers throughout the City of Tears, the north part of Ancient Basin, and the Resting Grounds. Belflies are also in the Colosseum of Fools, during waves 6 and 7 of the Trial of the Conqueror and wave 4 of the Trial of the Fool.",
+    "health": 5,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Belfly/Belfly_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Belfly/Belfly_2.webp"
+    ],
+    "description_2": "An angry creature with no regard for its own life. A creature without fear... can it truly be called \"prey\"?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "6c2f7946-6dac-477c-a42c-5e5c7d1f5f13",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Crystal Crawler",
+    "description_1": "Discharges searing beams of light from the crystals on its back as it crawls around, seemingly unaware.",
+    "location": "They can only be found in Crystal Peak, commonly in the northwest portion.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Crystal_Crawler/Crystal_Crawler_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Crystal_Crawler/Crystal_Crawler_2.webp"
+    ],
+    "description_2": "These creatures look weak, but sometimes burning pillars of heat will burst out from the crystals they carry on their backs. Be wary, and time your strikes well!",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "0259eff2-86d7-49a7-aee1-230bfb892dc7",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Crystal Hunter",
+    "description_1": "Fires shards of fast-growing crystal at intruders.",
+    "location": "Crystal Hunters can be found only in Crystal Peak.",
+    "health": 25,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Crystal_Hunter/Crystal_Hunter.webp"
+    ],
+    "description_2": "Make their homes all the way up at the top of the world. Do they use the crystals willingly as weapons or are they merely hosts and the crystals parasites?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "1980e17b-7be2-43f1-91d0-052f313297af",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Carver Hatcher",
+    "description_1": "Flying creature that fires out dirtcarvers from its body when potential prey comes close.",
+    "location": "Carver Hatchers can only be found in the northern part of Deepnest, near the Failed Tramway.",
+    "health": 35,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Carver_Hatcher/Carver_Hatcher_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Carver_Hatcher/Carver_Hatcher_2.webp"
+    ],
+    "description_2": "Are these creatures the mothers of the dirtcarvers? They appear only loosely related. But then how do the dirtcarvers get inside of the hatchers? A confusing situation.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "d53d49f8-4284-427c-bd7c-ff4272c4154b",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Charged Lumafly",
+    "description_1": "When threatened they cluster together, generating electricity.",
+    "location": "They are found in abundance in Fog Canyon, but they can also be found in Greenpath, in the area where the Thorns of Agony Charm is collected.\n\nTheir Journal entry is found inside the Teacher's Archives, where they can be inspected in a tank.",
+    "health": 0,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Charged_Lumafly/Charged_Lumafly_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Charged_Lumafly/Charged_Lumafly_2.webp"
+    ],
+    "description_2": "They usually drift about peacefully, but sometimes they cluster together and spit out a sharp, crackling flash that will stun and burn even large beasts like myself. Watch closely for an opening and move past them quickly.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "11630f9d-ac63-4e28-8dd6-3463a0e5e86d",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Cowardly Husk",
+    "description_1": "Former member of Hallownest's high society. Although made aggressive by the force inside, old instincts still occasionally compel it to run from danger.",
+    "location": "They are located in the east part of the City of Tears, much like the Husk Dandy. There is one in the top of the Watcher's Spire.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Cowardly_Husk/Cowardly_Husk.webp"
+    ],
+    "description_2": "The fearful, cowardly nature of these Hallownest bugs persists even after death! It almost feels shameful to chase and cut them down.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "484f3f23-52e8-499c-a71c-676a6fa2f1c5",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Crawlid",
+    "description_1": "Timid scavenger that crawls through the caverns looking for food.",
+    "location": "Crawlids can be found mainly in the Forgotten Crossroads, as well as in the Howling Cliffs, King's Pass, and the northeast part of Greenpath. One can be found at the northwest corner of the Blue Lake.",
+    "health": 8,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Crawlid/Crawlid.webp"
+    ],
+    "description_2": "Dull and pathetic. Hardly worth killing.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "1b5d8bff-2596-44fc-a17a-8bb724d82f4f",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Death Loodle",
+    "description_1": "Loodle equipped with a helmet and taught to kill.",
+    "location": "Death Loodles are only found in the Colosseum of Fools, in the last trial.",
+    "health": 45,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Death_Loodle/Death_loodle_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Death_Loodle/Death_loodle_2.webp"
+    ],
+    "description_2": "They seem fierce, but they have a lot of difficulty aiming at their target. Watch their motions and strike when the opportunity comes. Take their helmet with you as a trophy.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "ffe5f652-dc8d-4517-9cd9-1d1ff0af4266",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Deephunter",
+    "description_1": "Crawls along walls and roofs, spitting burning venom at anything that passes by.",
+    "location": "Deephunters can be found very commonly in Deepnest.",
+    "health": 18,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Deephunter/Deephunter.webp"
+    ],
+    "description_2": "They can be hard to spot as they flitter in and out of the darkness. Watch for their glowing eyes.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "75ba0c42-1d71-4028-9597-d9188462cf80",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Deepling",
+    "description_1": "Infant of the Deepnest. Scuttles about in the darkness, learning the layout of its home.",
+    "location": "They are found in the western portions of Deepnest.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Deepling/Deepling.webp"
+    ],
+    "description_2": "The Deepnest is a dangerous place to hunt, but rewarding. Keep an eye out for weaker creatures you can pick off and eat. Keep your strength up in the darkness.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "6b7c3a82-4101-45f1-b371-903ed288a522",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Dirtcarver",
+    "description_1": "Swarming predator of the Deepnest. Burrows through the ground and bursts out to surprise prey.",
+    "location": "Dirtcarvers can only be found in Deepnest, mainly in its northeast portion, near the entrance to the Fungal Wastes. They can also be spawned by a Carver Hatcher.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Dirtcarver/Dirtcarver.webp"
+    ],
+    "description_2": "Springy and vicious, these hunters will try to overwhelm you with numbers in the dark, tight, twisting caverns they carve through the ground. Always be on your guard!",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "991a3971-9a43-4a45-bb45-89a4f4bd58de",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Duranda",
+    "description_1": "Simple flying creature protected by a spikey shell.",
+    "location": "They can only be found in Greenpath, serving as obstacles for reaching Nailmaster Sheo's hut.",
+    "health": 30,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Duranda/Duranda.webp"
+    ],
+    "description_2": "Thinks itself fully protected and so is unconcerned by passers by. Attack its face, and teach it that nothing is ever safe.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "8fc5d996-24c9-4195-9944-a4278c8dc826",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Fool Eater",
+    "description_1": "Carnivorous plant that snaps at any creature that comes close.",
+    "location": "Found within Greenpath and the Queen's Gardens.",
+    "health": 16,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Fool_Eater/Fool_Eater_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Fool_Eater/Fool_Eater_2.webp"
+    ],
+    "description_2": "You really would have to be a fool to be tricked by a plant.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "8faa8d87-990d-49df-badf-4ff14b7320a8",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Fungling",
+    "description_1": "Passive fungal balloon. Internal gasses cause it to float.",
+    "location": "They are found in large groups throughout most of the Fungal Wastes and the Fungal Core. Some can also be found in the northeast part of the Junk Pit.",
+    "health": 10,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Fungling/Fungling.webp"
+    ],
+    "description_2": "Just a child, it drifts about with closed eyes and an open mind. When I was young, my brothers and sisters and I would hunt each other in the nest. Now I hunt alone.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "9630f0f2-bc78-45c5-a75b-9cb82de575d9",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Flukemunga",
+    "description_1": "Aged fluke, grown fat on the rich refuse found in the pipes below the capital.",
+    "location": "Flukemungas can be found in the Royal Waterways on the way to the Junk Pit, making it more difficult to reach the Godseeker.",
+    "health": 150,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Flukemunga/Flukemunga_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Flukemunga/Flukemunga_2.webp"
+    ],
+    "description_2": "When predators are too successful the surplus food they eat becomes soft bulk wrapped around their bodies. Still, these creatures at least seem to make good use of their additional weight.",
+    "dlc": "Godmaster"
+  },
+  {
+    "id": "5f3794a2-4aa9-4ba9-b3c4-44668c102687",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Durandoo",
+    "description_1": "Simple walking creature encased in a hard shell. Often found wading in shallow pools of acidic water.",
+    "location": "They can be found in Greenpath, west of Stone Sanctuary. One can be found in Queen's Gardens.",
+    "health": 30,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Durandoo/Durandoo.webp"
+    ],
+    "description_2": "One of the few creatures that can survive in the rivers of harsh acidic water that flow around us. Where does this water come from? It bubbles and spits with a seething hatred of the living...",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "7282dece-3c29-4cc5-b07f-349cd40d3b07",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Elder Baldur",
+    "description_1": "Bulky and covered in thick plating. Retracts into itself when attacked.",
+    "location": "There are four of them throughout the game:\n\nOne in Ancestral Mound.\nOne guarding the entrance to Greenpath.\nTwo in the Howling Cliffs, inside a \"trap chest\".",
+    "health": 60,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Elder_Baldur/Elder_Baldur_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Elder_Baldur/Elder_Baldur_2.webp"
+    ],
+    "description_2": "As they age, these creatures become too heavy and lumpy to roll around freely. Instead, they curl up and hide from the world. What do they think of in there, wrapped up inside of themselves? More carefree times perhaps.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "e7fc839a-c930-48e6-863d-ac9620814a51",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Entombed Husk",
+    "description_1": "Mummified remains, deformed and enraged by infection.",
+    "location": "Found in the crypts beneath the Resting Grounds.",
+    "health": 45,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Entombed_Husk/Entombed_Husk_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Entombed_Husk/Entombed_Husk_2.webp"
+    ],
+    "description_2": "Inside these shambling corpses is a bright light that pierces any darkness. I peered inside that light once and saw... something within it shining back. Something terrible.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "6d39439e-1034-485e-8c0a-794c3fcd3fed",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Flukefey",
+    "description_1": "Youngest of its species. Its body is composed of teeth, wings and stomach.",
+    "location": "Flukefeys can be found only in the central-west part of the Royal Waterways. They can also be spawned by Flukemarm.",
+    "health": 13,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Flukefey/Flukefey_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Flukefey/Flukefey_2.webp"
+    ],
+    "description_2": "Seems to want to latch onto any living thing that comes by with its sharp little teeth. It will leave its cousins alone though, so it isn't completely mindless.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "eeced95b-a6d9-4676-b3ac-717d512d7769",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Folly",
+    "description_1": "Once a highly intelligent bug, inflated by the misuse of soul.",
+    "location": "They can be found in large groups across the Soul Sanctum, usually appearing in the air. They are also spawned by Soul Warriors in their fights in the Soul Sanctum, the Colosseum of Fools and Godhome (Ascended version and higher)",
+    "health": 13,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Folly/Folly_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Folly/Folly_2.webp"
+    ],
+    "description_2": "I've heard whispers that the secret these fools were searching for was immortality. To live forever... I've never heard of anything so obscene!",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "573c7869-a3f2-421d-8928-8909b5194817",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Fungified Husk",
+    "description_1": "The remains of a bug, consumed by a fungus. Frequently releases clouds of thick, deadly gas.",
+    "location": "They can be found in the Fungal Wastes. There are only four of them in the whole game.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Fungified_Husk/Fungified_Husk_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Fungified_Husk/Fungified_Husk_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Fungified_Husk/Fungified_Husk_3.webp"
+    ],
+    "description_2": "The bugs of Hallownest are so pathetic that being infected by poisonous fungi actually increases their chances of survival! They really are absurd creatures.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "bf03a550-248b-43db-9e5c-3810e328e8eb",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Fungoon",
+    "description_1": "Fully grown fungal balloon. Spits built up internal gas at aggressors.",
+    "location": "They can be found in most of the Fungal Wastes, except for the Mantis Village.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Fungoon/Fungoon.webp"
+    ],
+    "description_2": "So round! I don't think I've seen a rounder creature than this. This world certainly hides some marvellous creatures. I must hunt them all down!",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "dabd479d-80d7-4333-a8aa-f34243a43aa5",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Goam",
+    "description_1": "Thickly armoured, it bursts from the ground to seize prey in its fangs.",
+    "location": "They are mainly found in the Forgotten Crossroads, however, some can be found in Deepnest, at the area in which the Sharp Shadow Charm is collected. The Goam's Journal entry is found in the Forgotten Crossroads, obtained by inspecting a fossilised Goam. It is found in a hidden area to the right of the Fungal Wastes entrance. Requires the Desolate Dive/Descending Dark Spell to access.",
+    "health": 0,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Goam/Goam.webp"
+    ],
+    "description_2": "These brutes seem to be impervious to most damage, so you can sharpen your weapons on their thick hide or just slash away at them for your own amusement. They barely seem to notice.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "b9554ca3-27be-4ac8-ad26-17b2e9fe048a",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Great Hopper",
+    "description_1": "Leaps around the edge of the world, trying to crush prey beneath its body.",
+    "location": "They are found in the southeast part of Kingdom's Edge. Two of them are spawned by hitting the dummy in Oro's backyard. They are also found within the Colosseum of Fools, in the Trial of the Conqueror.",
+    "health": 130,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Great_Hopper/Great_Hopper.webp"
+    ],
+    "description_2": "A worthy foe, surprisngly nimble for its size. Either keep your distance, or try to dance between its hops and strike at its legs.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "e957a34c-1299-4a82-824b-909681898047",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Grimmkin Nightmare",
+    "description_1": "Terrifying member of the Grimm Troupe. As part of the Ritual, it gathers scarlet flame within its torch. It will relinquish the flame once defeated.",
+    "location": "Grimmkin Nightmares can be found in the Fungal Core, the Royal Waterways, and the Hive.",
+    "health": 320,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Grimmkin_Nightmare/Grimmkin_Nightmare_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Grimmkin_Nightmare/Grimmkin_Nightmare_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Grimmkin_Nightmare/Grimmkin_Nightmare_3.webp"
+    ],
+    "description_2": "\"Dance and die and live forever, Silent voices shout and sing, Stand before the Troupe's dark heart, Burn away the Nightmare King.\" - \"The Grimm Troupe\"",
+    "dlc": "The Grimm Troupe"
+  },
+  {
+    "id": "8c50e6bc-bf26-4af2-beb2-dea9b7fcc90e",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Grimmkin Master",
+    "description_1": "Powerful and devoted member of the Grimm Troupe. As part of the Ritual, it gathers scarlet flame within its torch. It will relinquish the flame once defeated.",
+    "location": "Grimmkin Masters can be found in King's Pass, the Resting Grounds, and Kingdom's Edge.",
+    "health": 240,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Grimmkin_Master/Grimmkin_Master_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Grimmkin_Master/Grimmkin_Master_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Grimmkin_Master/Grimmkin_Master_3.webp"
+    ],
+    "description_2": "\"A spark of red lights darkest dream, Scarlet nightmares bright and wild, Visions dance and flames do speak, Burn the father, feed the child.\" - \"The Grimm Troupe\"",
+    "dlc": "The Grimm Troupe"
+  },
+  {
+    "id": "a18605a6-e192-406b-8838-c5a0d5c2ba02",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Furious Vengefly",
+    "description_1": "Vengefly whose body has been distorted by continued infection. Highly aggressive.",
+    "location": "Furious Vengeflies can be commonly found in the Forgotten Crossroads, only after it becomes Infected. They replace the positions of most regular Vengeflies. They also appear in the 3rd wave of the Trial of the Fool at the Colosseum of Fools.",
+    "health": 40,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Furious_Vengefly/Furious_Vengefly_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Furious_Vengefly/Furious_Vengefly_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Furious_Vengefly/Furious_Vengefly_3.webp"
+    ],
+    "description_2": "The infection that passes from creature to creature grants strength and courage, but it also seems to enslave the will. Would you make such a bargain?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "a0136cc9-7588-4ae5-8eb5-05d14d0d7d48",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Glimback",
+    "description_1": "Slow, hardy creature. The crystals that grow on its back provide extra protection from foes above.",
+    "location": "Glimbacks can be found mainly in Crystal Peak; however, two can also be found in the lower Crystal Peak entrance in the Forgotten Crossroads.",
+    "health": 35,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Glimback/Glimback.webp"
+    ],
+    "description_2": "Large and well-protected, but slow and docile. The bugs of Hallownest used to force these creatures to carry around their carts and machines.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "95b31b8d-4e0d-4a34-901d-4af8094365ca",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Gluttonous Husk",
+    "description_1": "Former member of Hallownest's high society. Uses its corpulent body as a weapon.",
+    "location": "They are mainly found in the east part of the City of Tears, much like the Cowardly Husk and Husk Dandy.",
+    "health": 30,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Gluttonous_Husk/Gluttonous_Husk_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Gluttonous_Husk/Gluttonous_Husk_2.webp"
+    ],
+    "description_2": "As these bugs became wealthier they hunted less and consumed more, eventually taking on a grotesque shape not unlike over-ripe fruit.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "3a139066-7bf4-4be6-8fa1-524f46f835db",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Gorgeous Husk",
+    "description_1": "Corpulent Husk encrusted with a shining metal. Retains the instinct to hoard Geo.",
+    "location": "It is located in the northernmost room to the east of the Hollow Knight Fountain in the City of Tears. To reach it, travel east when entering the room in a secret chamber. There is a hidden step that is easy to miss as the Knight has to jump to enter the hidden room.",
+    "health": 220,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Gorgeous_Husk/Gorgeous_Husk_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Gorgeous_Husk/Gorgeous_Husk_2.webp"
+    ],
+    "description_2": "There is beauty in many things. Reflections of light in water, the taste of freshly killed meat, the cry of a hatchling for its mother... I have never understood the lust for metals and stones though.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "9fb610ed-54c4-41d4-9a89-2f97c38ff087",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Great Husk Sentry",
+    "description_1": "Animated remains of a Great Sentry, the most elite of the city's guards. Wields a greatnail and shell. Its powerful attacks cause heavy damage.",
+    "location": "There are seven Great Husk Sentries in the City of Tears, three of them in the Watcher's Spire. Another Great Husk Sentry can be found in the Resting Grounds, right next to the lift leading to the City of Tears.",
+    "health": 170,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Great_Husk_Sentry/Great_Husk_Sentry.webp"
+    ],
+    "description_2": "An extremely rare thing, a bug of Hallownest that actually poses a threat. Watch them carefully, as they can lash out quickly with devastating strikes.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "61ddc3bf-99d5-47d4-a5f7-8c78ae58a3c0",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Heavy Sentry",
+    "description_1": "Animated remains of a large Hallownest Sentry. One of few in Hallownest strong enough to wield a greatnail.",
+    "location": "They are mainly found within the City of Tears, in small numbers. Two can be found in the eastern part of the Royal Waterways.",
+    "health": 35,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Heavy_Sentry/Heavy_Sentry_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Heavy_Sentry/Heavy_Sentry_2.webp"
+    ],
+    "description_2": "Surprisingly quick-witted for a corpse. It will try to catch you if you leap over it and can chase you if you flee. Enjoyable to hunt, but beware them in packs.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "c6c43edd-697e-406f-bf31-9f1580649092",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Hive Soldier",
+    "description_1": "Defends the Hive against intruders with its extendable stinger.",
+    "location": "Found within the Hive.",
+    "health": 65,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hive_Soldier/Hive_Soldier_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hive_Soldier/Hive_Soldier_2.webp"
+    ],
+    "description_2": "Savage and dedicated warriors. Be prepared to fight them to the death if you plan on invading their home.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "efeff494-51ad-4ffc-9b6d-2d91f3128732",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Hopper",
+    "description_1": "Leaps at prey and uses its sharp proboscis to drain vital fluids.",
+    "location": "They can be found in most of Kingdom's Edge, except for the southwest part. They are also found in the 8th wave of the Trial of the Conqueror.",
+    "health": 50,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hopper/Hopper_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hopper/Hopper_2.webp"
+    ],
+    "description_2": "This hopping thief's belly is full of the blood it has stolen from other beasts. If you hold it above a fire, the belly will grow and grow until it explodes in a steaming shower of fluids.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "77405289-7923-43e3-a549-c3e15e1a0290",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Hopping Zoteling",
+    "description_1": "Figment of an obsessed mind. Jumps about in a nonthreatening manner.",
+    "location": "Hopping Zotelings are spawned by Grey Prince Zote after beating him at least once. The boss must be defeated to earn the Hopping Zoteling's Journal entry, but the Hopping Zoteling does not have to actually appear.\n\nThey are also present in the Eternal Ordeal.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hopping_Zoteling/Hopping_Zoteling_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hopping_Zoteling/Hopping_Zoteling_2.webp"
+    ],
+    "description_2": "\"That lowly map-maker's wife? Hah! My Queen, how could you compare yourself to her? In the face of your intoxicating beauty, all other females are merely dust!\" The Grey Prince trembled with anger and indignation... and love. - \"The Grey Prince\" Chapter 178",
+    "dlc": "Hidden Dreams"
+  },
+  {
+    "id": "ef1a9c9f-6370-406e-aa9b-b1ff5327079b",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Grub Mimic",
+    "description_1": "Assumes the shape of a harmless creature to lure prey.",
+    "location": "There are a total of 5 in the whole game.\n\n1 in the west of Crystal Peak.\n3 in the north of Deepnest.\n1 in the 10th wave of the Trial of the Conqueror.",
+    "health": 45,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Grub_Mimic/Grub_Mimic_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Grub_Mimic/Grub_Mimic_2.webp"
+    ],
+    "description_2": "Luring an enemy close by pretending to be a weak little grub. Very cunning! Unfortunately for them, I eat these grubs as soon as I see them.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "b698c7dd-1afa-4ce1-b453-903471e3cfaf",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Gruzzer",
+    "description_1": "Simple-minded creature that haphazardly buzzes around, bumping into things.",
+    "location": "Gruzzers are found in abundance at the northwest part of the Forgotten Crossroads and are replaced by Volatile Gruzzers once it becomes Infected.\n\nEight are also spawned by the death of the Gruz Mother in the Forgotten Crossroads, popping out of her dead corpse.",
+    "health": 8,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Gruzzer/Gruzzer.webp"
+    ],
+    "description_2": "They only seem dimly aware of their surroundings, making them easy prey to cut your fangs on. What is it that guides them on their paths? It almost seems like they search for ways to die.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "a4e8e738-ec88-482d-9382-f46f15316429",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Gulka",
+    "description_1": "Aggressive plant-life that retracts protectively when danger is near. Spits hard spikey balls when foes are at a distance.",
+    "location": "Found in large quantities in southern Greenpath, to the west of the Stone Sanctuary.",
+    "health": 10,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Gulka/Gulka.webp"
+    ],
+    "description_2": "Its leaves are dry and bland. The bud is unpleasantly sour, but oh! The venom in those balls it spits. Exquisite! If you have the time to spare, try drinking some and enjoy the effects.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "9b732787-cfa3-49a4-ba83-e925515db94b",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Heavy Fool",
+    "description_1": "Warrior fighting for glory in the Colosseum of Fools. Aggressively charges down foes.",
+    "location": "Heavy Fools are only found in the Colosseum of Fools, in the second and third trial.",
+    "health": 90,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Heavy_Fool/Heavy_Fool_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Heavy_Fool/Heavy_Fool_2.webp"
+    ],
+    "description_2": "Large, bulky, and fighting for its life. Don't underestimate this fighter! It can slither around quickly despite its bulk. It also has a surprisingly beautiful face beneath its mask.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "5fdfac41-0fe5-460e-8c00-1adfe5edb579",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Hive Guardian",
+    "description_1": "Protects the Hive by hurling its huge body at intruders.",
+    "location": "They are found in small groups within the Hive, usually near Hive Soldiers.",
+    "health": 100,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hive_Guardian/Hive_Guardian_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hive_Guardian/Hive_Guardian_2.webp"
+    ],
+    "description_2": "Like their smaller kin, their only instinct is to protect the Hive at any cost to themselves. Somewhat clumsy, they'll often damage the structure of the Hive when charging at intruders. Does this cause them shame? I do not know whether they have the capacity for such a thing.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "8cea3514-54c5-473e-a3a4-3ad1afa264c8",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Hiveling",
+    "description_1": "Smallest of the Hive's inhabitants. Carries out simple tasks.",
+    "location": "They are very commonly found in large numbers within the Hive and the bottom half of Kingdom's Edge, near the Tram station. Five of them can also be found near where the Quick Slash Charm is collected.",
+    "health": 18,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hiveling/Hiveling.webp"
+    ],
+    "description_2": "Weak, but hard-working and numerous. Their hairy little bodies are filled with a thick, sweet, golden liquid. Good to keep a few on you for long hunts.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "8165f8dc-0264-4412-8af8-b8722d367d96",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mantis Youth",
+    "description_1": "Member of a proud tribe, fiercely protective of its territory. Launches stinging attacks with its needle sharp abdomen.",
+    "location": "They can only be found within and at the entrance of the Mantis Village.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mantis_Youth/Mantis_Youth_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mantis_Youth/Mantis_Youth_2.webp"
+    ],
+    "description_2": "As it grows, it loses the ability to fly. Passage into adulthood is often celebrated, but as time goes by we realise what we have lost.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "dad71b8a-e334-470b-9108-497502b02f2a",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Husk Bully",
+    "description_1": "The remains of a bug, animated by a strange force. It aggressively attacks any uninfected creature it finds.",
+    "location": "Although found mostly in the Forgotten Crossroads, they can also be found in the City of Tears, Greenpath, the Howling Cliffs, and the Royal Waterways, much like their hornhead variant.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Husk_Bully/Husk_Bully.webp"
+    ],
+    "description_2": "A thick orange mist fills these walking corpses. It has a sweet, sickly taste to it. I find it foul. After you kill these creatures, I suggest you do not eat them.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "0d5114d0-9d04-451a-9151-9969c1d249da",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Husk Guard",
+    "description_1": "The remains of a great Hallownest Crossguard, animated by a strange force. Instinct still drives it to guard its post against intruders.",
+    "location": "Only two are found in the Forgotten Crossroads, one east of the False Knight arena and the other right above the north Crystal Peak entrance. Once the Forgotten Crossroads changes to the Infected Crossroads, the Husk Guard near the arena of the False Knight is overcome by the Infection and cannot be fought anymore. The one in the northeast is still there, however.",
+    "health": 70,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Husk_Guard/Husk_Guard.webp"
+    ],
+    "description_2": "Larger and stronger than their brothers, these bugs are still forced to steal their weapons from the remains of other creatures. They do not roam or hunt, forever standing guard and lashing out at anything that wanders near.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "7a0b9dc4-f900-41ba-8c4b-46c8d73680e0",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Husk Hive",
+    "description_1": "Cowardly husk, its body colonised by hivelings.",
+    "location": "They are only found within the Hive.",
+    "health": 60,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Husk_Hive/Husk_Hive_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Husk_Hive/Husk_Hive_2.webp"
+    ],
+    "description_2": "Did the hivelings build their nest around this sorry bug, or did the bug squeeze its body into their nest? Either way, they seem happy enough together.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "08cd02b1-670b-44db-bbb6-25fe77602814",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Husk Hornhead",
+    "description_1": "The remains of a bug, animated by a strange force. Uses its horn to attack any uninfected creature it finds.",
+    "location": "They can mainly be found throughout the Forgotten Crossroads, the City of Tears, and Deepnest. They can also be found in Greenpath, the Fungal Wastes, the Howling Cliffs, and the Royal Waterways.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Husk_Hornhead/Husk_Hornhead.webp"
+    ],
+    "description_2": "These bugs have an arrogant air about them, even after dying. Overly proud of their long horns! I enjoy snapping them off.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "564e90e7-14ab-411c-8771-85cf90eb96e8",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Husk Miner",
+    "description_1": "Remains of a bug drawn to the Crystal Peak for its precious crystal. Its claw-pick now doubles as a fierce weapon.",
+    "location": "The Husk Miner can only be found in Crystal Peak.",
+    "health": 25,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Husk_Miner/Husk_Miner_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Husk_Miner/Husk_Miner_2.webp"
+    ],
+    "description_2": "The bugs of Hallownest lusted after the strangest things in life. They would dig furtively through the dirt for stone, ore and in particular the crystals that grow at the top of the world.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "92276371-10c0-4e69-9571-a5c3305176a1",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Husk Warrior",
+    "description_1": "The remains of a bug, animated by a strange force. Wields a nail and shell.",
+    "location": "Only two can be found in the Forgotten Crossroads, to the east of the Stag Station.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Husk_Warrior/Husk_Warrior_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Husk_Warrior/Husk_Warrior_2.webp"
+    ],
+    "description_2": "Softened by generations of luxury, these bugs lack claws or armour or venom. Those who wish to protect themselves are forced to fashion weapons from stone, ore or shell.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "5bd78595-7bbd-4b5c-b380-601bc0dd3e51",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Hwurmp",
+    "description_1": "Tiny and placid but swells to enormous size when threatened.",
+    "location": "They are found mainly in the northwest part of the Royal Waterways. Some can also be seen around Isma's Grove.",
+    "health": 25,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hwurmp/Hwurmp_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Hwurmp/Hwurmp_2.webp"
+    ],
+    "description_2": "Extremely amusing creature.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "5a861d3a-f06b-4765-9f6a-794a2ee4f979",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Infected Balloon",
+    "description_1": "Single cell of infection. Has a simple mind and can float using internal gasses.",
+    "location": "Infected Balloons can be found in many locations throughout the west part of the Ancient Basin.\n\nThey are also summoned by Broken Vessel, Lost Kin, and Winged Nosk.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Infected_Balloon/Infected_Balloon.webp"
+    ],
+    "description_2": "The infection creeping through the Kingdom's dead veins... does it have a mind? Does it produce soul? Is it truly alive?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "09e0721c-2e46-4c74-95a1-633568f1654d",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Little Weaver",
+    "description_1": "Nimble spider that traverses its domain on thin strands of web. Often waits in ambush.",
+    "location": "They can be found very commonly in the west portion of Deepnest, near the Distant Village.",
+    "health": 30,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Little_Weaver/Little_Weaver.webp"
+    ],
+    "description_2": "They can appear from the darkness at any moment! They seem to fly through the air, dancing on invisible strings as they silently stalk prey.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "e64d19b1-a9c4-4325-9e93-22ef2149baac",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Maggot",
+    "description_1": "Weakest members of the kingdom of Hallownest. Generally looked down upon and forced to do menial labour.",
+    "location": "Found in the Forgotten Crossroads, behind a breakable wall above False Knight's arena. They appear after False Knight has been defeated, but the room must be re-entered for them to spawn. Requires Mantis Claw to reach.",
+    "health": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Maggot/Maggot_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Maggot/Maggot_2.webp"
+    ],
+    "description_2": "Consisting mainly of sweet fat, these helpless creatures make excellent provisions for long journeys. Best roasted over open flame. If they try to bargain for their life, just ignore them. They have nothing to offer.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "404e8712-3850-4b77-b1e5-2fd53b5d0514",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mantis Petra",
+    "description_1": "Lurks amongst foliage and attacks by flinging wind-scythes from a distance.",
+    "location": "The Mantis Petra are very commonly found in the Queen's Gardens, usually as a challenge in the platforming sections. Also found within the Colosseum of Fools, in the 9th, 14th and 17th waves of the Trial of the Fool.",
+    "health": 45,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mantis_Petra/Mantis_Petra.webp"
+    ],
+    "description_2": "They will harass you from afar, so get close and strike quickly. Their bodies are brittle and will easily fall to your nail.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "4494397a-2d5f-46d0-aaa6-60df42cc0b41",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mantis Traitor",
+    "description_1": "Once a member of the Mantis tribe, now cast out and driven mad by infection.",
+    "location": "They are very commonly found within the Queen's Gardens, usually defeating them is necessary to unlock a door or proceed, like in the Traitor Lord fight. Also found within the Colosseum of Fools, at the 9th and 17th waves of the Trial of the Fool.",
+    "health": 74,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mantis_Traitor/Mantis_Traitor_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mantis_Traitor/Mantis_Traitor_2.webp"
+    ],
+    "description_2": "Belonging to a tribe, or not belonging. I don't really understand what the difference is, or how it works. I have no tribe of my own.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "c84920a7-8e38-4ffe-bd64-d79261d341a3",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mantis Warrior",
+    "description_1": "Member of a proud tribe, fiercely protective of its territory. Launches savage attacks with bladed forelimbs.",
+    "location": "They are only found within and in the entrance of the Mantis Village.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mantis_Warrior/Mantis_warrior_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mantis_Warrior/Mantis_warrior_2.webp"
+    ],
+    "description_2": "If you venture too deep into the fungal forests, these warriors will stand in your way. What is it they guard, deep at the bottom of their territory?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "a0e3fd24-952a-43d4-8984-209080318fce",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Lance Sentry",
+    "description_1": "Winged Sentry of Hallownest equipped with a nail-lance. Charges at threats or throws its lance from a distance.",
+    "location": "They can mainly be found in the centre and west parts of the City of Tears. They can also be found in the Royal Waterways.",
+    "health": 25,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Lance_Sentry/Lance_Sentry_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Lance_Sentry/Lance_Sentry_2.webp"
+    ],
+    "description_2": "This devious foe will often keep its distance and try to pick you off with its thrown weapons. When it charges at you, leap up and strike it down.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "dc248121-a4f1-4016-9411-03e85fc41bef",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Lesser Mawlek",
+    "description_1": "Attacks by spitting acid and slashing with foreclaws.",
+    "location": "They can be found in the Ancient Basin, just west of the Tram, where Cloth can be met for the third time. They can also be found in the Colosseum of Fools, during the 12th wave of the Trial of the Fool.",
+    "health": 60,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Lesser_Mawlek/Lesser_Mawlek_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Lesser_Mawlek/Lesser_Mawlek_2.webp"
+    ],
+    "description_2": "If you try to keep your distance it will spit sticky, burning globs of vile stomach juice. Move in quickly and strike decisively.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "3835cef5-7cc2-4075-ab9d-05bc4b78602d",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Lifeseed",
+    "description_1": "Small scuttling seed filled with Lifeblood, which can be extracted and consumed for its healthful properties.",
+    "location": "They spawn from breaking Lifeblood Cocoons, therefore, Lifeseeds can be found wherever there is a cocoon.",
+    "health": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Lifeseed/Lifeseed.webp"
+    ],
+    "description_2": "The bright liquid inside of these little fellows is delicious, and drinking it will make you feel stronger. I wonder how my own innards taste... would it be a heinous thing to try and drink some?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "05ac682c-9a4e-46d3-b650-3339c580f755",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Lightseed",
+    "description_1": "A single-celled organism, completely infected. Scurries about simple-mindedly.",
+    "location": "Lightseeds are found in the area in the Ancient Basin leading to Broken Vessel. After Broken Vessel is defeated, they no longer show up in this area. They are also located in the Infected Crossroads. The Lightseeds in the room east of the lift leading to the City of Tears also do not show up after Broken Vessel's defeat. The other six Lightseeds in the Infected Crossroads do show up even after defeating Broken Vessel.",
+    "health": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Lightseed/Lightseed.webp"
+    ],
+    "description_2": "Strange air has been seeping down from above for years. Some of the air became liquid, and some of that liquid became flesh, and some of that flesh came to life. I don't know what to make of it.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "a399095a-334e-4e6f-a713-a42036fcabdb",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Loodle",
+    "description_1": "Inhabits the wilds beside the Queen's Gardens. Not aggressive in nature, but its wild bouncing behaviour can be dangerous.",
+    "location": "They are only found within the Queen's Gardens, near the large bug corpse and near the Stag Station.",
+    "health": 30,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Loodle/Loodle_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Loodle/Loodle_2.webp"
+    ],
+    "description_2": "It seems like their energy is limitless! Do they ever stop to sleep, or eat, or love?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "829d6cd1-7ee5-4f86-ad32-ad6a384c33e8",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Moss Knight",
+    "description_1": "Protector of the Greenpath, trained in the ways of the Nail and the Shell.",
+    "location": "They can be found only in Greenpath, usually guarding Geo or something of interest. The one at the Lake of Unn does not respawn if it is killed.",
+    "health": 50,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Moss_Knight/Moss_Knight_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Moss_Knight/Moss_Knight_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Moss_Knight/Moss_Knight_3.webp"
+    ],
+    "description_2": "They hide as bush-like mounds and look soft, but beware these warriors! They are relentless in combat, fiercely guarding something hidden deep in the Greenpath.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "a014f79e-c398-4cbd-bc23-13d099867c52",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mossfly",
+    "description_1": "Winged weakling that covers itself in leaves to appear larger. Hides amongst the undergrowth, fleeing if predators draw near.",
+    "location": "They are found mainly in Queen's Gardens, though they can also be found near the Overgrown Mound.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mossfly/Mossfly_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mossfly/Mossfly_2.webp"
+    ],
+    "description_2": "They spend their whole lives hiding or fleeing. How sad. Or, perhaps that is the life they choose for themselves and they enjoy it? It's a strange thought, but not impossible.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "285a3635-4203-42ee-99b0-84cdf21c5999",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mosskin",
+    "description_1": "Plant-like bug that charges at foes when close.",
+    "location": "Mosskin are found in Greenpath, and are significantly rarer than their volatile variant.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mosskin/Mosskin_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mosskin/Mosskin_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mosskin/Mosskin_3.webp"
+    ],
+    "description_2": "They can be hard to spot amongst the foliage until you get too close and they suddenly come charging at you. Tread carefully.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "598d5597-2a99-41af-aa5a-663952f7369a",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Obble",
+    "description_1": "Fat, slow, flying bug. Frequently discharges the acidic liquid stored in its round body.",
+    "location": "Found in Greenpath, near the central Bench and northwest of Stone Sanctuary.",
+    "health": 10,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Obble/Obble_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Obble/Obble_2.webp"
+    ],
+    "description_2": "Does it realise what a nuisance it is? Drifting around, spilling its noxious juices everywhere it goes? If you see any, make sure to kill them.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "930faf60-b52a-45e9-9dd0-c66a0054d28e",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mawlurk",
+    "description_1": "Large, immobile creature. Wildly spits venom when intruders pass by.",
+    "location": "There are 6 Mawlurks in the Ancient Basin, serving as obstacles in the area before the Broken Vessel fight.",
+    "health": 135,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mawlurk/Mawlurk_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mawlurk/Mawlurk_2.webp"
+    ],
+    "description_2": "How did this foolish creature lose its legs?! I suppose it's possible to lose anything, if you really try.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "adf76f5c-eb54-40c3-8f02-3f4b2fe55ad9",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Menderbug",
+    "description_1": "Member of an elusive guild of bugs fixated on the maintenance of Hallownest's many signs and wayposts.",
+    "location": "Menderbug is located beneath the well in the Forgotten Crossroads.",
+    "health": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Menderbug/Menderbug_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Menderbug/Menderbug_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Menderbug/Menderbug_3.webp"
+    ],
+    "description_2": "The bugs of Hallownest were obsessed with building things. What strange little minds they had.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "593d1618-1278-443c-b27d-b8e83d18325f",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mistake",
+    "description_1": "Once a highly intelligent bug, deformed by the misuse of soul.",
+    "location": "Large numbers of them are located in the Soul Sanctum, occasionally appearing out of the floor. Three Mistakes also spawn in the Colosseum of Fools during the 9th wave of the Trial of the Fool.",
+    "health": 13,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mistake/Mistake_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mistake/Mistake_2.webp"
+    ],
+    "description_2": "These fools meddled with the soul of other creatures and lost their shape. Now they skulk through the shadows of their Sanctum like slugs, hoping their old brothers will build them new bodies.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "fd088d6e-67e8-46cb-ad50-6698f2d5b76d",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Moss Charger",
+    "description_1": "Timid creature that frightens away intruders by covering itself in huge clumps of moss.",
+    "location": "Found only in Greenpath.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Moss_Charger/Moss_Charger_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Moss_Charger/Moss_Charger_2.webp"
+    ],
+    "description_2": "It's small, but it finds a lot of courage and strength once it covers itself in foliage. And I can understand the desire to camouflage oneself...",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "289ae62b-6c52-47af-a3d9-c0c5d088a88e",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mosscreep",
+    "description_1": "Weakling that covers itself in leaves to appear larger. Hides amongst the undergrowth.",
+    "location": "They are found in abundance in Greenpath and can also be found in Queen's Gardens.",
+    "health": 10,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mosscreep/Mosscreep_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mosscreep/Mosscreep_2.webp"
+    ],
+    "description_2": "I used to think these things were merely ambling plants. When I learned they were actually living creatures, I began to kill them on sight. This is the nature of the Hunt!",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "0baf9124-131a-45c4-88fd-0478c8b68971",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Mossy Vagabond",
+    "description_1": "Lazy, portly Mosskin. Easily swayed by others.",
+    "location": "Mossy Vagabonds are located in the Queen's Gardens.",
+    "health": 25,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mossy_Vagabond/Mossy_Vagabond_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mossy_Vagabond/Mossy_Vagabond_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mossy_Vagabond/Mossy_Vagabond_3.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Mossy_Vagabond/Mossy_Vagabond_4.webp"
+    ],
+    "description_2": "Slow, fat and easily vanquished; common threads in those who forget their calling and forsake their duties.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "eefd035b-caba-4483-b9bb-1378b427f465",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Royal Retainer",
+    "description_1": "The most loyal and devout servants of the King.",
+    "location": "Living Royal Retainers are only found within the White Palace, although some corpses can be found elsewhere in the Ancient Basin.",
+    "health": 5,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Royal_Retainer/Royal_Retainer_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Royal_Retainer/Royal_Retainer_2.webp"
+    ],
+    "description_2": "Simple, weak creatures find strength by forming a hive and obeying a ruler. Such creatures become the arms and teeth and claws of their monarch.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "dcff80b7-03d5-4639-a025-14a7cc0f3433",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Sharp Baldur",
+    "description_1": "Hardened baldur, bred for battle in the Colosseum of Fools. Tougher and more aggressive than its wild ancestor.",
+    "location": "This enemy is only found in the Colosseum of Fools, in the first and third trials, but it can also be spawned by the Collector in the Hall of Gods on Ascended difficulty or above, and in the Pantheon of Hallownest.",
+    "health": 65,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sharp_Baldur/Sharp_baldur_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sharp_Baldur/Sharp_baldur_2.webp"
+    ],
+    "description_2": "These creatures... I have never seen one fully grown. I suppose they aren't allowed to live long enough to become adults.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "0ce3ae50-d8ec-44a1-b1ff-df901cd09262",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Shrumal Ogre",
+    "description_1": "Huge fungal creature. Attacks by spitting corrosive venom and slamming its body into foes.",
+    "location": "Six can be found in the Fungal Wastes, mainly in the Fungal Core.\n\nWhen the two in the northern part of the Fungal Wastes are defeated, only one of them respawns after resting at a Bench.",
+    "health": 80,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shrumal_Ogre/Shrumal_Ogre_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shrumal_Ogre/Shrumal_Ogre_2.webp"
+    ],
+    "description_2": "Are these hulking things beasts or are they mushrooms? I cut one in half and peered inside to find out, but could find no answers in its soft, stinking insides.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "9eb24818-c29e-49c0-b9c5-013088a75a39",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Pale Lurker",
+    "description_1": "Forgotten champion of the Colosseum, drawn away by strange obsessions.",
+    "location": "Pale Lurker is found in a secret area east of the Colosseum of Fools, the Pale Lurker's Retreat. A breakable wall leads to the area.",
+    "health": 400,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Pale_Lurker/Pale_Lurker_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Pale_Lurker/Pale_Lurker_2.webp"
+    ],
+    "description_2": "This odd creature is unaffected by and unaware of the disease drifting through the caverns. Its madness is all its own.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "002af3bb-337f-4013-8526-516477daa30e",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Pilflip",
+    "description_1": "Odd creature that adapts to changing situations by flipping over and using the limbs on the other side of its body.",
+    "location": "They are only found in the central part of the Royal Waterways.",
+    "health": 30,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Pilflip/Pilflip_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Pilflip/Pilflip_2.webp"
+    ],
+    "description_2": "Adaptability is an important survival skill. If a problem seems insurmountable, try approaching it from a different angle.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "79172aaf-a2fd-4dbf-bba6-ac379e709f6c",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Primal Aspid",
+    "description_1": "Wilder, ancestral form of the Aspid. Once thought extinct, they have reappeared at the edges of the world.",
+    "location": "They can be seen throughout all of Kingdom's Edge, except for the southwest portion. They can also be spawned by the Ascended/Radiant versions of the Collector and are present in all the trials at the Colosseum of Fools.",
+    "health": 35,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Primal_Aspid/Primal_Aspid.webp"
+    ],
+    "description_2": "These cruel foes will ambush you and relentlessly attack with their searing venom. How strange that their descendants are so weak. If I have children, I hope they will be stronger than me...",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "ed31e4da-a217-4b9e-a9e6-132650d3711e",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Shadow Creeper",
+    "description_1": "Found only in deep, dark places. Has never been observed to eat or drink anything.",
+    "location": "Shadow Creepers are found in Ancient Basin, mainly in the central portion. They can also be found in the Abyss, serving as platforming section obstacles in the entrance.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shadow_Creeper/Shadow_Creeper.webp"
+    ],
+    "description_2": "This little creeper is weak and poses no threat, but something about it still unsettles me. The way it moves and the noises it makes are... strange somehow.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "29d558bd-674f-4c34-ade5-04c3bbea4c05",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Shardmite",
+    "description_1": "Feeds on crystal dust and uses crystallised spines to protect itself from danger.",
+    "location": "They can only be found in Crystal Peak, mostly across the northeast part.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shardmite/Shardmite_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shardmite/Shardmite_2.webp"
+    ],
+    "description_2": "I don't find this creature particularly noteable or interesting. It should learn to fly, or breathe flames, or sing hauntingly. Anything to justify its existence.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "901671c3-9a5c-40c2-a309-231164c59787",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Shielded Fool",
+    "description_1": "Warrior fighting for glory in the Colosseum of Fools. Warily approaches opponents with shell held high.",
+    "location": "This enemy is only found in the Colosseum of Fools, in all of the three trials.",
+    "health": 65,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shielded_Fool/Shielded_Fool_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shielded_Fool/Shielded_Fool_2.webp"
+    ],
+    "description_2": "That \"Colosseum\" is a strange place where some bugs fight each other to the death and others watch. I don't understand such obscure rituals. If you venture in, stay on guard at all times.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "aaa7443e-5907-4554-bedb-963a623a3417",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Shrumal Warrior",
+    "description_1": "Fungal creature that attacks intruders to protect its young.",
+    "location": "They can only be found in the Fungal Wastes.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shrumal_Warrior/Shrumal_Warrior_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shrumal_Warrior/Shrumal_Warrior_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shrumal_Warrior/Shrumal_Warrior_3.webp"
+    ],
+    "description_2": "Something queer in the air has caused these mushrooms to grow hearts, minds, and even faces! This means they now fear for their lives, like all other living creatures.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "c5e623bb-1417-424d-9ded-3693c9fb7a3f",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Squit",
+    "description_1": "Charges at prey with its needle-like proboscis.",
+    "location": "They are found in Greenpath and the Overgrown Mound.",
+    "health": 10,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Squit/Squit.webp"
+    ],
+    "description_2": "When they lunge at you, don't panic. Stand your ground, and strike back as they come close.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "3c2dc4dd-d631-4f9a-95cf-aeda35e7e24d",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Sturdy Fool",
+    "description_1": "Warrior fighting for glory in the Colosseum of Fools. Uses crescent-shaped blades to cut down foes.",
+    "location": "This enemy is only found in the Colosseum of Fools, in the Trial of the Fool and the Trial of the Warrior.",
+    "health": 80,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sturdy_Fool/Sturdy_Fool_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sturdy_Fool/Sturdy_Fool_2.webp"
+    ],
+    "description_2": "You can hit this warrior's spinning weapons out of the air, straight back into them! Useful if they manage to corner you.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "11301e51-2c9c-4361-9ec7-e32490966869",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Uoma",
+    "description_1": "Smallest Jelly form. Passive and unaware, but pulsing with a dangerous electric charge.",
+    "location": "They are located in almost every room in Fog Canyon, with just a few exceptions.",
+    "health": 1,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Uoma/Uoma.webp"
+    ],
+    "description_2": "The spirit of a dead ancestor? The brain of a larger creature, allowed to drift free? An egg searching for a safe place to spawn? I have no idea what this is.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "4642301f-651d-4347-aeb9-59ec162c4a6b",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Shrumeling",
+    "description_1": "Young fungal creature. Spends most of its time in the ground but can uproot and flee if it senses danger.",
+    "location": "Shrumelings can be found in the Fungal Wastes.",
+    "health": 5,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shrumeling/Shrumeling_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Shrumeling/Shrumeling_2.webp"
+    ],
+    "description_2": "Looks like an ordinary mushroom until you get close, then it pops out of the ground and starts scurrying around blindly. Very, very amusing.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "1a353778-5033-4e48-a4c3-391c2ec8738a",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Sibling",
+    "description_1": "Fragment of a lingering will.",
+    "location": "These enemies are very commonly found within the Abyss, near the lighthouse and in the Birthplace. The Siblings near the lighthouse no longer appear after the lighthouse has been turned on.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sibling/Sibling_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sibling/Sibling_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sibling/Sibling_3.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sibling/Sibling_4.webp"
+    ],
+    "description_2": "Far down below us, beneath the kingdom, the air grows stiller and a sense of emptiness pervades. Can life flourish down there? If so, I will hunt it.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "6be0b4c6-45eb-493a-8a68-2670daddce25",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Slobbering Husk",
+    "description_1": "The body of a bug, completely consumed by infection. Spits corrosive liquid.",
+    "location": "Since the Leaping Husks in Forgotten Crossroads mostly become Slobbering Husks after the Infection spreads, their locations are similar.",
+    "health": 30,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Slobbering_Husk/Slobbering_Husk_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Slobbering_Husk/Slobbering_Husk_2.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Slobbering_Husk/Slobbering_Husk_3.webp"
+    ],
+    "description_2": "The infection that swept through Hallownest so long ago... they say that the harder you struggled against it, the more it consumed you.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "437ed325-77b6-4a4f-b18a-f04174795151",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Soul Twister",
+    "description_1": "Highly intelligent bug that uses arcane knowledge to twist soul into vicious spells.",
+    "location": "They appear in the Soul Sanctum, only to the east of the Soul Master arena. They also appear in the 9th, 10th, 11th and 17th waves of the Trial of the Fool.",
+    "health": 35,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Soul_Twister/Soul_Twister_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Soul_Twister/Soul_Twister_2.webp"
+    ],
+    "description_2": "I have heard others talk about \"soul\" but I do not understand what it actually is. I do know that freshly killed meat tastes best - is that because the \"soul\" still clings to it?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "e13efb76-0ac7-4713-9c0d-4accaf0c83a1",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Sporg",
+    "description_1": "Detects nearby movement and fires out explosive spores that drift towards their target.",
+    "location": "They can only be found in the Fungal Wastes, mostly to the east of Queen's Station.",
+    "health": 25,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sporg/Sporg_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Sporg/Sporg_2.webp"
+    ],
+    "description_2": "If you're skillful, you can lead their spores back to them and watch them perish in a destruction of their own making. There is a lesson in that, I think.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "833dc509-e7a4-4475-8ca8-d925ffb95654",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Tiktik",
+    "description_1": "Uses its small, sharp claws to climb along walls and rooves.",
+    "location": "The Tiktik, much like the Crawlid, can be found mainly in the northwest of the Forgotten Crossroads, as well as in the Howling Cliffs and northeast part of Greenpath. One can be found at the top of the Blue Lake.",
+    "health": 8,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Tiktik/Tiktik.webp"
+    ],
+    "description_2": "Spends its time tap-tap-tapping its way through the roads and caverns near the surface of this kingdom. If you're patient, you can wait for it to come to you and pick it off.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "2c117ea2-c597-4c33-96c2-6b56c858f91f",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Volatile Gruzzer",
+    "description_1": "Gruzzer swollen with infection and primed to burst.",
+    "location": "Most of the Gruzzers become Volatile Gruzzers after the Infection consumes the Forgotten Crossroads, therefore their locations are similar. They can be found in the northwest of the Infected Crossroads. Volatile Gruzzers also appear in the Colosseum of Fools, in the Trial of the Warrior during the 11th wave, and in the Trial of the Conqueror during the 5th wave.",
+    "health": 40,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Volatile_Gruzzer/Voletile_Gruzzer_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Volatile_Gruzzer/Voletile_Gruzzer_2.webp"
+    ],
+    "description_2": "Horrible goo and noxious gas has started leaking down from above. Is there a source of all this pestilence? If so, I haven't seen it.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "b231ec4f-5646-409b-9c07-4a888f84dd5c",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Garpede",
+    "description_1": "Giant burrower covered in thick shell plates. Tirelessly travels the tunnels of the Deepnest.",
+    "location": "Garpedes are located in Deepnest and in the Colosseum of Fools. To fill out their Hunter's Journal entry, the body of a dead Garpede must be inspected. It is located near the very bottom of Deepnest, southeast of the Hot Spring, in a hidden area immediately west of the entrance to the room containing the Sharp Shadow Charm.",
+    "health": 0,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Garpede/Garpede.webp"
+    ],
+    "description_2": "Monstrously strong, they shrug off any attacks you make on their thickly armoured bodies. Luckily, if you simply avoid their paths they'll leave you alone.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "822a7a81-6052-4dd4-8764-ca043e945142",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Vengefly",
+    "description_1": "Flying predator that pursues its prey relentlessly.",
+    "location": "Vengeflies can be found in the Howling Cliffs, King's Pass, the Forgotten Crossroads, Greenpath, the City of Tears, the Colosseum of Fools, and the Blue Lake. They can also be spawned by the Collector and Vengefly Kings.\n\nAll but one of the Vengeflies in the Forgotten Crossroads are replaced by Furious Vengeflies when it becomes Infected.",
+    "health": 8,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Vengefly/Vengefly_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Vengefly/Vengefly_2.webp"
+    ],
+    "description_2": "This fierce little hunter will bravely chase down creatures many times its size. Admirable! It is weak though, and I have devoured hundreds of them with little effort or care.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "e39e4dee-bf90-4aa2-a054-c1ef4d2f90d2",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Violent Husk",
+    "description_1": "Maddened by massive infection. Charges at enemies with no thought for its own preservation.",
+    "location": "Most Wandering Husks in the Forgotten Crossroads become Violent Husks when the area is Infected.",
+    "health": 40,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Violent_Husk/Violent_Husk_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Violent_Husk/Violent_Husk_2.webp"
+    ],
+    "description_2": "The bugs of Hallownest were twisted out of shape by that ancient sickness. First they fell into deep slumber, then they awoke with broken minds, and then their bodies started to deform...",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "992d94c2-04d5-489d-8990-d10737d81ded",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Void Tendrils",
+    "description_1": "Fragments of void taking the shape of sharp, thrashing tendrils.",
+    "location": "They are only found in the Abyss, in pools of Void and in the sea of Void. The Void Tendrils' Journal entry is found within a secret area to the right of the lighthouse in the Abyss, blocked by a Shade Gate and accessed through a passage in the ceiling.",
+    "health": 0,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Void_Tendrils/Void_Tendrils.webp"
+    ],
+    "description_2": "The bugs of Hallownest sometimes wondered whether there were other, older, stranger Kingdoms deep below them. What strange fancies they had. That's probably why they were always so distracted and easy to kill.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "44dbc497-6674-4cfc-8172-ab3197a1c5b8",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Volatile Mosskin",
+    "description_1": "Plant-like bug swollen with infection. Releases deadly gas when threatened.",
+    "location": "They are found in large numbers throughout Greenpath.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Volatile_Mosskin/Volatile_Mosskin_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Volatile_Mosskin/Volatile_Mosskin_2.webp"
+    ],
+    "description_2": "The gas that seeps from their growths smells invitingly sweet, but it will burn through shell and flesh if you get too close!",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "e193d98a-c790-47e6-8990-a0ed98bdccc9",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Volatile Zoteling",
+    "description_1": "Figment of an obsessed mind. Deals poorly with the pressure of existing and quickly explodes.",
+    "location": "This enemy is spawned by Grey Prince Zote. They appear in Battle 3 and onwards. To complete the entry for the Hunter's Journal, only Grey Prince Zote needs to be beaten in Battle 3 regardless of whether this enemy appears.\n\nVolatile Zotelings are also present in the Eternal Ordeal.",
+    "health": 30,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Volatile_Zoteling/Volatile_Zoteling_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Volatile_Zoteling/Volatile_Zoteling_2.webp"
+    ],
+    "description_2": "The Grey Prince was a wanderer by nature, but she could not bear to be separated from him. So she devised a plan to make sure that she and her prince would be together always. She only had to wait for her chance. - \"The Grey Prince\" Chapter 205",
+    "dlc": "Hidden Dreams"
+  },
+  {
+    "id": "54127d73-2389-47bb-b96d-f1a328caaffd",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Volt Twister",
+    "description_1": "Learned bug that adapted the teachings of the Soul Sanctum into a deadly fighting art. Attacks with bursts of electricity.",
+    "location": "This enemy is only found in the Colosseum of Fools, in the last trial.",
+    "health": 80,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Volt_Twister/Volt_Twister_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Volt_Twister/Volt_Twister_2.webp"
+    ],
+    "description_2": "Supposedly lives on a diet of lumaflies and spends its entire life fighting in the arena or meditating in seclusion. An odd foe.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "4fa57c15-c286-4b19-8e6f-b1ca210e33d1",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Wandering Husk",
+    "description_1": "The remains of a bug, animated by a strange force. Wanders the roads where it once lived.",
+    "location": "They can be found in large quantities in the Forgotten Crossroads, though only one can be found there after they become Infected. They can also be found in Greenpath, the City of Tears, and Deepnest.",
+    "health": 15,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Wandering_Husk/Wandering_Husk_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Wandering_Husk/Wandering_Husk_2.webp"
+    ],
+    "description_2": "These \"civilised\" bugs of Hallownest were weak in life and now they are equally weak in death. Send them back into the dirt they were born in!",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "ac36728c-50c6-484e-aac3-299e88a4360f",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Winged Fool",
+    "description_1": "Warrior fighting for glory in the Colosseum of Fools. Flies just out of an opponent`s reach then darts in for the kill.",
+    "location": "This enemy is only found in the Colosseum of Fools, in the last two trials.",
+    "health": 70,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Winged_Fool/Winged_Fool.webp"
+    ],
+    "description_2": "What do they hope for, these warriors fighting in the Colosseum? Are they slaves, or prisoners, or do they freely choose to fight?",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "8ad6e07d-e904-4914-a45d-c68c64e64399",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Winged Sentry",
+    "description_1": "Flying sentry of Hallownest. Patrols the heights of the vast cavern in which the city was built.",
+    "location": "Many of them are found throughout the west of the City of Tears. They can also be found in the Royal Waterways, and one can be found in the Resting Grounds.",
+    "health": 25,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Winged_Sentry/Winged_Sentry_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Winged_Sentry/Winged_Sentry_2.webp"
+    ],
+    "description_2": "Dances through the air just out of reach until it spots an opening, then swoops in for a decisive strike. If you're confident, wait for it to come to you then counter-attack.",
+    "dlc": "Bestiary"
+  },
+  {
+    "id": "ad52c795-1994-4596-aac2-a615a3444c5a",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Winged Zoteling",
+    "description_1": "Figment of an obsessed mind. Grudgingly assists its master in combat by lazily flying towards foes.",
+    "location": "Winged Zotelings are spawned by Grey Prince Zote. The boss must be defeated to earn the Winged Zoteling's Journal entry, but the Winged Zoteling does not have to actually appear.\n\nThey are also present in the Eternal Ordeal.",
+    "health": 20,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Winged_Zoteling/Winged_Zoteling_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Winged_Zoteling/Winged_Zoteling_2.webp"
+    ],
+    "description_2": "She asked whether he had bought the Charm for her as he promised he would, but then he explained. The Charm was actually of low quality and not worth the price asked. She understood the wisdom of his decision perfectly. - \"The Grey Prince\" Chapter 136",
+    "dlc": "Hidden Dreams"
+  },
+  {
+    "id": "340896ad-8e5b-4aa5-be54-187cb7ae7196",
+    "created_at": "2024-06-12 16:20:49.876145+00",
+    "enemy": "Wingmould",
+    "description_1": "A fly-like construct formed of white shell and a dark liquid interior.",
+    "location": "Wingmoulds are found only within the White Palace.",
+    "health": 999,
+    "images": [
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Wingmould/Wingmould_1.webp",
+      "https://txnrptehfdvtpboqdkvf.supabase.co/storage/v1/object/public/Images/Enemies/Wingmould/Wingmould_2.webp"
+    ],
+    "description_2": "The bugs of Hallownest believed that their King created this world and everything in it. For what purpose, I wonder? Were his subjects companions, or toys, or children? Such a mind seems unknowable.",
+    "dlc": "Bestiary"
+  }
+]

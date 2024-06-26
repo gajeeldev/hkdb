@@ -1,4 +1,4 @@
-import { AchievementsScreen } from '~/modules/achivements';
+import { AchievementsScreen } from '~/modules/achievements';
 
 const AchievementsPage = () => {
   return (
