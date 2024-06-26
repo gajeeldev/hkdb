@@ -1,21 +1,34 @@
 import { View, Text, useWindowDimensions, StyleSheet } from 'react-native';
-import React from 'react';
 import { Image } from 'expo-image';
 import { blurhash } from '../../config/constants/constans';
+import { dlcTypes } from '../../domain/entities';
 
 interface Props {
   firstDescription: string;
-  secondDescription?: string;
+  secondDescription?: string | null;
+  dlc?: string;
 }
 
-const DialogueDescription = ({ firstDescription, secondDescription }: Props) => {
+const DialogueDescription = ({ firstDescription, secondDescription, dlc }: Props) => {
   const { width, height, fontScale } = useWindowDimensions();
+
+  let image = require('../../../../assets/images/divider/Dialogue_Top.webp');
+
+  if (dlc === dlcTypes.Bestiary || dlc === dlcTypes.Godmaster) {
+    image = require('../../../../assets/images/divider/Bestiary.webp');
+  }
+  if (dlc === dlcTypes.HiddenDreams) {
+    image = require('../../../../assets/images/divider/Dreamjournal.webp');
+  }
+  if (dlc === dlcTypes.TheGrimmTroupe) {
+    image = require('../../../../assets/images/divider/Troupejournal.webp');
+  }
 
   return (
     <View style={styles.container}>
       {/* Dialogue Top */}
       <Image
-        source={require('../../../../assets/images/divider/Dialogue_Top.webp')}
+        source={image}
         placeholder={blurhash}
         style={[
           {

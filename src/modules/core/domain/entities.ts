@@ -1,5 +1,5 @@
 export enum dlcTypes {
-  HunterJournal = "Hunter's Journal",
+  Bestiary = 'Bestiary',
   HiddenDreams = 'Hidden Dreams',
   TheGrimmTroupe = 'The Grimm Troupe',
   Godmaster = 'Godmaster',

@@ -1,3 +1,5 @@
+export * from './components/ui/LayoutDetailScreen';
+
 export * from './domain/entities';
 
 export * from './components/ui/NoIdScreen';

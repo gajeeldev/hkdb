@@ -1,9 +1,13 @@
-import { View, Text, ScrollView } from 'react-native';
+import { View, Text, ScrollView, Platform } from 'react-native';
 import SpellsAndAbilities from '../../core/data/spells_and_abilities.json';
-import { globalStyles, GoBack, Subtitle, Title } from '~/modules/core';
+import { blurhash, globalStyles, GoBack, Subtitle, Title } from '~/modules/core';
 import { Stack } from 'expo-router';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Image } from 'expo-image';
+import DialogueDescription from '~/modules/core/components/dividers/DialogueDescription';
 
 const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) => {
+  const { top } = useSafeAreaInsets();
   const spellAndAbility = SpellsAndAbilities.find((spellAndAbility) => spellAndAbility.id === id);
 
   if (!spellAndAbility) return null;
@@ -15,22 +19,38 @@ const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) => {
           headerLeft: () => <GoBack />,
         }}
       />
-      <ScrollView>
-        <Title text={spellAndAbility.name} />
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={{ paddingTop: Platform.OS === 'ios' ? top + 100 : 0 }}>
+        <View style={{ justifyContent: 'center', alignItems: 'center', marginTop: 20 }}>
+          <Image
+            source={{ uri: spellAndAbility.images[0] }}
+            contentFit="contain"
+            style={{ width: 400, height: 200, marginHorizontal: 7 }}
+            placeholder={blurhash}
+            transition={1000}
+          />
+        </View>
 
-        <Text style={{ color: 'white', marginTop: 20, textAlign: 'center' }}>
-          {spellAndAbility.inventory_description_1}
-        </Text>
-        <Text style={{ color: 'white', marginTop: 20, textAlign: 'center' }}>
-          {spellAndAbility.inventory_description_2}
-        </Text>
+        <DialogueDescription
+          firstDescription={spellAndAbility.inventory_description_1}
+          secondDescription={spellAndAbility.inventory_description_2}
+        />
 
-        <Text style={{ color: 'white', marginTop: 20, textAlign: 'center' }}>
-          {spellAndAbility.prompt_description_1}
-        </Text>
-        <Text style={{ color: 'white', marginTop: 20, textAlign: 'center' }}>
-          {spellAndAbility.prompt_description_2}
-        </Text>
+        <View style={{ justifyContent: 'center', alignItems: 'center', marginTop: 20 }}>
+          <Image
+            source={{ uri: spellAndAbility.images[1] }}
+            contentFit="contain"
+            style={{ width: 400, height: 200, marginHorizontal: 7 }}
+            placeholder={blurhash}
+            transition={1000}
+          />
+        </View>
+
+        <DialogueDescription
+          firstDescription={spellAndAbility.prompt_description_1}
+          secondDescription={spellAndAbility.prompt_description_2}
+        />
 
         <Subtitle text="Type" />
         <Text style={{ color: 'white' }}>{spellAndAbility.type}</Text>

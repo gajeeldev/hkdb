@@ -1,5 +1,6 @@
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
+import { Platform } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { customFonts } from '~/modules/core';
 import { ThemeContextProvider } from '~/modules/core/context/ThemeContext';
@@ -17,7 +18,21 @@ export default function RootLayout() {
   return (
     <ThemeContextProvider>
       <GestureHandlerRootView style={{ flex: 1 }}>
-        <Stack>
+        <Stack
+          screenOptions={{
+            headerBlurEffect: 'regular',
+            headerTransparent: Platform.OS === 'ios',
+            headerLargeTitle: true,
+            headerLargeTitleStyle: {
+              fontFamily: 'TrajanPro-Bold',
+              fontSize: 25,
+            },
+            headerTitleStyle: {
+              fontFamily: 'TrajanPro-Bold',
+            },
+            headerTitleAlign: 'center',
+            animation: 'slide_from_right',
+          }}>
           <Stack.Screen name="(drawer)" options={{ headerShown: false }} />
           <Stack.Screen name="(settings)/settings" options={{ title: 'Settings' }} />
           <Stack.Screen name="(settings)/appearance" options={{ title: 'Appearance' }} />

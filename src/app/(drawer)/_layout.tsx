@@ -7,6 +7,9 @@ const DrawerLayout = () => (
       headerStyle: { backgroundColor: '#252525' },
       drawerContentStyle: { backgroundColor: '#252525' },
       drawerActiveTintColor: '#f5f5f5',
+      headerTitleAlign: 'center',
+      drawerStatusBarAnimation: 'fade',
+      drawerIcon: ({ color, size }) => <Ionicons name="home-outline" size={size} color={color} />,
     }}>
     <Drawer.Screen
       name="index"
