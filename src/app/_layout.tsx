@@ -44,6 +44,14 @@ export default function RootLayout() {
           <Stack.Screen name="(detail)/charm/[id]" options={{ title: 'Charm' }} />
           <Stack.Screen name="(detail)/enemy/[id]" options={{ title: 'Enemy' }} />
           <Stack.Screen name="(detail)/item/[id]" options={{ title: 'Item' }} />
+          <Stack.Screen
+            name="(detail)/nail/[id]"
+            options={{
+              presentation: 'transparentModal',
+              animation: 'slide_from_bottom',
+              headerShown: false,
+            }}
+          />
           <Stack.Screen name="(detail)/npc/[id]" options={{ title: 'NPC' }} />
           <Stack.Screen
             name="(detail)/spell_and_ability/[id]"
