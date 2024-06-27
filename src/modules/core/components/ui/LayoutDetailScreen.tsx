@@ -24,12 +24,15 @@ const LayoutDetailScreen = ({
   dlc,
 }: Props) => {
   const { top } = useSafeAreaInsets();
+
   return (
     <View style={{ flex: 1 }}>
       <Stack.Screen
+
         options={{
           title: title,
           headerLeft: () => <GoBack />,
+
         }}
       />
       <ScrollView

@@ -1,15 +1,22 @@
 import { ScrollView, View } from 'react-native';
-import Charms from '../../core/data/charms.json';
-import { Button, globalStyles } from '~/modules/core';
 import { Link } from 'expo-router';
+import { useQuery } from '@tanstack/react-query';
+import { Button, FullScreenLoader, globalStyles } from '~/modules/core';
+import { getCharms } from '../actions/getCharms';
 
 export const CharmsScreen = () => {
-  const sortedCharms = [...Charms].sort((a, b) => a.charm.localeCompare(b.charm));
+  const { data: charms } = useQuery({
+    queryKey: ['charms'],
+    queryFn: getCharms,
+    staleTime: 1000 * 60 * 60, // 1 hour
+  });
+
+  if (!charms) return <FullScreenLoader/>;
 
   return (
     <View style={globalStyles.container}>
       <ScrollView style={{ paddingTop: 20 }}>
-        {sortedCharms.map((charm) => (
+        {charms.map((charm) => (
           <Link href={`(detail)/charm/${charm.id}`} asChild key={charm.id}>
             <Button title={charm.charm} />
           </Link>

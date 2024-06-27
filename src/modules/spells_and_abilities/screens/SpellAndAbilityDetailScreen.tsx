@@ -1,16 +1,21 @@
 import { View, Text, ScrollView, Platform } from 'react-native';
-import SpellsAndAbilities from '../../core/data/spells_and_abilities.json';
-import { blurhash, globalStyles, GoBack, Subtitle, Title } from '~/modules/core';
 import { Stack } from 'expo-router';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Image } from 'expo-image';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useQuery } from '@tanstack/react-query';
+import { blurhash, FullScreenLoader, globalStyles, GoBack, Subtitle } from '~/modules/core';
 import DialogueDescription from '~/modules/core/components/dividers/DialogueDescription';
+import { getSpellAndAbilityById } from '../actions/getSpellAndAbilityById';
 
 const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) => {
   const { top } = useSafeAreaInsets();
-  const spellAndAbility = SpellsAndAbilities.find((spellAndAbility) => spellAndAbility.id === id);
+  const { data: spellAndAbility } = useQuery({
+    queryKey: ['spellAndAbility', id],
+    queryFn: () => getSpellAndAbilityById(id),
+    staleTime: 1000 * 60 * 60, //1 hour
+  });
 
-  if (!spellAndAbility) return null;
+  if (!spellAndAbility) return <FullScreenLoader/>;
   return (
     <View style={globalStyles.container}>
       <Stack.Screen

@@ -1,15 +1,22 @@
 import { ScrollView, View } from 'react-native';
-import { Button, globalStyles } from '~/modules/core';
-import Bosses from '../../core/data/bosses.json';
 import { Link } from 'expo-router';
+import { useQuery } from '@tanstack/react-query';
+import { Button, FullScreenLoader, globalStyles } from '~/modules/core';
+import { getBosses } from '../actions/getBosses';
 
 export const BossesScreen = () => {
-  const sortedBosses = [...Bosses].sort((a, b) => a.boss.localeCompare(b.boss));
+  const { data: bosses } = useQuery({
+    queryKey: ['bosses'],
+    queryFn: getBosses,
+    staleTime: 1000 * 60 * 60, // 1 hour
+  });
+
+  if (!bosses) return <FullScreenLoader/>;
 
   return (
     <View style={globalStyles.container}>
       <ScrollView style={{ paddingTop: 20 }}>
-        {sortedBosses.map((boss) => (
+        {bosses.map((boss) => (
           <Link href={`(detail)/boss/${boss.id}`} asChild key={boss.id}>
             <Button title={boss.boss} />
           </Link>

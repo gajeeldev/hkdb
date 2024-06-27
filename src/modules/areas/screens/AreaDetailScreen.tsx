@@ -1,15 +1,17 @@
 import { Text } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { Subtitle } from '~/modules/core';
-import Areas from '../../core/data/areas.json';
+import { useQuery } from '@tanstack/react-query';
+import { FullScreenLoader, Subtitle } from '~/modules/core';
 import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
+import { getAreaById } from '../actions/getAreaById';
 
 export const AreaDetailScreen = ({ id }: { id: string | string[] }) => {
-  const area = Areas.find((area) => area.id === id);
+  const { data: area } = useQuery({
+    queryKey: ['area', id],
+    queryFn: () => getAreaById(id),
+    staleTime: 1000 * 60 * 60, //1 hour
+  });
 
-  const { top } = useSafeAreaInsets();
-
-  if (!area) return null;
+  if (!area) return <FullScreenLoader/>;
 
   return (
     <LayoutDetailScreen

@@ -4,12 +4,14 @@ import { Drawer } from 'expo-router/drawer';
 const DrawerLayout = () => (
   <Drawer
     screenOptions={{
-      headerStyle: { backgroundColor: '#252525' },
-      drawerContentStyle: { backgroundColor: '#252525' },
+      drawerAllowFontScaling: true,
       drawerActiveTintColor: '#f5f5f5',
-      headerTitleAlign: 'center',
-      drawerStatusBarAnimation: 'fade',
+      drawerContentStyle: { backgroundColor: '#252525' },
       drawerIcon: ({ color, size }) => <Ionicons name="home-outline" size={size} color={color} />,
+      drawerStatusBarAnimation: 'fade',
+      headerStyle: { backgroundColor: '#252525' },
+      headerTitleAlign: 'center',
+      headerTitleStyle: { fontFamily: 'TrajanPro-Bold' },
     }}>
     <Drawer.Screen
       name="index"

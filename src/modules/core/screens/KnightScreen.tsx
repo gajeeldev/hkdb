@@ -9,7 +9,7 @@ import { Subtitle } from '../components/ui/Subtitle';
 export const KnightScreen = () => {
   const { width, height } = useWindowDimensions();
   return (
-    <View style={[globalStyles.container]}>
+    <View style={globalStyles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={{ alignItems: 'center', marginTop: 50 }}>
           <Image
@@ -22,6 +22,7 @@ export const KnightScreen = () => {
             placeholder={blurhash}
             contentFit="cover"
             transition={1000}
+            cachePolicy={'disk'}
           />
         </View>
         <Title text="The Knight" />

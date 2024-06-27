@@ -1,13 +1,18 @@
 import { View, Text } from 'react-native';
-import Charms from '../../core/data/charms.json';
-import { Subtitle } from '~/modules/core';
+import { FullScreenLoader, Subtitle } from '~/modules/core';
 import { Image } from 'expo-image';
 import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
+import { useQuery } from '@tanstack/react-query';
+import { getCharmById } from '../actions/getCharmById';
 
 export const CharmDetailScreen = ({ id }: { id: string | string[] }) => {
-  const charm = Charms.find((charm) => charm.id === id);
+  const { data: charm } = useQuery({
+    queryKey: ['charm', id],
+    queryFn: () => getCharmById(id),
+    staleTime: 1000 * 60 * 60, //1 hour
+  });
 
-  if (!charm) return null;
+  if (!charm) return <FullScreenLoader/>;
 
   return (
     <LayoutDetailScreen

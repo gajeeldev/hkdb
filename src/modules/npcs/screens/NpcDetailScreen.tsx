@@ -1,31 +1,31 @@
-import { View, Text, ScrollView } from 'react-native';
-import Npcs from '../../core/data/npcs.json';
-import { globalStyles, GoBack, Subtitle, Title } from '~/modules/core';
-import { Stack } from 'expo-router';
+import { Text } from 'react-native';
+import { FullScreenLoader, Subtitle } from '~/modules/core';
 import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
+import { useQuery } from '@tanstack/react-query';
+import { getNpcById } from '../actions/getNpcById';
 
 const NpcDetailScreen = ({ id }: { id: string | string[] }) => {
-  const npc = Npcs.find((npc) => npc.id === id);
+  const { data: npc } = useQuery({
+    queryKey: ['npc', id],
+    queryFn: () => getNpcById(id),
+    staleTime: 1000 * 60 * 60, //1 hour
+  });
 
-  if (!npc) return null;
+  if (!npc) return <FullScreenLoader />;
   return (
-    <LayoutDetailScreen
-    images={npc.images}
-    title={npc.npc}
-    firstDescription={npc.description}
-    >
+    <LayoutDetailScreen images={npc.images} title={npc.npc} firstDescription={npc.description}>
       <Subtitle text="Type" />
-        <Text style={{ color: 'white' }}>{npc.type}</Text>
+      <Text style={{ color: 'white' }}>{npc.type}</Text>
 
-        {npc.lore && (
-          <>
-            <Subtitle text="Lore" />
-            <Text style={{ color: 'white' }}>{npc.lore}</Text>
-          </>
-        )}
+      {npc.lore && (
+        <>
+          <Subtitle text="Lore" />
+          <Text style={{ color: 'white' }}>{npc.lore}</Text>
+        </>
+      )}
 
-        <Subtitle text="Location" />
-        <Text style={{ color: 'white' }}>{npc.location}</Text>
+      <Subtitle text="Location" />
+      <Text style={{ color: 'white' }}>{npc.location}</Text>
     </LayoutDetailScreen>
   );
 };

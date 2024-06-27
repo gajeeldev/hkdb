@@ -1,12 +1,17 @@
 import { View, Text } from 'react-native';
-import Bosses from '../../core/data/bosses.json';
-import { dlcTypes, Subtitle } from '~/modules/core';
+import { useQuery } from '@tanstack/react-query';
+import { dlcTypes, FullScreenLoader, Subtitle } from '~/modules/core';
 import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
+import { getBossById } from '../actions/getBossById';
 
 export const BossDetailScreen = ({ id }: { id: string | string[] }) => {
-  const boss = Bosses.find((boss) => boss.id === id);
+  const { data: boss } = useQuery({
+    queryKey: ['boss', id],
+    queryFn: () => getBossById(id),
+    staleTime: 1000 * 60 * 60, //1 hour
+  });
 
-  if (!boss) return null;
+  if (!boss) return <FullScreenLoader/>;
 
   return (
     <LayoutDetailScreen

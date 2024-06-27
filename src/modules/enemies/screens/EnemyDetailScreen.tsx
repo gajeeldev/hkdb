@@ -1,14 +1,17 @@
-import { View, Text, ScrollView } from 'react-native';
-import React from 'react';
-import Enemies from '../../core/data/enemies.json';
-import { dlcTypes, globalStyles, GoBack, Subtitle, Title } from '~/modules/core';
-import { Stack } from 'expo-router';
+import { View, Text } from 'react-native';
+import { useQuery } from '@tanstack/react-query';
+import { dlcTypes, FullScreenLoader, Subtitle } from '~/modules/core';
 import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
+import { getEnemyById } from '../actions/getEnemyById';
 
 const EnemyDetailScreen = ({ id }: { id: string | string[] }) => {
-  const enemy = Enemies.find((enemy) => enemy.id === id);
+  const { data: enemy } = useQuery({
+    queryKey: ['enemy', id],
+    queryFn: () => getEnemyById(id),
+    staleTime: 1000 * 60 * 60, //1 hour
+  });
 
-  if (!enemy) return null;
+  if (!enemy) return <FullScreenLoader/>;
 
   return (
     <LayoutDetailScreen

@@ -1,15 +1,20 @@
 import { View, Text, Pressable, ScrollView } from 'react-native';
-import Nail from '../../../modules/core/data/nail.json';
 import { BlurView } from 'expo-blur';
 import { useRouter } from 'expo-router';
 import { Image } from 'expo-image';
-import { blurhash } from '~/modules/core';
+import { useQuery } from '@tanstack/react-query';
+import { blurhash, FullScreenLoader } from '~/modules/core';
+import { getNailById } from '../actions/getNailById';
 
 const NailBottomSheetScreen = ({ id }: { id: string | string[] }) => {
   const router = useRouter();
-  const nail = Nail.find((nail) => nail.id === id);
+  const { data: nail } = useQuery({
+    queryKey: ['nail', id],
+    queryFn: () => getNailById(id),
+    staleTime: 1000 * 60 * 60, //1 hour
+  });
 
-  if (!nail) return null;
+  if (!nail) return <FullScreenLoader />;
   return (
     <View style={{ flex: 1 }}>
       <Pressable style={{ flex: 1 }} onPress={() => router.back()} />
