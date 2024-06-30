@@ -76,7 +76,7 @@ const DialogueDescription = ({ firstDescription, secondDescription, dlc }: Props
           styles.shadowImage,
         ]}
         contentFit="contain"
-        transition={1000}
+        transition={500}
       />
     </View>
   );

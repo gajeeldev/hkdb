@@ -28,11 +28,9 @@ const LayoutDetailScreen = ({
   return (
     <View style={{ flex: 1 }}>
       <Stack.Screen
-
         options={{
           title: title,
           headerLeft: () => <GoBack />,
-
         }}
       />
       <ScrollView
