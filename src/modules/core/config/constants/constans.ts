@@ -5,3 +5,6 @@ export const customFonts = {
   'TrajanPro-Regular': require('../../../../assets/fonts/Trajan/TrajanPro-Regular.ttf'),
   'TrajanPro-Bold': require('../../../../assets/fonts/Trajan/TrajanPro-Bold.otf'),
 };
+
+export const supabaseUrl = process.env.EXPO_APP_SUPABASE_URL;
+export const supabaseAnonKey = process.env.EXPO_APP_SUPABASE_ANON_KEY;

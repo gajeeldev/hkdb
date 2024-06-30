@@ -8,6 +8,7 @@ import { Subtitle } from '../components/ui/Subtitle';
 
 export const KnightScreen = () => {
   const { width, height } = useWindowDimensions();
+
   return (
     <View style={globalStyles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
