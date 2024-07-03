@@ -12,6 +12,7 @@ const ItemDetailScreen = ({ id }: { id: string | string[] }) => {
   });
 
   if (!item) return <FullScreenLoader />;
+
   return (
     <LayoutDetailScreen
       images={item.images}

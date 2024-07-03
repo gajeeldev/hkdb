@@ -1,14 +1,7 @@
 import { supabase } from '~/lib/supabase';
-import Nails from '../data/nail.json';
-import { Nail } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getNails = (): Promise<Nail[]> => {
-//   return new Promise((resolve) => {
-//     resolve(Nails);
-//   });
-// };
-
-export const getNails = async (): Promise<any> => {
+export const getNails = async (): Promise<Tables<'nail'>[] | undefined> => {
   try {
     const { data, error } = await supabase.from('nail').select('*');
     if (error) console.log(error.message);

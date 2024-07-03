@@ -11,6 +11,8 @@ export const BossDetailScreen = ({ id }: { id: string | string[] }) => {
     staleTime: 1000 * 60 * 60, //1 hour
   });
 
+
+
   if (!boss) return <FullScreenLoader />;
 
   return (
@@ -38,7 +40,7 @@ export const BossDetailScreen = ({ id }: { id: string | string[] }) => {
             }}
           />
 
-          {boss.health.map((h, index) => (
+          {boss.health?.map((h, index) => (
             <Text key={`boss-health-${index}`} style={{ color: 'white', textAlign: 'center' }}>
               {h}
             </Text>

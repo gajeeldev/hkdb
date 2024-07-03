@@ -1,25 +1,7 @@
 import { supabase } from '~/lib/supabase';
-import Achievements from '../data/achievements.json';
+import { Tables } from '~/types';
 
-interface Achievement {
-  id: string;
-  created_at: string;
-  achievement: string;
-  description: string;
-  images: string[];
-}
-
-// export const getAchievements = (): Promise<Achievement[]> => {
-//   const sortedAchievements = [...Achievements, ...manualAchievements].sort((a, b) =>
-//     a.achievement.localeCompare(b.achievement)
-//   );
-
-//   return new Promise((resolve) => {
-//     resolve(sortedAchievements);
-//   });
-// };
-
-export const getAchievements = async (): Promise<any> => {
+export const getAchievements = async (): Promise<Tables<'achievements'>[] | undefined> => {
   try {
     const { data, error } = await supabase.from('achievements').select('*');
 

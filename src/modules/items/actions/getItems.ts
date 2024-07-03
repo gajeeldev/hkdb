@@ -1,16 +1,7 @@
 import { supabase } from '~/lib/supabase';
-import Items from '../data/items.json';
-import { Item } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getItems = (): Promise<Item[]> => {
-//   const sortedItems = [...Items].sort((a, b) => a.item.localeCompare(b.item));
-
-//   return new Promise((resolve) => {
-//     resolve(sortedItems);
-//   });
-// };
-
-export const getItems = async (): Promise<any> => {
+export const getItems = async (): Promise<Tables<'items'>[] | undefined> => {
   try {
     const { data, error } = await supabase.from('items').select('*').order('item');
 

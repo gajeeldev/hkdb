@@ -1,16 +1,7 @@
 import { supabase } from '~/lib/supabase';
-import Areas from '../data/areas.json';
-import { Area } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getAreas = (): Promise<Area[]> => {
-//   const sortedAreas = [...Areas].sort((a, b) => a.area.localeCompare(b.area));
-
-//   return new Promise((resolve) => {
-//     resolve(sortedAreas);
-//   });
-// };
-
-export const getAreas = async (): Promise<any> => {
+export const getAreas = async (): Promise<Tables<'areas'>[] | undefined> => {
   try {
     const { data, error } = await supabase.from('areas').select('*').order('area');
 

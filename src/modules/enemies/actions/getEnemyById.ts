@@ -1,23 +1,16 @@
 import { supabase } from '~/lib/supabase';
-import Enemies from '../data/enemies.json';
-import { Enemy } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getEnemyById = (id: string | string[]): Promise<Enemy | undefined> => {
-//   const enemy = Enemies.find((enemy) => enemy.id === id);
-
-//   return new Promise((resolve) => {
-//     resolve(enemy);
-//   });
-// };
-
-export const getEnemyById = async (id: string | string[]): Promise<any> => {
+export const getEnemyById = async (
+  id: string | string[]
+): Promise<Tables<'enemies'> | undefined> => {
   try {
     const { data, error } = await supabase.from('enemies').select('*').eq('id', id).single();
     if (error) console.log(error.message);
 
-    const enemy = data;
+    if (!data) return undefined;
 
-    if (!enemy) return [];
+    const enemy = data;
 
     return enemy;
   } catch (error) {

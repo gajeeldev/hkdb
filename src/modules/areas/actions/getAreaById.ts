@@ -1,23 +1,14 @@
 import { supabase } from '~/lib/supabase';
-import Areas from '../data/areas.json';
-import { Area } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getAreaById = (id: string | string[]): Promise<Area | undefined> => {
-//   const area = Areas.find((area) => area.id === id);
-
-//   return new Promise((resolve) => {
-//     resolve(area);
-//   });
-// };
-
-export const getAreaById = async (id: string | string[]): Promise<any> => {
+export const getAreaById = async (id: string | string[]): Promise<Tables<'areas'> | undefined> => {
   try {
     const { data, error } = await supabase.from('areas').select('*').eq('id', id).single();
     if (error) console.log(error.message);
 
-    const area = data;
+    if (!data) return undefined;
 
-    if (!area) return [];
+    const area = data;
 
     return area;
   } catch (error) {

@@ -1,23 +1,14 @@
 import { supabase } from '~/lib/supabase';
-import Nails from '../data/nail.json';
-import { Nail } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getNailById = (id: string | string[]): Promise<Nail | undefined> => {
-//   const nail = Nails.find((nail) => nail.id === id);
-
-//   return new Promise((resolve) => {
-//     resolve(nail);
-//   });
-// };
-
-export const getNailById = async (id: string | string[]): Promise<any> => {
+export const getNailById = async (id: string | string[]): Promise<Tables<'nail'> | undefined> => {
   try {
     const { data, error } = await supabase.from('nail').select('*').eq('id', id).single();
     if (error) console.log(error.message);
 
-    const nail = data;
+    if (!data) return undefined;
 
-    if (!nail) return [];
+    const nail = data;
 
     return nail;
   } catch (error) {

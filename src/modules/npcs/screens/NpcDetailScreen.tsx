@@ -1,4 +1,4 @@
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 import { FullScreenLoader, Subtitle } from '~/modules/core';
 import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
 import { useQuery } from '@tanstack/react-query';
@@ -22,6 +22,24 @@ const NpcDetailScreen = ({ id }: { id: string | string[] }) => {
           <Subtitle text="Lore" />
           <Text style={{ color: 'white' }}>{npc.lore}</Text>
         </>
+      )}
+
+      {npc.in_game_events && (
+        <View>
+          <Subtitle text="In-Game Events" />
+          <Text style={{ color: 'white' }}>{npc.in_game_events}</Text>
+        </View>
+      )}
+
+      {npc.dream_nail_dialogue && (
+        <View>
+          <Subtitle text="Dream Nail Dialogue" />
+          {npc.dream_nail_dialogue.map((dialogue) => (
+            <Text style={{ color: 'white' }} key={dialogue}>
+              {dialogue}
+            </Text>
+          ))}
+        </View>
       )}
 
       <Subtitle text="Location" />

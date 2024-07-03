@@ -1,23 +1,16 @@
 import { supabase } from '~/lib/supabase';
-import Charms from '../data/charms.json';
-import { Charm } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getCharmById = (id: string | string[]): Promise<Charm | undefined> => {
-//   const charm = Charms.find((charm) => charm.id === id);
-
-//   return new Promise((resolve) => {
-//     resolve(charm);
-//   });
-// };
-
-export const getCharmById = async (id: string | string[]): Promise<any> => {
+export const getCharmById = async (
+  id: string | string[]
+): Promise<Tables<'charms'> | undefined> => {
   try {
     const { data, error } = await supabase.from('charms').select('*').eq('id', id).single();
     if (error) console.log(error.message);
 
-    const charm = data;
+    if (!data) return undefined;
 
-    if (!charm) return [];
+    const charm = data;
 
     return charm;
   } catch (error) {

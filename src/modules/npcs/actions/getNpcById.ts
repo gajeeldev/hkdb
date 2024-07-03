@@ -1,23 +1,14 @@
 import { supabase } from '~/lib/supabase';
-import Npcs from '../data/npcs.json';
-import { Npc } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getNpcById = (id: string | string[]): Promise<Npc | undefined> => {
-//   const npc = Npcs.find((npc) => npc.id === id);
-
-//   return new Promise((resolve) => {
-//     resolve(npc);
-//   });
-// };
-
-export const getNpcById = async (id: string | string[]): Promise<any> => {
+export const getNpcById = async (id: string | string[]): Promise<Tables<'npcs'> | undefined> => {
   try {
     const { data, error } = await supabase.from('npcs').select('*').eq('id', id).single();
     if (error) console.log(error.message);
 
-    const npc = data;
+    if (!data) return undefined;
 
-    if (!npc) return [];
+    const npc = data;
 
     return npc;
   } catch (error) {

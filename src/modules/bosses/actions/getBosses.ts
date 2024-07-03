@@ -1,16 +1,7 @@
 import { supabase } from '~/lib/supabase';
-import Bosses from '../data/bosses.json';
-import { Boss } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getBosses = (): Promise<Boss[]> => {
-//   const sortedBosses = [...Bosses].sort((a, b) => a.boss.localeCompare(b.boss));
-
-//   return new Promise((resolve) => {
-//     resolve(sortedBosses);
-//   });
-// };
-
-export const getBosses = async (): Promise<any> => {
+export const getBosses = async (): Promise<Tables<'bosses'>[] | undefined> => {
   try {
     const { data, error } = await supabase.from('bosses').select('*').order('boss');
 

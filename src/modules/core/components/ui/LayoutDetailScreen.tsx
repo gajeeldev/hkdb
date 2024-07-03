@@ -37,6 +37,7 @@ const LayoutDetailScreen = ({
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingTop: Platform.OS === 'ios' ? top + 100 : 0 }}>
         <FlatList
+          scrollEnabled={images.length > 1}
           data={images}
           style={{ marginBottom: 20 }}
           keyExtractor={(item) => item}

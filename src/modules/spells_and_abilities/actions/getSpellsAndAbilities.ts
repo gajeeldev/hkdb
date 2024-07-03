@@ -1,18 +1,9 @@
 import { supabase } from '~/lib/supabase';
-import SpellsAndAbilities from '../data/spells_and_abilities.json';
-import { SpellAndAbility } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getSpellsAndAbilities = (): Promise<SpellAndAbility[]> => {
-//   const sortedSpellsAndAbilities = [...SpellsAndAbilities].sort((a, b) =>
-//     a.name.localeCompare(b.name)
-//   );
-
-//   return new Promise((resolve) => {
-//     resolve(sortedSpellsAndAbilities);
-//   });
-// };
-
-export const getSpellsAndAbilities = async (): Promise<any> => {
+export const getSpellsAndAbilities = async (): Promise<
+  Tables<'spells_and_abilities'>[] | undefined
+> => {
   try {
     const { data, error } = await supabase.from('spells_and_abilities').select('*').order('name');
 

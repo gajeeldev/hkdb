@@ -1,18 +1,9 @@
 import { supabase } from '~/lib/supabase';
-import SpellsAndAbilities from '../data/spells_and_abilities.json';
-import { SpellAndAbility } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getSpellAndAbilityById = (
-//   id: string | string[]
-// ): Promise<SpellAndAbility | undefined> => {
-//   const spellAndAbility = SpellsAndAbilities.find((spellAndAbility) => spellAndAbility.id === id);
-
-//   return new Promise((resolve) => {
-//     resolve(spellAndAbility);
-//   });
-// };
-
-export const getSpellAndAbilityById = async (id: string | string[]): Promise<any> => {
+export const getSpellAndAbilityById = async (
+  id: string | string[]
+): Promise<Tables<'spells_and_abilities'> | undefined> => {
   try {
     const { data, error } = await supabase
       .from('spells_and_abilities')
@@ -22,9 +13,9 @@ export const getSpellAndAbilityById = async (id: string | string[]): Promise<any
 
     if (error) console.log(error.message);
 
-    const spellAndAbility = data;
+    if (!data) return undefined;
 
-    if (!spellAndAbility) return [];
+    const spellAndAbility = data;
 
     return spellAndAbility;
   } catch (error) {

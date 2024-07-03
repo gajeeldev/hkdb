@@ -11,7 +11,7 @@ const EnemyDetailScreen = ({ id }: { id: string | string[] }) => {
     staleTime: 1000 * 60 * 60, //1 hour
   });
 
-  if (!enemy) return <FullScreenLoader/>;
+  if (!enemy) return <FullScreenLoader />;
 
   return (
     <LayoutDetailScreen
@@ -36,6 +36,17 @@ const EnemyDetailScreen = ({ id }: { id: string | string[] }) => {
           <Text style={{ color: 'white' }}>{enemy.dlc}</Text>
         </>
       ) : null}
+
+      {enemy.dream_nail_dialogue && (
+        <View>
+          <Subtitle text="Dream Nail Dialogue" />
+          {enemy.dream_nail_dialogue.map((dialogue, index) => (
+            <Text key={index} style={{ color: 'white' }}>
+              {dialogue}
+            </Text>
+          ))}
+        </View>
+      )}
 
       <Subtitle text="Location" />
       <Text style={{ color: 'white' }}>{enemy.location}</Text>

@@ -1,16 +1,7 @@
 import { supabase } from '~/lib/supabase';
-import Charms from '../data/charms.json';
-import { Charm } from '../domain/entities';
+import { Tables } from '~/types';
 
-// export const getCharms = (): Promise<Charm[]> => {
-//   const sortedCharms = [...Charms].sort((a, b) => a.charm.localeCompare(b.charm));
-
-//   return new Promise((resolve) => {
-//     resolve(sortedCharms);
-//   });
-// };
-
-export const getCharms = async (): Promise<any> => {
+export const getCharms = async (): Promise<Tables<'charms'>[] | undefined> => {
   try {
     const { data, error } = await supabase.from('charms').select('*').order('charm');
 
