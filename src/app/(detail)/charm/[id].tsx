@@ -8,6 +8,7 @@ const CharmDetailPage = () => {
   if (!id) {
     return <NoIdScreen />;
   }
+
   return <CharmDetailScreen id={id} />;
 };
 

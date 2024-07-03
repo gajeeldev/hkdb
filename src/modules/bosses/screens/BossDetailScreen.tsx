@@ -11,7 +11,7 @@ export const BossDetailScreen = ({ id }: { id: string | string[] }) => {
     staleTime: 1000 * 60 * 60, //1 hour
   });
 
-  if (!boss) return <FullScreenLoader/>;
+  if (!boss) return <FullScreenLoader />;
 
   return (
     <LayoutDetailScreen
@@ -86,6 +86,22 @@ export const BossDetailScreen = ({ id }: { id: string | string[] }) => {
         <View>
           <Subtitle text="Lore" />
           <Text style={{ color: 'white' }}>{boss.lore}</Text>
+        </View>
+      )}
+      {boss.in_game_events && (
+        <View>
+          <Subtitle text="In-Game Events" />
+          <Text style={{ color: 'white' }}>{boss.in_game_events}</Text>
+        </View>
+      )}
+      {boss.dream_nail_dialogue && (
+        <View>
+          <Subtitle text="Dream Nail Dialogue" />
+          {boss.dream_nail_dialogue.map((dialogue, index) => (
+            <Text key={`dialogue-${index}`} style={{ color: 'white' }}>
+              {dialogue}
+            </Text>
+          ))}
         </View>
       )}
 

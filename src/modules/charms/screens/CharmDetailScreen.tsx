@@ -12,7 +12,7 @@ export const CharmDetailScreen = ({ id }: { id: string | string[] }) => {
     staleTime: 1000 * 60 * 60, //1 hour
   });
 
-  if (!charm) return <FullScreenLoader/>;
+  if (!charm) return <FullScreenLoader />;
 
   return (
     <LayoutDetailScreen

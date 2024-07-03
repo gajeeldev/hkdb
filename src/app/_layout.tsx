@@ -49,7 +49,9 @@ export default function RootLayout() {
             {/* Detail */}
             <Stack.Screen name="(detail)/area/[id]" options={{ title: 'Area' }} />
             <Stack.Screen name="(detail)/boss/[id]" options={{ title: 'Boss' }} />
+
             <Stack.Screen name="(detail)/charm/[id]" options={{ title: 'Charm' }} />
+
             <Stack.Screen name="(detail)/enemy/[id]" options={{ title: 'Enemy' }} />
             <Stack.Screen name="(detail)/item/[id]" options={{ title: 'Item' }} />
             <Stack.Screen
