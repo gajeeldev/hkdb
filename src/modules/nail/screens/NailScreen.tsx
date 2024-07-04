@@ -26,6 +26,8 @@ export const NailScreen = () => {
             upgrade_cost={nail.upgrade_cost}
           />
         ))}
+
+        <View style={{ height: 20 }} />
       </ScrollView>
     </View>
   );

@@ -18,7 +18,7 @@ export const AchievementsScreen = () => {
       <FlatList
         data={achievements}
         keyExtractor={(item) => item.id}
-        renderItem={({ item }) => <AchievementsCard {...item} />}
+        renderItem={({ item, index }) => <AchievementsCard {...item} index={index} />}
         showsVerticalScrollIndicator={false}
         ItemSeparatorComponent={() => <View style={{ height: 10 }} />}
         ListHeaderComponent={() => <View style={{ height: 20 }} />}

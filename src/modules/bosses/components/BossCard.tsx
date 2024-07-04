@@ -10,7 +10,6 @@ interface Props {
   index: number;
 }
 export const BossCard = ({ href, title, image, index }: Props) => {
-
   const { width, height } = useWindowDimensions();
   return (
     <Animated.View entering={FadeInDown.delay(200 * index)}>
@@ -35,12 +34,12 @@ export const BossCard = ({ href, title, image, index }: Props) => {
             shadowOpacity: 0.29,
             shadowRadius: 10,
             elevation: 10,
-            width: width / 2.25 ,
+            width: width / 2.25,
             height: height / 4.5,
           }}>
           <Image
             source={image}
-            style={{ width:  '100%', height: height / 8 }}
+            style={{ width: '100%', height: height / 8 }}
             transition={1000}
             contentFit="contain"
           />
