@@ -12,13 +12,13 @@ export const KnightScreen = () => {
   return (
     <View style={globalStyles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View style={{ alignItems: 'center', marginTop: 50 }}>
+        <View style={{ alignItems: 'center', marginTop: 20 }}>
           <Image
             source={require('../../../assets/description-image.webp')}
             style={{
               marginTop: 20,
               width: width * 0.5,
-              height: height * 0.3,
+              height: height * 0.35,
             }}
             placeholder={blurhash}
             contentFit="cover"

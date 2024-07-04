@@ -1,8 +1,8 @@
-import { ScrollView, View } from 'react-native';
-import { Link } from 'expo-router';
+import { FlatList, View } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
-import { Button, FullScreenLoader, globalStyles } from '~/modules/core';
+import { FullScreenLoader, globalStyles } from '~/modules/core';
 import { getBosses } from '../actions/getBosses';
+import { BossCard } from '../components/BossCard';
 
 export const BossesScreen = () => {
   const { data: bosses } = useQuery({
@@ -11,17 +11,28 @@ export const BossesScreen = () => {
     staleTime: 1000 * 60 * 60, // 1 hour
   });
 
-  if (!bosses) return <FullScreenLoader/>;
+  if (!bosses) return <FullScreenLoader />;
 
   return (
     <View style={globalStyles.container}>
-      <ScrollView style={{ paddingTop: 20 }}>
-        {bosses.map((boss) => (
-          <Link href={`(detail)/boss/${boss.id}`} asChild key={boss.id}>
-            <Button title={boss.boss} />
-          </Link>
-        ))}
-      </ScrollView>
+      <FlatList
+        data={bosses}
+        keyExtractor={(item) => item.id}
+        numColumns={2}
+        columnWrapperStyle={{ justifyContent: 'space-between' }}
+        renderItem={({ item, index }) => (
+          <BossCard
+            key={item.id}
+            href={`(detail)/boss/${item.id}`}
+            title={item.boss}
+            image={item.images[0]}
+            index={index}
+          />
+        )}
+        showsVerticalScrollIndicator={false}
+        ListHeaderComponent={() => <View style={{ height: 20 }} />}
+        ListFooterComponent={() => <View style={{ height: 20 }} />}
+      />
     </View>
   );
 };

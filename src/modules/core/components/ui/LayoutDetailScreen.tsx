@@ -1,5 +1,5 @@
 import { Stack } from 'expo-router';
-import { View, ScrollView, Platform, FlatList } from 'react-native';
+import { View, ScrollView, Platform, FlatList, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Image } from 'expo-image';
 import { GoBack } from '../GoBack';
@@ -24,6 +24,7 @@ const LayoutDetailScreen = ({
   dlc,
 }: Props) => {
   const { top } = useSafeAreaInsets();
+  const { width, height } = useWindowDimensions();
 
   return (
     <View style={{ flex: 1 }}>
@@ -46,7 +47,7 @@ const LayoutDetailScreen = ({
               <Image
                 source={{ uri: item }}
                 contentFit="contain"
-                style={{ width: 400, height: 200, marginHorizontal: 7 }}
+                style={{ width: width, height: height * 0.35, marginHorizontal: 7 }}
                 placeholder={blurhash}
                 transition={1000}
               />
