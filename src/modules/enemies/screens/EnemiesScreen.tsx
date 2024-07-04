@@ -1,8 +1,8 @@
-import { ScrollView, View } from 'react-native';
-import { Link } from 'expo-router';
+import { FlatList, View } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
 import { getEnemies } from '../actions/getEnemies';
-import { Button, FullScreenLoader, globalStyles } from '~/modules/core';
+import { FullScreenLoader, globalStyles } from '~/modules/core';
+import { EnemyCard } from '../components/EnemyCard';
 
 export const EnemiesScreen = () => {
   const { data: enemies } = useQuery({
@@ -11,17 +11,27 @@ export const EnemiesScreen = () => {
     staleTime: 1000 * 60 * 60, // 1 hour
   });
 
-  if (!enemies) return <FullScreenLoader/>;
+  if (!enemies) return <FullScreenLoader />;
 
   return (
     <View style={globalStyles.container}>
-      <ScrollView style={{ paddingTop: 20 }}>
-        {enemies.map((enemy) => (
-          <Link href={`(detail)/enemy/${enemy.id}`} asChild key={enemy.id}>
-            <Button title={enemy.enemy} />
-          </Link>
-        ))}
-      </ScrollView>
+      <FlatList
+        data={enemies}
+        keyExtractor={(item) => item.id}
+        numColumns={2}
+        columnWrapperStyle={{ justifyContent: 'space-between' }}
+        renderItem={({ item, index }) => (
+          <EnemyCard
+            href={`(detail)/enemy/${item.id}`}
+            title={item.enemy}
+            image={item.images[0]}
+            index={index}
+          />
+        )}
+        showsVerticalScrollIndicator={false}
+        ListHeaderComponent={() => <View style={{ height: 20 }} />}
+        ListFooterComponent={() => <View style={{ height: 20 }} />}
+      />
     </View>
   );
 };

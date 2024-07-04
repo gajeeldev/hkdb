@@ -1,8 +1,8 @@
 import { ScrollView, View } from 'react-native';
-import { Link } from 'expo-router';
 import { useQuery } from '@tanstack/react-query';
-import { Button, FullScreenLoader, globalStyles } from '~/modules/core';
+import { FullScreenLoader, globalStyles } from '~/modules/core';
 import { getNails } from '../actions/getNails';
+import { NailCard } from '../components/NailCard';
 
 export const NailScreen = () => {
   const { data: nails } = useQuery({
@@ -14,11 +14,17 @@ export const NailScreen = () => {
   if (!nails) return <FullScreenLoader />;
   return (
     <View style={globalStyles.container}>
-      <ScrollView style={{ paddingTop: 20 }}>
-        {nails.map((nail) => (
-          <Link href={`(detail)/nail/${nail.id}`} asChild key={nail.id}>
-            <Button title={nail.nail} />
-          </Link>
+      <ScrollView style={{ paddingTop: 20 }} showsVerticalScrollIndicator={false}>
+        {nails.map((nail, index) => (
+          <NailCard
+            key={nail.id}
+            description={nail.description}
+            nail={nail.nail}
+            images={nail.images}
+            index={index}
+            damage={nail.damage}
+            upgrade_cost={nail.upgrade_cost}
+          />
         ))}
       </ScrollView>
     </View>

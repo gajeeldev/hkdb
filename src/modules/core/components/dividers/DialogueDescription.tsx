@@ -5,7 +5,7 @@ import { dlcTypes } from '../../domain/entities';
 
 interface Props {
   firstDescription: string;
-  secondDescription?: string;
+  secondDescription?: string | null;
   dlc?: string;
 }
 

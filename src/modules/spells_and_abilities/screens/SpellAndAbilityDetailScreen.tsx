@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, Platform } from 'react-native';
+import { View, Text, ScrollView, Platform, useWindowDimensions } from 'react-native';
 import { Stack } from 'expo-router';
 import { Image } from 'expo-image';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -9,13 +9,15 @@ import { getSpellAndAbilityById } from '../actions/getSpellAndAbilityById';
 
 const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) => {
   const { top } = useSafeAreaInsets();
+  const { width, height } = useWindowDimensions();
+
   const { data: spellAndAbility } = useQuery({
     queryKey: ['spellAndAbility', id],
     queryFn: () => getSpellAndAbilityById(id),
     staleTime: 1000 * 60 * 60, //1 hour
   });
 
-  if (!spellAndAbility) return <FullScreenLoader/>;
+  if (!spellAndAbility) return <FullScreenLoader />;
   return (
     <View style={globalStyles.container}>
       <Stack.Screen
@@ -31,7 +33,7 @@ const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) => {
           <Image
             source={{ uri: spellAndAbility.images[0] }}
             contentFit="contain"
-            style={{ width: 400, height: 200, marginHorizontal: 7 }}
+            style={{ width: width, height: height * 0.25, marginHorizontal: 7 }}
             placeholder={blurhash}
             transition={1000}
           />
@@ -46,7 +48,7 @@ const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) => {
           <Image
             source={{ uri: spellAndAbility.images[1] }}
             contentFit="contain"
-            style={{ width: 400, height: 200, marginHorizontal: 7 }}
+            style={{ width: width, height: height * 0.25, marginHorizontal: 7 }}
             placeholder={blurhash}
             transition={1000}
           />

@@ -1,8 +1,8 @@
-import { ScrollView, View } from 'react-native';
-import { Link } from 'expo-router';
+import { FlatList, View } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
-import { Button, FullScreenLoader, globalStyles } from '~/modules/core';
+import { FullScreenLoader, globalStyles } from '~/modules/core';
 import { getItems } from '../actions/getItems';
+import { ItemCard } from '../components/ItemCard';
 
 export const ItemsScreen = () => {
   const { data: items } = useQuery({
@@ -11,17 +11,27 @@ export const ItemsScreen = () => {
     staleTime: 1000 * 60 * 60, // 1 hour
   });
 
-  if (!items) return <FullScreenLoader/>;
+  if (!items) return <FullScreenLoader />;
 
   return (
     <View style={globalStyles.container}>
-      <ScrollView style={{ paddingTop: 20 }}>
-        {items.map((item) => (
-          <Link href={`(detail)/item/${item.id}`} asChild key={item.id}>
-            <Button title={item.item} />
-          </Link>
-        ))}
-      </ScrollView>
+      <FlatList
+        data={items}
+        keyExtractor={(item) => item.id}
+        numColumns={2}
+        columnWrapperStyle={{ justifyContent: 'space-between' }}
+        renderItem={({ item, index }) => (
+          <ItemCard
+            href={`(detail)/item/${item.id}`}
+            title={item.item}
+            image={item.images[0]}
+            index={index}
+          />
+        )}
+        showsVerticalScrollIndicator={false}
+        ListHeaderComponent={() => <View style={{ height: 20 }} />}
+        ListFooterComponent={() => <View style={{ height: 20 }} />}
+      />
     </View>
   );
 };

@@ -1,8 +1,9 @@
-import { ScrollView, View } from 'react-native';
+import { FlatList, ScrollView, View } from 'react-native';
 import { Link } from 'expo-router';
 import { useQuery } from '@tanstack/react-query';
 import { Button, FullScreenLoader, globalStyles } from '~/modules/core';
 import { getCharms } from '../actions/getCharms';
+import { CharmCard } from '../components/CharmCard';
 
 export const CharmsScreen = () => {
   const { data: charms } = useQuery({
@@ -11,17 +12,27 @@ export const CharmsScreen = () => {
     staleTime: 1000 * 60 * 60, // 1 hour
   });
 
-  if (!charms) return <FullScreenLoader/>;
+  if (!charms) return <FullScreenLoader />;
 
   return (
     <View style={globalStyles.container}>
-      <ScrollView style={{ paddingTop: 20 }}>
-        {charms.map((charm) => (
-          <Link href={`(detail)/charm/${charm.id}`} asChild key={charm.id}>
-            <Button title={charm.charm} />
-          </Link>
-        ))}
-      </ScrollView>
+      <FlatList
+        data={charms}
+        keyExtractor={(item) => item.id}
+        numColumns={2}
+        columnWrapperStyle={{ justifyContent: 'space-between' }}
+        renderItem={({ item, index }) => (
+          <CharmCard
+            href={`(detail)/charm/${item.id}`}
+            title={item.charm}
+            image={item.images[0]}
+            index={index}
+          />
+        )}
+        showsVerticalScrollIndicator={false}
+        ListHeaderComponent={() => <View style={{ height: 20 }} />}
+        ListFooterComponent={() => <View style={{ height: 20 }} />}
+      />
     </View>
   );
 };

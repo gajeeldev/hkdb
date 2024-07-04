@@ -1,4 +1,4 @@
-import { View, Text, Pressable, ScrollView } from 'react-native';
+import { View, Text, Pressable, ScrollView, useWindowDimensions } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { useRouter } from 'expo-router';
 import { Image } from 'expo-image';
@@ -8,6 +8,8 @@ import { getNailById } from '../actions/getNailById';
 
 const NailBottomSheetScreen = ({ id }: { id: string | string[] }) => {
   const router = useRouter();
+  const { width, height } = useWindowDimensions();
+
   const { data: nail } = useQuery({
     queryKey: ['nail', id],
     queryFn: () => getNailById(id),
@@ -24,7 +26,7 @@ const NailBottomSheetScreen = ({ id }: { id: string | string[] }) => {
         intensity={90}
         tint="dark"
         style={{
-          height: '50%',
+          height: '70%',
           width: '100%',
           position: 'absolute',
           bottom: 0,
@@ -46,8 +48,9 @@ const NailBottomSheetScreen = ({ id }: { id: string | string[] }) => {
               source={{ uri: nail.images[0] }}
               contentFit="contain"
               style={{
-                width: 100,
-                height: 200,
+                width: width * 0.18,
+                height: height * 0.35,
+                backgroundColor: 'red',
                 transform: [{ rotate: '270deg' }],
               }}
               placeholder={blurhash}
