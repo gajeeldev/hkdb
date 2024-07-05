@@ -43,8 +43,7 @@ export default function RootLayout() {
             {/* Drawer */}
             <Stack.Screen name="(drawer)" options={{ headerShown: false }} />
 
-            {/* Settings */}
-            <Stack.Screen name="(settings)/settings" options={{ title: 'Settings' }} />
+
 
             {/* Detail */}
             <Stack.Screen name="(detail)/area/[id]" options={{ title: 'Area' }} />

@@ -1,9 +1,17 @@
-import { Container, ScreenContent } from '~/modules/core';
+import { ScrollView, Text } from 'react-native';
+import HeaderLeftButton from '~/modules/core/components/router/HeaderLeftButton';
 
 export const SettingsScreen = () => {
   return (
-    <Container>
-      <ScreenContent path="app/settings/settings.tsx" title="Settings" />
-    </Container>
+    <>
+      <ScrollView>
+        {Array.from({ length: 100 }, (_, index) => (
+          <Text key={index} style={{ color: 'white' }}>
+            {index}
+          </Text>
+        ))}
+        <HeaderLeftButton />
+      </ScrollView>
+    </>
   );
 };

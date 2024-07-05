@@ -1,5 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Drawer } from 'expo-router/drawer';
+import HeaderLeftButton from '~/modules/core/components/router/HeaderLeftButton';
 
 const DrawerLayout = () => (
   <Drawer
@@ -7,18 +8,29 @@ const DrawerLayout = () => (
       drawerAllowFontScaling: true,
       drawerActiveTintColor: '#f5f5f5',
       drawerContentStyle: { backgroundColor: '#252525' },
-      drawerIcon: ({ color, size }) => <Ionicons name="home-outline" size={size} color={color} />,
       drawerStatusBarAnimation: 'fade',
+      drawerLabelStyle: { marginLeft: -20 },
+      drawerType: 'front',
       headerStyle: { backgroundColor: '#252525' },
       headerTitleAlign: 'center',
       headerTitleStyle: { fontFamily: 'TrajanPro-Bold' },
+      headerShadowVisible: false,
+      headerLeft: () => <HeaderLeftButton />,
     }}>
     <Drawer.Screen
       name="index"
       options={{
         headerTitle: 'The Knight',
         drawerLabel: 'The Knight',
-        drawerIcon: ({ size, color }) => <Ionicons name="home-outline" size={size} color={color} />,
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="home" size={size} color={color} />
+            ) : (
+              <Ionicons name="home-outline" size={size} color={color} />
+            )}
+          </>
+        ),
       }}
     />
 
@@ -27,8 +39,14 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'Achievements',
         drawerLabel: 'Achievements',
-        drawerIcon: ({ size, color }) => (
-          <Ionicons name="trophy-outline" size={size} color={color} />
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="trophy" size={size} color={color} />
+            ) : (
+              <Ionicons name="trophy-outline" size={size} color={color} />
+            )}
+          </>
         ),
       }}
     />
@@ -38,7 +56,15 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'Areas',
         drawerLabel: 'Areas',
-        drawerIcon: ({ size, color }) => <Ionicons name="map-outline" size={size} color={color} />,
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="map" size={size} color={color} />
+            ) : (
+              <Ionicons name="map-outline" size={size} color={color} />
+            )}
+          </>
+        ),
       }}
     />
 
@@ -47,8 +73,14 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'Bosses',
         drawerLabel: 'Bosses',
-        drawerIcon: ({ size, color }) => (
-          <Ionicons name="skull-outline" size={size} color={color} />
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="skull" size={size} color={color} />
+            ) : (
+              <Ionicons name="skull-outline" size={size} color={color} />
+            )}
+          </>
         ),
       }}
     />
@@ -58,7 +90,15 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'Charms',
         drawerLabel: 'Charms',
-        drawerIcon: ({ size, color }) => <Ionicons name="disc-outline" size={size} color={color} />,
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="disc" size={size} color={color} />
+            ) : (
+              <Ionicons name="disc-outline" size={size} color={color} />
+            )}
+          </>
+        ),
       }}
     />
 
@@ -67,7 +107,15 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'Enemies',
         drawerLabel: 'Enemies',
-        drawerIcon: ({ size, color }) => <Ionicons name="bug-outline" size={size} color={color} />,
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="bug" size={size} color={color} />
+            ) : (
+              <Ionicons name="bug-outline" size={size} color={color} />
+            )}
+          </>
+        ),
       }}
     />
 
@@ -76,7 +124,15 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'Items',
         drawerLabel: 'Items',
-        drawerIcon: ({ size, color }) => <Ionicons name="cube-outline" size={size} color={color} />,
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="cube" size={size} color={color} />
+            ) : (
+              <Ionicons name="cube-outline" size={size} color={color} />
+            )}
+          </>
+        ),
       }}
     />
 
@@ -85,8 +141,14 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'Nail',
         drawerLabel: 'Nail',
-        drawerIcon: ({ size, color }) => (
-          <Ionicons name="brush-outline" size={size} color={color} />
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="brush" size={size} color={color} />
+            ) : (
+              <Ionicons name="brush-outline" size={size} color={color} />
+            )}
+          </>
         ),
       }}
     />
@@ -96,7 +158,15 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'NPCs',
         drawerLabel: 'NPCs',
-        drawerIcon: ({ size, color }) => <Ionicons name="leaf-outline" size={size} color={color} />,
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="leaf" size={size} color={color} />
+            ) : (
+              <Ionicons name="leaf-outline" size={size} color={color} />
+            )}
+          </>
+        ),
       }}
     />
 
@@ -105,7 +175,32 @@ const DrawerLayout = () => (
       options={{
         headerTitle: 'Spells & Abilities',
         drawerLabel: 'Spells & Abilities',
-        drawerIcon: ({ size, color }) => <Ionicons name="book-outline" size={size} color={color} />,
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="book" size={size} color={color} />
+            ) : (
+              <Ionicons name="book-outline" size={size} color={color} />
+            )}
+          </>
+        ),
+      }}
+    />
+
+    <Drawer.Screen
+      name="settings/index"
+      options={{
+        headerTitle: 'Settings',
+        drawerLabel: 'Settings',
+        drawerIcon: ({ size, color, focused }) => (
+          <>
+            {focused ? (
+              <Ionicons name="settings" size={size} color={color} />
+            ) : (
+              <Ionicons name="settings-outline" size={size} color={color} />
+            )}
+          </>
+        ),
       }}
     />
   </Drawer>
