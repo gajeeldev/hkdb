@@ -15,7 +15,7 @@ export const SpellsAndAbilitiesScreen = () => {
 
   const spells = spellsAndAbilities.filter((item) => item.type === 'Spell');
   const abilities = spellsAndAbilities.filter((item) => item.type === 'Ability');
-  const nail_arts = spellsAndAbilities.filter((item) => item.type === 'Nail Arts');
+  const nail_arts = spellsAndAbilities.filter((item) => item.type === 'Nail Art');
 
   return (
     <View style={globalStyles.container}>

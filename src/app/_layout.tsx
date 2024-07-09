@@ -1,11 +1,15 @@
 import { Platform } from 'react-native';
 import { Stack } from 'expo-router';
-import * as SystemUI from 'expo-system-ui';
-import { useFonts } from 'expo-font';
 import { ThemeProvider } from '@react-navigation/native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { customFonts, darkTheme } from '~/modules/core';
+import { darkTheme, FullScreenLoader } from '~/modules/core';
+
+import * as SplashScreen from 'expo-splash-screen';
+import { useCallback } from 'react';
+import { useAppReady } from '~/modules/core/hooks/useAppReady';
+
+SplashScreen.preventAutoHideAsync();
 
 const queryClient = new QueryClient();
 
@@ -14,17 +18,22 @@ export const unstable_settings = {
 };
 
 export default function RootLayout() {
-  const [fontLoaded] = useFonts(customFonts);
+  const { appIsReady } = useAppReady();
 
-  SystemUI.setBackgroundColorAsync(darkTheme.colors.background);
+  const onLayoutRootView = useCallback(async () => {
+    if (appIsReady) {
+      await SplashScreen.hideAsync();
+    }
+  }, [appIsReady]);
 
-  if (!fontLoaded) {
-    return null;
+  if (!appIsReady) {
+    return <FullScreenLoader />;
   }
+
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider value={darkTheme}>
-        <GestureHandlerRootView style={{ flex: 1 }}>
+        <GestureHandlerRootView style={{ flex: 1 }} onLayout={onLayoutRootView}>
           <Stack
             screenOptions={{
               headerBlurEffect: 'regular',
@@ -43,7 +52,7 @@ export default function RootLayout() {
             {/* Drawer */}
             <Stack.Screen name="(drawer)" options={{ headerShown: false }} />
 
-
+            <Stack.Screen name="about" />
 
             {/* Detail */}
             <Stack.Screen name="(detail)/area/[id]" options={{ title: 'Area' }} />

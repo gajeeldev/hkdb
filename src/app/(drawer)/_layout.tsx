@@ -1,9 +1,11 @@
-import { Ionicons } from '@expo/vector-icons';
 import { Drawer } from 'expo-router/drawer';
+import { Ionicons } from '@expo/vector-icons';
+import CustomDrawerContent from '~/modules/core/components/router/CustomDrawerContent';
 import HeaderLeftButton from '~/modules/core/components/router/HeaderLeftButton';
 
 const DrawerLayout = () => (
   <Drawer
+    drawerContent={CustomDrawerContent}
     screenOptions={{
       drawerAllowFontScaling: true,
       drawerActiveTintColor: '#f5f5f5',
@@ -181,23 +183,6 @@ const DrawerLayout = () => (
               <Ionicons name="book" size={size} color={color} />
             ) : (
               <Ionicons name="book-outline" size={size} color={color} />
-            )}
-          </>
-        ),
-      }}
-    />
-
-    <Drawer.Screen
-      name="settings/index"
-      options={{
-        headerTitle: 'Settings',
-        drawerLabel: 'Settings',
-        drawerIcon: ({ size, color, focused }) => (
-          <>
-            {focused ? (
-              <Ionicons name="settings" size={size} color={color} />
-            ) : (
-              <Ionicons name="settings-outline" size={size} color={color} />
             )}
           </>
         ),

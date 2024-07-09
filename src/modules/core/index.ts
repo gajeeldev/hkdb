@@ -1,8 +1,12 @@
+
+export * from './components/router/CustomDrawerContent';
+
 export * from './components/router/HeaderLeftButton';
 
 export * from './domain/entities';
 
 export * from './components/GoBack';
+export * from './components/GoHome';
 
 export * from './config/constants/constans';
 
