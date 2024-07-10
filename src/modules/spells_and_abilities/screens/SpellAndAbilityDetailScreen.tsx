@@ -7,7 +7,7 @@ import { blurhash, FullScreenLoader, globalStyles, GoBack, Subtitle } from '~/mo
 import DialogueDescription from '~/modules/core/components/dividers/DialogueDescription';
 import { getSpellAndAbilityById } from '../actions/getSpellAndAbilityById';
 
-const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) => {
+export const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) => {
   const { top } = useSafeAreaInsets();
   const { width, height } = useWindowDimensions();
 
@@ -84,5 +84,3 @@ const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) => {
     </View>
   );
 };
-
-export default SpellAndAbilityDetailScreen;

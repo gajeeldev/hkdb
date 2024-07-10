@@ -40,6 +40,7 @@ const DialogueDescription = ({ firstDescription, secondDescription, dlc }: Props
         ]}
         contentFit="contain"
         transition={1000}
+        priority={'high'}
       />
 
       <Text
@@ -67,6 +68,7 @@ const DialogueDescription = ({ firstDescription, secondDescription, dlc }: Props
       <Image
         source={require('../../../../assets/images/divider/Dialogue_Bottom.webp')}
         placeholder={blurhash}
+        priority={'high'}
         style={[
           {
             marginTop: height * 0.01,
