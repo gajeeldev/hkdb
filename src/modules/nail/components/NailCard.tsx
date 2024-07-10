@@ -1,6 +1,7 @@
 import { Text, useWindowDimensions, View } from 'react-native';
 import { Image } from 'expo-image';
 import Animated, { FadeInDown } from 'react-native-reanimated';
+import { blurhash } from '~/modules/core';
 
 interface Props {
   nail: string;
@@ -27,7 +28,8 @@ export const NailCard = ({ nail, damage, upgrade_cost, description, images, inde
         source={images[0]}
         style={{ width: width * 0.15, height: height * 0.15 }}
         contentFit="contain"
-        transition={1000}
+        placeholder={blurhash}
+        priority="high"
       />
       <View style={{ gap: 10, flex: 1 }}>
         <Text style={{ color: '#f5f5f5', fontSize: 24, fontWeight: 'bold' }}>{nail}</Text>

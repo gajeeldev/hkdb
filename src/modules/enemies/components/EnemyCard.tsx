@@ -2,6 +2,7 @@ import Animated, { FadeInDown } from 'react-native-reanimated';
 import { Image } from 'expo-image';
 import { Pressable, Text, useWindowDimensions } from 'react-native';
 import { Link } from 'expo-router';
+import { blurhash } from '~/modules/core';
 
 interface Props {
   href: string;
@@ -11,6 +12,7 @@ interface Props {
 }
 export const EnemyCard = ({ href, title, image, index }: Props) => {
   const { width, height } = useWindowDimensions();
+
   return (
     <Animated.View entering={FadeInDown.delay(200 * index)}>
       <Link href={href} asChild>
@@ -35,13 +37,14 @@ export const EnemyCard = ({ href, title, image, index }: Props) => {
             shadowRadius: 10,
             elevation: 10,
             width: width / 2.25,
-            height: height / 4.5,
+            height: width / 2.25,
           }}>
           <Image
             source={image}
             style={{ width: '100%', height: height / 8 }}
-            transition={1000}
             contentFit="contain"
+            placeholder={blurhash}
+            priority="high"
           />
           <Text
             style={{

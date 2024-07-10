@@ -23,7 +23,7 @@ export const KnightScreen = () => {
             placeholder={blurhash}
             contentFit="cover"
             transition={1000}
-            cachePolicy={'disk'}
+            priority="high"
           />
         </View>
         <Title text="The Knight" />

@@ -1,6 +1,7 @@
 import { Text, useWindowDimensions, View } from 'react-native';
 import { Image } from 'expo-image';
 import Animated, { FadeInDown } from 'react-native-reanimated';
+import { blurhash } from '~/modules/core';
 
 interface Props {
   achievement: string;
@@ -18,8 +19,9 @@ export const AchievementsCard = ({ achievement, description, images, index }: Pr
       <Image
         source={images[0]}
         style={{ width: width / 3.5, height: height / 6.5 }}
-        transition={1000}
         contentFit="contain"
+        placeholder={blurhash}
+        priority="high"
       />
       <View style={{ gap: 10, flex: 1 }}>
         <Text style={{ color: '#f5f5f5', fontSize: 24, fontWeight: 'bold' }}>{achievement}</Text>

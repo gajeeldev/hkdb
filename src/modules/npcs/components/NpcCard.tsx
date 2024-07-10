@@ -2,6 +2,7 @@ import Animated, { FadeInDown } from 'react-native-reanimated';
 import { Image } from 'expo-image';
 import { Pressable, Text, useWindowDimensions } from 'react-native';
 import { Link } from 'expo-router';
+import { blurhash } from '~/modules/core';
 
 interface Props {
   href: string;
@@ -40,8 +41,9 @@ export const NpcCard = ({ href, title, image, index }: Props) => {
           <Image
             source={image}
             style={{ width: '100%', height: height / 8 }}
-            transition={1000}
             contentFit="contain"
+            placeholder={blurhash}
+            priority="high"
           />
           <Text
             style={{

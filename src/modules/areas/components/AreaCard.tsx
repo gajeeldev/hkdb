@@ -2,6 +2,7 @@ import { Text, Pressable, useWindowDimensions, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 import { Image } from 'expo-image';
 import Animated, { FadeInDown } from 'react-native-reanimated';
+import { blurhash } from '~/modules/core';
 
 interface Props {
   href: string;
@@ -18,8 +19,9 @@ export const AreaCard = ({ href, title, image, index }: Props) => {
           <Image
             source={image}
             style={{ width: '100%', height: height / 5 }}
-            transition={1000}
             contentFit="contain"
+            placeholder={blurhash}
+            priority="high"
           />
           <Text style={styles.text}>{title}</Text>
         </Pressable>

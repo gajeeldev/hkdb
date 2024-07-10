@@ -67,7 +67,7 @@ export const AboutScreen = () => {
       <Item
         text="SplashScreen Image By Pedro Silva"
         icon="logo-pinterest"
-        onPress={() => openBrowser('https://github.com/gajeeldev/hkdb')}
+        onPress={() => openBrowser('https://www.pinterest.com/pedrolucassilvacorra/?invite_code=171af81c1c3b438f89fac72db572661a&sender=811633301503638107')}
       />
 
       {/* Support me */}
