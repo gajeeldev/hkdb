@@ -1,9 +1,9 @@
-import { View, Text, ScrollView, Platform, useWindowDimensions } from 'react-native';
+import { View, Text, ScrollView, Platform, useWindowDimensions, StyleSheet } from 'react-native';
 import { Stack } from 'expo-router';
 import { Image } from 'expo-image';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useQuery } from '@tanstack/react-query';
-import { blurhash, FullScreenLoader, globalStyles, GoBack, Subtitle } from '~/modules/core';
+import { blurhash, colors, FullScreenLoader, globalStyles, GoBack, Subtitle } from '~/modules/core';
 import DialogueDescription from '~/modules/core/components/dividers/DialogueDescription';
 import { getSpellAndAbilityById } from '../actions/getSpellAndAbilityById';
 
@@ -18,6 +18,7 @@ export const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) =
   });
 
   if (!spellAndAbility) return <FullScreenLoader />;
+
   return (
     <View style={globalStyles.container}>
       <Stack.Screen
@@ -29,7 +30,7 @@ export const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) =
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingTop: Platform.OS === 'ios' ? top + 100 : 0 }}>
-        <View style={{ justifyContent: 'center', alignItems: 'center', marginTop: 20 }}>
+        <View style={styles.imageContainer}>
           <Image
             source={{ uri: spellAndAbility.images[0] }}
             contentFit="contain"
@@ -44,7 +45,7 @@ export const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) =
           secondDescription={spellAndAbility.inventory_description_2}
         />
 
-        <View style={{ justifyContent: 'center', alignItems: 'center', marginTop: 20 }}>
+        <View style={styles.imageContainer}>
           <Image
             source={{ uri: spellAndAbility.images[1] }}
             contentFit="contain"
@@ -60,16 +61,16 @@ export const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) =
         />
 
         <Subtitle text="Type" />
-        <Text style={{ color: 'white' }}>{spellAndAbility.type}</Text>
+        <Text style={{ color: colors.textColor }}>{spellAndAbility.type}</Text>
 
         <Subtitle text="Function" />
-        <Text style={{ color: 'white' }}>{spellAndAbility.function}</Text>
+        <Text style={{ color: colors.textColor }}>{spellAndAbility.function}</Text>
 
         {spellAndAbility.modifiers && (
           <View>
             <Subtitle text="Modifiers" />
             {spellAndAbility.modifiers?.map((modifier) => (
-              <Text style={{ color: 'white' }} key={modifier}>
+              <Text style={{ color: colors.textColor }} key={modifier}>
                 {modifier}
               </Text>
             ))}
@@ -77,10 +78,18 @@ export const SpellAndAbilityDetailScreen = ({ id }: { id: string | string[] }) =
         )}
 
         <Subtitle text="How to acquire" />
-        <Text style={{ color: 'white' }}>{spellAndAbility.how_to_acquire}</Text>
+        <Text style={{ color: colors.textColor }}>{spellAndAbility.how_to_acquire}</Text>
 
         <View style={{ height: 20 }} />
       </ScrollView>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  imageContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 20,
+  },
+});

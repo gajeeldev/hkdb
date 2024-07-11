@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
-import { dlcTypes, FullScreenLoader, Subtitle } from '~/modules/core';
+import { colors, dlcTypes, FullScreenLoader, Subtitle } from '~/modules/core';
 import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
 import { getEnemyById } from '../actions/getEnemyById';
 
@@ -22,18 +22,18 @@ const EnemyDetailScreen = ({ id }: { id: string | string[] }) => {
       dlc={enemy.dlc}>
       {enemy.health > 0 && (
         <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1, marginTop: 20 }}>
-          <Text style={{ color: '#f5f5f5', fontSize: 20, fontFamily: 'TrajanPro-Bold' }}>
+          <Text style={{ color: colors.textColor, fontSize: 20, fontFamily: 'TrajanPro-Bold' }}>
             Health
           </Text>
 
-          <Text style={{ color: 'white' }}>{enemy.health}</Text>
+          <Text style={{ color: colors.textColor }}>{enemy.health}</Text>
         </View>
       )}
 
       {enemy.dlc !== dlcTypes.Bestiary ? (
         <>
           <Subtitle text="DLC" />
-          <Text style={{ color: 'white' }}>{enemy.dlc}</Text>
+          <Text style={{ color: colors.textColor }}>{enemy.dlc}</Text>
         </>
       ) : null}
 
@@ -41,7 +41,7 @@ const EnemyDetailScreen = ({ id }: { id: string | string[] }) => {
         <View>
           <Subtitle text="Dream Nail Dialogue" />
           {enemy.dream_nail_dialogue.map((dialogue, index) => (
-            <Text key={index} style={{ color: 'white' }}>
+            <Text key={index} style={{ color: colors.textColor }}>
               {dialogue}
             </Text>
           ))}
@@ -49,7 +49,7 @@ const EnemyDetailScreen = ({ id }: { id: string | string[] }) => {
       )}
 
       <Subtitle text="Location" />
-      <Text style={{ color: 'white' }}>{enemy.location}</Text>
+      <Text style={{ color: colors.textColor }}>{enemy.location}</Text>
     </LayoutDetailScreen>
   );
 };

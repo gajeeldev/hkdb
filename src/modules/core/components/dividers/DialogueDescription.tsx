@@ -2,6 +2,7 @@ import { View, Text, useWindowDimensions, StyleSheet } from 'react-native';
 import { Image } from 'expo-image';
 import { blurhash } from '../../config/constants/constans';
 import { dlcTypes } from '../../domain/entities';
+import { colors } from '../../config/theme/theme';
 
 interface Props {
   firstDescription: string;
@@ -30,14 +31,12 @@ const DialogueDescription = ({ firstDescription, secondDescription, dlc }: Props
       <Image
         source={image}
         placeholder={blurhash}
-        style={[
-          {
-            marginBottom: height * 0.01,
-            width: width * 0.8,
-            height: height * 0.06,
-          },
-          styles.shadowImage,
-        ]}
+        style={{
+          ...styles.shadowImage,
+          marginBottom: height * 0.01,
+          width: width * 0.8,
+          height: height * 0.06,
+        }}
         contentFit="contain"
         transition={1000}
         priority={'high'}
@@ -45,10 +44,8 @@ const DialogueDescription = ({ firstDescription, secondDescription, dlc }: Props
 
       <Text
         style={{
-          color: '#f5f5f5',
-          fontStyle: 'italic',
+          ...styles.description,
           fontSize: fontScale * 18,
-          textAlign: 'center',
         }}>
         {firstDescription}
       </Text>
@@ -59,7 +56,6 @@ const DialogueDescription = ({ firstDescription, secondDescription, dlc }: Props
           width={width}
           height={height}
           fontScale={fontScale}
-          textColor={'#f5f5f5'}
           description={secondDescription}
         />
       )}
@@ -90,16 +86,9 @@ interface SecondDescriptionProps {
   width: number;
   height: number;
   fontScale: number;
-  textColor: string;
   description: string;
 }
-const SecondDescription = ({
-  width,
-  height,
-  fontScale,
-  textColor,
-  description,
-}: SecondDescriptionProps) => {
+const SecondDescription = ({ width, height, fontScale, description }: SecondDescriptionProps) => {
   return (
     <>
       {/** divider */}
@@ -110,7 +99,7 @@ const SecondDescription = ({
             height: height * 0.001,
             marginVertical: height * 0.01,
             opacity: 0.5,
-            backgroundColor: 'white',
+            backgroundColor: colors.textColor,
           },
           styles.shadowImage,
         ]}
@@ -118,10 +107,8 @@ const SecondDescription = ({
 
       <Text
         style={{
-          color: textColor,
-          fontStyle: 'italic',
+          ...styles.description,
           fontSize: fontScale * 18,
-          textAlign: 'center',
         }}>
         {description}
       </Text>
@@ -142,5 +129,10 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
+  },
+  description: {
+    color: colors.textColor,
+    fontStyle: 'italic',
+    textAlign: 'center',
   },
 });

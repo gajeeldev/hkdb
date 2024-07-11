@@ -1,17 +1,11 @@
 import { Theme } from '@react-navigation/native';
 import { StyleSheet } from 'react-native';
 
-export const lightTheme: Theme = {
-  dark: false,
-  colors: {
-    primary: 'red',
-    background: '#f5f5f5',
-    card: '#ffffff',
-    text: '#252525',
-    border: '#000000',
-    notification: '#000000',
-  },
-};
+export const colors = {
+  textColor: '#f5f5f5',
+  cardBackground: '#3A3A3A',
+}
+
 
 export const darkTheme: Theme = {
   dark: true,

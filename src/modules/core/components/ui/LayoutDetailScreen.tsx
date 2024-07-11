@@ -1,7 +1,14 @@
+import {
+  View,
+  ScrollView,
+  Platform,
+  FlatList,
+  useWindowDimensions,
+  StyleSheet,
+} from 'react-native';
 import { Stack } from 'expo-router';
-import { View, ScrollView, Platform, FlatList, useWindowDimensions } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Image } from 'expo-image';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { GoBack } from '../GoBack';
 import DialogueDescription from '../dividers/DialogueDescription';
 import { blurhash } from '../../config/constants/constans';
@@ -43,7 +50,7 @@ const LayoutDetailScreen = ({
           style={{ marginBottom: 20 }}
           keyExtractor={(item) => item}
           renderItem={({ item }) => (
-            <View style={{ justifyContent: 'center', alignItems: 'center', marginTop: 20 }}>
+            <View style={styles.imageContainer}>
               <Image
                 source={{ uri: item }}
                 contentFit="contain"
@@ -74,3 +81,11 @@ const LayoutDetailScreen = ({
 };
 
 export default LayoutDetailScreen;
+
+const styles = StyleSheet.create({
+  imageContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 20,
+  },
+});

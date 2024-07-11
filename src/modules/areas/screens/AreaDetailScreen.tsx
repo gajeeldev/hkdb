@@ -1,6 +1,6 @@
-import { Text } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
-import { FullScreenLoader, Subtitle } from '~/modules/core';
+import { colors, FullScreenLoader, Subtitle } from '~/modules/core';
 import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
 import { getAreaById } from '../actions/getAreaById';
 
@@ -11,7 +11,7 @@ export const AreaDetailScreen = ({ id }: { id: string | string[] }) => {
     staleTime: 1000 * 60 * 60, //1 hour
   });
 
-  if (!area) return <FullScreenLoader/>;
+  if (!area) return <FullScreenLoader />;
 
   return (
     <LayoutDetailScreen
@@ -19,13 +19,20 @@ export const AreaDetailScreen = ({ id }: { id: string | string[] }) => {
       title={area.area}
       firstDescription={area.game_description}>
       <Subtitle text="Description" />
-      <Text style={{ color: 'white', marginTop: 20 }}>{area.description}</Text>
+      <Text style={styles.text}>{area.description}</Text>
 
       <Subtitle text="Lore" />
-      <Text style={{ color: 'white', marginTop: 20 }}>{area.lore}</Text>
+      <Text style={styles.text}>{area.lore}</Text>
 
       <Subtitle text="How to Access" />
-      <Text style={{ color: 'white', marginTop: 20 }}>{area.how_to_access}</Text>
+      <Text style={styles.text}>{area.how_to_access}</Text>
     </LayoutDetailScreen>
   );
 };
+
+const styles = StyleSheet.create({
+  text: {
+    color: colors.textColor,
+    marginTop: 20,
+  },
+});

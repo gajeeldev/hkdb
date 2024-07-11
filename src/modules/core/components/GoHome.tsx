@@ -1,21 +1,13 @@
+import { Platform, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { Platform, TouchableOpacity, View } from 'react-native';
 
 export const GoHome = () => {
   const router = useRouter();
 
   return (
     <TouchableOpacity onPress={() => router.replace('/')}>
-      <View
-        style={{
-          flexDirection: 'row',
-          justifyContent: 'center',
-          alignItems: 'center',
-          backgroundColor: 'rgba(245, 245, 245, 0.15)',
-          borderRadius: 24,
-          padding: 3,
-        }}>
+      <View style={styles.container}>
         <Ionicons
           name={Platform.OS === 'ios' ? 'chevron-back-outline' : 'arrow-back'}
           size={26}
@@ -26,3 +18,14 @@ export const GoHome = () => {
     </TouchableOpacity>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(245, 245, 245, 0.15)',
+    borderRadius: 24,
+    padding: 3,
+  },
+});

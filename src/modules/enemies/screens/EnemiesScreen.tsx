@@ -1,9 +1,9 @@
 import { View } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
+import { FlashList } from '@shopify/flash-list';
 import { getEnemies } from '../actions/getEnemies';
 import { FullScreenLoader, globalStyles } from '~/modules/core';
 import { EnemyCard } from '../components/EnemyCard';
-import { FlashList } from '@shopify/flash-list';
 import { ColumnItem } from '../components/ColumnItem';
 
 export const EnemiesScreen = () => {

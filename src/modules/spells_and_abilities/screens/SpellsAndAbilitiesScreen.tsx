@@ -1,4 +1,4 @@
-import { View, ScrollView, FlatList, Text } from 'react-native';
+import { View, ScrollView, FlatList, Text, StyleSheet } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
 import { FullScreenLoader, globalStyles } from '~/modules/core';
 import { getSpellsAndAbilities } from '../actions/getSpellsAndAbilities';
@@ -38,9 +38,7 @@ export const SpellsAndAbilitiesScreen = () => {
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={() => (
             <View style={{ marginBottom: 20 }}>
-              <Text style={{ color: '#f5f5f5', fontSize: 25, fontFamily: 'TrajanPro-Bold' }}>
-                Spells
-              </Text>
+              <Text style={styles.title}>Spells</Text>
             </View>
           )}
           ListFooterComponent={() => <View style={{ height: 20 }} />}
@@ -64,9 +62,7 @@ export const SpellsAndAbilitiesScreen = () => {
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={() => (
             <View style={{ marginBottom: 20 }}>
-              <Text style={{ color: '#f5f5f5', fontSize: 25, fontFamily: 'TrajanPro-Bold' }}>
-                Abilities
-              </Text>
+              <Text style={styles.title}>Abilities</Text>
             </View>
           )}
           ListFooterComponent={() => <View style={{ height: 20 }} />}
@@ -90,9 +86,7 @@ export const SpellsAndAbilitiesScreen = () => {
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={() => (
             <View style={{ marginBottom: 20 }}>
-              <Text style={{ color: '#f5f5f5', fontSize: 25, fontFamily: 'TrajanPro-Bold' }}>
-                Nail Arts
-              </Text>
+              <Text style={styles.title}>Nail Arts</Text>
             </View>
           )}
           ListFooterComponent={() => <View style={{ height: 20 }} />}
@@ -101,3 +95,11 @@ export const SpellsAndAbilitiesScreen = () => {
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  title: {
+    color: '#f5f5f5',
+    fontSize: 25,
+    fontFamily: 'TrajanPro-Bold',
+  },
+});

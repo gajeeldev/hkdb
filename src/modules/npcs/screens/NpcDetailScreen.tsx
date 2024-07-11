@@ -1,7 +1,7 @@
 import { Text, View } from 'react-native';
-import { FullScreenLoader, Subtitle } from '~/modules/core';
-import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
 import { useQuery } from '@tanstack/react-query';
+import { colors, FullScreenLoader, Subtitle } from '~/modules/core';
+import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
 import { getNpcById } from '../actions/getNpcById';
 
 const NpcDetailScreen = ({ id }: { id: string | string[] }) => {
@@ -15,19 +15,19 @@ const NpcDetailScreen = ({ id }: { id: string | string[] }) => {
   return (
     <LayoutDetailScreen images={npc.images} title={npc.npc} firstDescription={npc.description}>
       <Subtitle text="Type" />
-      <Text style={{ color: 'white' }}>{npc.type}</Text>
+      <Text style={{ color: colors.textColor }}>{npc.type}</Text>
 
       {npc.lore && (
         <>
           <Subtitle text="Lore" />
-          <Text style={{ color: 'white' }}>{npc.lore}</Text>
+          <Text style={{ color: colors.textColor }}>{npc.lore}</Text>
         </>
       )}
 
       {npc.in_game_events && (
         <View>
           <Subtitle text="In-Game Events" />
-          <Text style={{ color: 'white' }}>{npc.in_game_events}</Text>
+          <Text style={{ color: colors.textColor }}>{npc.in_game_events}</Text>
         </View>
       )}
 
@@ -35,7 +35,7 @@ const NpcDetailScreen = ({ id }: { id: string | string[] }) => {
         <View>
           <Subtitle text="Dream Nail Dialogue" />
           {npc.dream_nail_dialogue.map((dialogue) => (
-            <Text style={{ color: 'white' }} key={dialogue}>
+            <Text style={{ color: colors.textColor }} key={dialogue}>
               {dialogue}
             </Text>
           ))}
@@ -43,7 +43,7 @@ const NpcDetailScreen = ({ id }: { id: string | string[] }) => {
       )}
 
       <Subtitle text="Location" />
-      <Text style={{ color: 'white' }}>{npc.location}</Text>
+      <Text style={{ color: colors.textColor }}>{npc.location}</Text>
     </LayoutDetailScreen>
   );
 };

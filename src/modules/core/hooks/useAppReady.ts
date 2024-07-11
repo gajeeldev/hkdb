@@ -1,7 +1,7 @@
+import { useEffect, useState } from 'react';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import * as Font from 'expo-font';
 import * as SystemUI from 'expo-system-ui';
-import { useEffect, useState } from 'react';
 import { customFonts } from '../config/constants/constans';
 import { darkTheme } from '../config/theme/theme';
 

@@ -1,7 +1,8 @@
+import { Pressable } from 'react-native';
+import { useNavigation } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { DrawerActions } from '@react-navigation/native';
-import { useNavigation } from 'expo-router';
-import { Pressable } from 'react-native';
+import { colors } from '../../config/theme/theme';
 
 const HeaderLeftButton = () => {
   const navigation = useNavigation();
@@ -11,7 +12,7 @@ const HeaderLeftButton = () => {
   };
   return (
     <Pressable onPress={onToggle}>
-      <Ionicons name="menu" size={24} color="#F5F5F5" style={{ marginLeft: 10 }} />
+      <Ionicons name="menu" size={24} color={colors.textColor} style={{ marginLeft: 10 }} />
     </Pressable>
   );
 };

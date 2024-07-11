@@ -1,6 +1,6 @@
 import { Text } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
-import { FullScreenLoader, Subtitle } from '~/modules/core';
+import { colors, FullScreenLoader, Subtitle } from '~/modules/core';
 import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
 import { getItemById } from '../actions/getItemById';
 
@@ -20,14 +20,14 @@ const ItemDetailScreen = ({ id }: { id: string | string[] }) => {
       firstDescription={item.description_1}
       secondDescription={item.description_2}>
       <Subtitle text="Effects" />
-      <Text style={{ color: 'white' }}>{item.effects}</Text>
+      <Text style={{ color: colors.textColor }}>{item.effects}</Text>
       <Subtitle text="Type" />
-      <Text style={{ color: 'white' }}>{item.type}</Text>
+      <Text style={{ color: colors.textColor }}>{item.type}</Text>
       <Subtitle text="Use" />
-      <Text style={{ color: 'white' }}>{item.use}</Text>
+      <Text style={{ color: colors.textColor }}>{item.use}</Text>
       <Subtitle text="How to acquire" />
       {item.how_to_acquire.map((howToAcquire, index) => (
-        <Text style={{ color: 'white' }} key={index}>
+        <Text style={{ color: colors.textColor }} key={index}>
           {howToAcquire}
         </Text>
       ))}

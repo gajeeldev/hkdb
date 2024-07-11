@@ -1,8 +1,8 @@
-import Animated, { FadeInDown } from 'react-native-reanimated';
-import { Image } from 'expo-image';
-import { Pressable, Text, useWindowDimensions } from 'react-native';
+import { Pressable, StyleSheet, Text, useWindowDimensions } from 'react-native';
 import { Link } from 'expo-router';
-import { blurhash } from '~/modules/core';
+import { Image } from 'expo-image';
+import Animated, { FadeInDown } from 'react-native-reanimated';
+import { blurhash, colors } from '~/modules/core';
 
 interface Props {
   href: string;
@@ -18,24 +18,7 @@ export const EnemyCard = ({ href, title, image, index }: Props) => {
       <Link href={href} asChild>
         <Pressable
           style={{
-            flex: 1,
-            justifyContent: 'center',
-            alignItems: 'center',
-            marginBottom: 15,
-            overflow: 'hidden',
-            borderTopLeftRadius: 10,
-            borderTopRightRadius: 10,
-            borderBottomLeftRadius: 10,
-            borderBottomRightRadius: 10,
-            backgroundColor: '#3A3A3A',
-            shadowColor: '#000',
-            shadowOffset: {
-              width: 0,
-              height: 3,
-            },
-            shadowOpacity: 0.29,
-            shadowRadius: 10,
-            elevation: 10,
+            ...styles.container,
             width: width / 2.25,
             height: width / 2.25,
           }}>
@@ -48,11 +31,8 @@ export const EnemyCard = ({ href, title, image, index }: Props) => {
           />
           <Text
             style={{
-              color: '#F5F5F5',
+              ...styles.text,
               fontSize: width / 30,
-              fontFamily: 'TrajanPro-Bold',
-              paddingVertical: 10,
-              textAlign: 'center',
             }}
             numberOfLines={2}
             adjustsFontSizeToFit>
@@ -63,3 +43,28 @@ export const EnemyCard = ({ href, title, image, index }: Props) => {
     </Animated.View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 15,
+    borderRadius: 10,
+    backgroundColor: colors.cardBackground,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.29,
+    shadowRadius: 10,
+    elevation: 10,
+  },
+  text: {
+    color: colors.textColor,
+    fontFamily: 'TrajanPro-Bold',
+    paddingVertical: 10,
+    textAlign: 'center',
+  },
+});

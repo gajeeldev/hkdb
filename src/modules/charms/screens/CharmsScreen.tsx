@@ -1,7 +1,6 @@
-import { FlatList, ScrollView, View } from 'react-native';
-import { Link } from 'expo-router';
+import { FlatList, View } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
-import { Button, FullScreenLoader, globalStyles } from '~/modules/core';
+import { FullScreenLoader, globalStyles } from '~/modules/core';
 import { getCharms } from '../actions/getCharms';
 import { CharmCard } from '../components/CharmCard';
 

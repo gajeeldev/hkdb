@@ -1,15 +1,12 @@
-import { Ionicons } from '@expo/vector-icons';
-import { Image } from 'expo-image';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
 import { Stack } from 'expo-router';
-import { View, Text, ScrollView, Platform, TouchableOpacity } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as MailComposer from 'expo-mail-composer';
 import * as WebBrowser from 'expo-web-browser';
-import { blurhash, globalStyles, GoHome, Subtitle } from '~/modules/core';
+import { colors, globalStyles, GoHome, Subtitle } from '~/modules/core';
+import { Item } from '../components/Item';
+import { Header } from '../components/Header';
 
 export const AboutScreen = () => {
-  const { top } = useSafeAreaInsets();
-
   const sendEmail = async () => {
     await MailComposer.composeAsync({
       recipients: ['gajeeldev@gmail.com'],
@@ -24,35 +21,21 @@ export const AboutScreen = () => {
   return (
     <ScrollView style={globalStyles.container}>
       <Stack.Screen options={{ headerLeft: () => <GoHome />, animation: 'slide_from_bottom' }} />
-      {/* Header */}
-      <View
-        style={{
-          marginTop: Platform.OS === 'ios' ? top + 100 : 20,
-          flexDirection: 'row',
-          alignItems: 'center',
-          gap: 10,
-        }}>
-        <Image
-          source={require('../../../assets/icon.png')}
-          style={{ width: 50, height: 50 }}
-          contentFit="contain"
-          placeholder={blurhash}
-        />
-        <View>
-          <Text style={{ color: '#f5f5f5', fontSize: 18, fontWeight: 'bold' }}>HKDB</Text>
-          <Text style={{ color: '#f5f5f5', opacity: 0.5 }}>1.0.0</Text>
-        </View>
-      </View>
+      <Header />
 
+      {/* Report an Issue */}
       <Subtitle text="Report an Issue" />
       <Item text="Send an Email" icon="mail" onPress={sendEmail} />
 
-      <Subtitle text="Links" />
+      {/* Links */}
+      {/* <Subtitle text="Links" />
       <Item
         text="Github"
         icon="logo-github"
         onPress={() => openBrowser('https://github.com/gajeeldev/hkdb')}
-      />
+      /> */}
+
+      {/* Resources */}
       <Subtitle text="Resources" />
       <Item
         text="Hollow Knight Wiki"
@@ -67,12 +50,16 @@ export const AboutScreen = () => {
       <Item
         text="SplashScreen Image By Pedro Silva"
         icon="logo-pinterest"
-        onPress={() => openBrowser('https://www.pinterest.com/pedrolucassilvacorra/?invite_code=171af81c1c3b438f89fac72db572661a&sender=811633301503638107')}
+        onPress={() =>
+          openBrowser(
+            'https://www.pinterest.com/pedrolucassilvacorra/?invite_code=171af81c1c3b438f89fac72db572661a&sender=811633301503638107'
+          )
+        }
       />
 
       {/* Support me */}
       <Subtitle text="Support Me" />
-      <Text style={{ color: '#f5f5f5', opacity: 0.5 }}>
+      <Text style={styles.textMuted}>
         If you like the app, please consider supporting me. I appreciate it!
       </Text>
       <Item
@@ -91,39 +78,14 @@ export const AboutScreen = () => {
   );
 };
 
-interface Props {
-  text: string;
-  icon?: keyof typeof Ionicons.glyphMap;
-  image?: string;
-  onPress?: () => void;
-}
-const Item = ({ text, icon, image, onPress }: Props) => {
-  return (
-    <TouchableOpacity
-      onPress={onPress}
-      activeOpacity={0.7}
-      style={{
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        paddingVertical: 10,
-      }}>
-      <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-        {image ? (
-          <Image
-            priority="high"
-            source={image}
-            style={{ width: 24, height: 24 }}
-            contentFit="contain"
-            placeholder={blurhash}
-          />
-        ) : (
-          <Ionicons name={icon} size={24} color="#f5f5f5" />
-        )}
-
-        <Text style={{ color: '#f5f5f5', fontSize: 16, marginLeft: 10 }}>{text}</Text>
-      </View>
-      <Ionicons name="chevron-forward" size={24} color="#f5f5f5" />
-    </TouchableOpacity>
-  );
-};
+const styles = StyleSheet.create({
+  text: {
+    color: colors.textColor,
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  textMuted: {
+    color: colors.textColor,
+    opacity: 0.5,
+  },
+});

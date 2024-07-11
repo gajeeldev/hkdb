@@ -1,7 +1,7 @@
-import { Text, useWindowDimensions, View } from 'react-native';
+import { StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { Image } from 'expo-image';
 import Animated, { FadeInDown } from 'react-native-reanimated';
-import { blurhash } from '~/modules/core';
+import { blurhash, colors } from '~/modules/core';
 
 interface Props {
   nail: string;
@@ -14,16 +14,7 @@ interface Props {
 export const NailCard = ({ nail, damage, upgrade_cost, description, images, index }: Props) => {
   const { width, height } = useWindowDimensions();
   return (
-    <Animated.View
-      entering={FadeInDown.delay(200 * index)}
-      style={{
-        flexDirection: 'row',
-        gap: 10,
-        borderBottomColor: 'rgba(245, 245, 245, 0.15)',
-        borderBottomWidth: 1,
-        marginBottom: 20,
-        paddingBottom: 10,
-      }}>
+    <Animated.View entering={FadeInDown.delay(200 * index)} style={styles.container}>
       <Image
         source={images[0]}
         style={{ width: width * 0.15, height: height * 0.15 }}
@@ -32,11 +23,11 @@ export const NailCard = ({ nail, damage, upgrade_cost, description, images, inde
         priority="high"
       />
       <View style={{ gap: 10, flex: 1 }}>
-        <Text style={{ color: '#f5f5f5', fontSize: 24, fontWeight: 'bold' }}>{nail}</Text>
+        <Text style={{ color: colors.textColor, fontSize: 24, fontWeight: 'bold' }}>{nail}</Text>
         <Text
           adjustsFontSizeToFit
           style={{
-            color: '#f5f5f5',
+            color: colors.textColor,
             fontSize: width / 35,
           }}>
           {description}
@@ -46,7 +37,7 @@ export const NailCard = ({ nail, damage, upgrade_cost, description, images, inde
           <Text
             adjustsFontSizeToFit
             style={{
-              color: '#f5f5f5',
+              color: colors.textColor,
               fontSize: width / 40,
             }}>
             {`Damage: ${damage}`}
@@ -54,7 +45,7 @@ export const NailCard = ({ nail, damage, upgrade_cost, description, images, inde
           <Text
             adjustsFontSizeToFit
             style={{
-              color: '#f5f5f5',
+              color: colors.textColor,
               fontSize: width / 40,
             }}>
             {`Upgrade Cost: ${upgrade_cost}`}
@@ -64,3 +55,14 @@ export const NailCard = ({ nail, damage, upgrade_cost, description, images, inde
     </Animated.View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    gap: 10,
+    borderBottomColor: 'rgba(245, 245, 245, 0.15)',
+    borderBottomWidth: 1,
+    marginBottom: 20,
+    paddingBottom: 10,
+  },
+});

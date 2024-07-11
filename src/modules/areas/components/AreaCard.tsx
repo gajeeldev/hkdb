@@ -2,7 +2,7 @@ import { Text, Pressable, useWindowDimensions, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 import { Image } from 'expo-image';
 import Animated, { FadeInDown } from 'react-native-reanimated';
-import { blurhash } from '~/modules/core';
+import { blurhash, colors } from '~/modules/core';
 
 interface Props {
   href: string;
@@ -12,6 +12,7 @@ interface Props {
 }
 export const AreaCard = ({ href, title, image, index }: Props) => {
   const { height } = useWindowDimensions();
+
   return (
     <Animated.View entering={FadeInDown.delay(200 * index)}>
       <Link href={href} asChild>
@@ -36,11 +37,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 15,
-    overflow: 'hidden',
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
-    borderBottomLeftRadius: 10,
-    borderBottomRightRadius: 10,
+    borderRadius: 10,
     backgroundColor: '#000',
     shadowColor: '#000',
     shadowOffset: {
@@ -52,7 +49,7 @@ const styles = StyleSheet.create({
     elevation: 10,
   },
   text: {
-    color: '#F5F5F5',
+    color: colors.textColor,
     fontSize: 24,
     fontFamily: 'TrajanPro-Bold',
     paddingVertical: 10,

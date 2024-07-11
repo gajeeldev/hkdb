@@ -1,7 +1,7 @@
-import { Text, useWindowDimensions, View } from 'react-native';
+import { StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { Image } from 'expo-image';
 import Animated, { FadeInDown } from 'react-native-reanimated';
-import { blurhash } from '~/modules/core';
+import { blurhash, colors } from '~/modules/core';
 
 interface Props {
   achievement: string;
@@ -12,10 +12,9 @@ interface Props {
 
 export const AchievementsCard = ({ achievement, description, images, index }: Props) => {
   const { width, height } = useWindowDimensions();
+
   return (
-    <Animated.View
-      entering={FadeInDown.delay(200 * index)}
-      style={{ flexDirection: 'row', gap: 10 }}>
+    <Animated.View entering={FadeInDown.delay(200 * index)} style={styles.container}>
       <Image
         source={images[0]}
         style={{ width: width / 3.5, height: height / 6.5 }}
@@ -23,17 +22,32 @@ export const AchievementsCard = ({ achievement, description, images, index }: Pr
         placeholder={blurhash}
         priority="high"
       />
-      <View style={{ gap: 10, flex: 1 }}>
-        <Text style={{ color: '#f5f5f5', fontSize: 24, fontWeight: 'bold' }}>{achievement}</Text>
-        <Text
-          adjustsFontSizeToFit
-          style={{
-            color: '#f5f5f5',
-            fontSize: 16,
-          }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.title}>{achievement}</Text>
+        <Text adjustsFontSizeToFit style={styles.description}>
           {description}
         </Text>
       </View>
     </Animated.View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    gap: 10,
+  },
+  textContainer: {
+    gap: 10,
+    flex: 1,
+  },
+  title: {
+    color: colors.textColor,
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+  description: {
+    color: colors.textColor,
+    fontSize: 16,
+  },
+});

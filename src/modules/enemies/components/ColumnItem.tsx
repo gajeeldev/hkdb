@@ -3,6 +3,7 @@ import { StyleSheet, View, ViewProps } from 'react-native';
 const getItemStyle = (index: number, numColumns: number) => {
   const alignItems = (() => {
     if (numColumns < 2 || index % numColumns === 0) return 'flex-start';
+
     if ((index + 1) % numColumns === 0) return 'flex-end';
 
     return 'center';

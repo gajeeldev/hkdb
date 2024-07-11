@@ -1,8 +1,8 @@
 import { View, Text } from 'react-native';
-import { FullScreenLoader, Subtitle } from '~/modules/core';
 import { Image } from 'expo-image';
-import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
 import { useQuery } from '@tanstack/react-query';
+import { FullScreenLoader, Subtitle } from '~/modules/core';
+import LayoutDetailScreen from '~/modules/core/components/ui/LayoutDetailScreen';
 import { getCharmById } from '../actions/getCharmById';
 
 export const CharmDetailScreen = ({ id }: { id: string | string[] }) => {
@@ -37,13 +37,13 @@ export const CharmDetailScreen = ({ id }: { id: string | string[] }) => {
       )}
 
       <Subtitle text="Effect" />
-      <Text style={{ color: 'white' }}>{charm.effect}</Text>
+      <Text style={{ color: '#F5F5F5' }}>{charm.effect}</Text>
 
       <Subtitle text="Usefulness" />
-      <Text style={{ color: 'white' }}>{charm.usefulness}</Text>
+      <Text style={{ color: '#F5F5F5' }}>{charm.usefulness}</Text>
 
       <Subtitle text="How to acquire" />
-      <Text style={{ color: 'white' }}>{charm.how_to_acquire}</Text>
+      <Text style={{ color: '#F5F5F5' }}>{charm.how_to_acquire}</Text>
     </LayoutDetailScreen>
   );
 };
