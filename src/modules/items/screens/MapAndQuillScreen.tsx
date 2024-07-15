@@ -1,10 +1,20 @@
-import { View, Text, ScrollView, Platform, useWindowDimensions, StyleSheet } from 'react-native';
+import {
+  View,
+  Text,
+  ScrollView,
+  Platform,
+  useWindowDimensions,
+  StyleSheet,
+  FlatList,
+} from 'react-native';
 import { Stack } from 'expo-router';
-import { Image } from 'expo-image';
+import { Image, ImageSource } from 'expo-image';
 import { useQuery } from '@tanstack/react-query';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { getItemById } from '../actions/getItemById';
-import { blurhash, colors, FullScreenLoader, globalStyles, GoBack } from '~/modules/core';
+import { blurhash, colors, FullScreenLoader, globalStyles, GoBack, Subtitle } from '~/modules/core';
+import DialogueDescription from '~/modules/core/components/dividers/DialogueDescription';
+import { dreamerPins, iseldaPins, LifebloodMarkers, mappingTools, otherPins, vendorPins } from '../data/data';
 
 export const MapAndQuillScreen = ({ id }: { id: string | string[] }) => {
   const { top } = useSafeAreaInsets();
@@ -37,6 +47,83 @@ export const MapAndQuillScreen = ({ id }: { id: string | string[] }) => {
             transition={1000}
           />
         </View>
+
+        <DialogueDescription firstDescription={item.description_1} />
+
+        <View style={styles.imageContainer}>
+          <Image
+            source={require('../../../assets/images/Map_and_Quill/Prompt.webp')}
+            contentFit="contain"
+            style={{ width: width, height: height * 0.25, marginHorizontal: 7 }}
+            placeholder={blurhash}
+            transition={1000}
+          />
+        </View>
+
+        <DialogueDescription
+          firstDescription="Hold QUICK MAP to view a map of the current area"
+          secondDescription="View a detailed map of Hallownest in the MAP pane of the INVENTORY"
+        />
+
+        <Subtitle text="Mapping Tools" />
+        <FlatList
+          scrollEnabled={false}
+          data={mappingTools}
+          renderItem={({ item }) => (
+            <Card name={item.name} image={item.image} description={item.description} />
+          )}
+          keyExtractor={(item) => item.id}
+        />
+
+        <Text style={{ ...styles.text, marginBottom: 20 }}>
+          The 4 markers sold by Iselda can be placed on the map on the inventory screen. Each set
+          contains 6 markers.
+        </Text>
+        <FlatList
+          scrollEnabled={false}
+          data={LifebloodMarkers}
+          renderItem={({ item }) => (
+            <Card name={item.name} image={item.image} description={item.description} />
+          )}
+          keyExtractor={(item) => item.id}
+        />
+
+        <Subtitle text="Iselda's Pins" />
+        <FlatList
+          scrollEnabled={false}
+          data={iseldaPins}
+          renderItem={({ item }) => (
+            <Card name={item.name} image={item.image} description={item.description} />
+          )}
+          keyExtractor={(item) => item.id}
+        />
+
+        <Subtitle text="Other Pins" />
+        <FlatList
+          scrollEnabled={false}
+          data={otherPins}
+          renderItem={({ item }) => (
+            <Card name={item.name} image={item.image} description={item.description} />
+          )}
+          keyExtractor={(item) => item.id}
+        />
+
+        <Subtitle text="Vendor Pins" />
+        <FlatList
+          scrollEnabled={false}
+          data={vendorPins}
+          renderItem={({ item }) => <Card name={item.name} image={item.image} />}
+          keyExtractor={(item) => item.id}
+        />
+        <Subtitle text="Dreamer Pins" />
+        <FlatList
+          scrollEnabled={false}
+          data={dreamerPins}
+          renderItem={({ item }) => <Card name={item.name} image={item.image} />}
+          keyExtractor={(item) => item.id}
+        />
+
+        <View style={{ height: 20 }} />
       </ScrollView>
     </View>
   );
@@ -51,5 +138,64 @@ const styles = StyleSheet.create({
   text: {
     color: colors.textColor,
     marginTop: 10,
+  },
+});
+
+interface Props {
+  name: string;
+  image: ImageSource;
+  description?: string;
+}
+const Card = ({ name, image, description }: Props) => {
+  const { width, height } = useWindowDimensions();
+
+  return (
+    <View style={cardStyles.container}>
+      <View style={{ alignItems: 'center', justifyContent: 'center' }}>
+        <Image
+          source={image}
+          style={{ width: width / 5, height: height / 8 }}
+          contentFit="contain"
+          placeholder={blurhash}
+          priority="high"
+        />
+      </View>
+      <View
+        style={{
+          ...cardStyles.textContainer,
+          justifyContent: !description ? 'center' : 'flex-start',
+        }}>
+        <Text style={cardStyles.title}>{name}</Text>
+        {description && (
+          <Text adjustsFontSizeToFit style={cardStyles.description}>
+            {description}
+          </Text>
+        )}
+      </View>
+    </View>
+  );
+};
+
+const cardStyles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    gap: 10,
+    borderBottomColor: 'rgba(245, 245, 245, 0.5)',
+    borderBottomWidth: 1,
+    marginBottom: 20,
+    paddingBottom: 20,
+  },
+  textContainer: {
+    gap: 10,
+    flex: 1,
+  },
+  title: {
+    color: colors.textColor,
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+  description: {
+    color: colors.textColor,
+    fontSize: 16,
   },
 });
