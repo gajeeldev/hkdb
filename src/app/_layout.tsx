@@ -12,6 +12,11 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler'
 
 SplashScreen.preventAutoHideAsync()
 
+SplashScreen.setOptions({
+	duration: 1000,
+	fade: true,
+})
+
 const queryClient = new QueryClient()
 
 export const unstable_settings = {
@@ -21,9 +26,9 @@ export const unstable_settings = {
 export default function RootLayout() {
 	const {appIsReady} = useAppReady()
 
-	const onLayoutRootView = useCallback(async () => {
+	const onLayoutRootView = useCallback(() => {
 		if (appIsReady) {
-			await SplashScreen.hideAsync()
+			 SplashScreen.hide()
 		}
 	}, [appIsReady])
 

@@ -48,14 +48,14 @@ export const AboutScreen = () => {
 			<Subtitle text='Resources' />
 			<Item
 				text='Hollow Knight Wiki'
-				image={require('../../../assets/icon.png')}
+				image={require('../../../assets/images/icon.png')}
 				onPress={() =>
 					openBrowser('https://hollowknight.wiki/w/Hollow_Knight_Wiki')
 				}
 			/>
 			<Item
 				text='Hollow Knight Wiki By fextralife'
-				image={require('../../../assets/icon.png')}
+				image={require('../../../assets/images/icon.png')}
 				onPress={() =>
 					openBrowser(
 						'https://hollowknight.wiki.fextralife.com/Hollow+Knight+Wiki',
@@ -86,7 +86,7 @@ export const AboutScreen = () => {
 			/>
 			<Item
 				text='Patreon'
-				image={require('../../../assets/patreon.png')}
+				image={require('../../../assets/images/patreon.png')}
 				onPress={() => openBrowser('https://patreon.com/gajeeldev')}
 			/>
 

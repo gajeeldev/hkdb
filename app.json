@@ -4,6 +4,9 @@
     "slug": "hkdb",
     "version": "1.0.0",
     "orientation": "portrait",
+    "assetBundlePatterns": [
+      "src/assets/**/*"
+    ],
     "icon": "./src/assets/images/icon.png",
     "scheme": "hkdb",
     "userInterfaceStyle": "automatic",
@@ -14,7 +17,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#252525"
       },
       "edgeToEdgeEnabled": true
     },
@@ -28,10 +31,10 @@
       [
         "expo-splash-screen",
         {
-          "image": "./src/assets/images/splash-icon.png",
+          "image": "./src/assets/images/splash.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#252525"
         }
       ],
       "expo-mail-composer",
